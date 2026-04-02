@@ -10,14 +10,7 @@
       "twitterDescription": "PRAGMATA Wiki covers release date, demo, characters, hacking combat, Shelter upgrades, and story guides for new players on PS5, Xbox, Steam and Switch 2."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
