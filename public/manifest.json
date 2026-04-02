@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "PRAGMATA Wiki - Release Date, Demo, Platforms & Story",
+  "short_name": "Pragmata Wiki",
+  "description": "PRAGMATA Wiki covers release date, demo, platforms, characters, hacking combat, Shelter upgrades, system requirements, and story guides for new players.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#0bbfdb",
   "background_color": "#0a0a0a",
+  "lang": "en",
+  "categories": ["games", "entertainment"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
