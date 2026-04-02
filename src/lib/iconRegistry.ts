@@ -27,6 +27,19 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Pragmata 专用图标
+  Calendar: LucideIcons.Calendar,
+  Play: LucideIcons.Play,
+  Zap: LucideIcons.Zap,
+  Monitor: LucideIcons.Monitor,
+  Gift: LucideIcons.Gift,
+  Cpu: LucideIcons.Cpu,
+  Crosshair: LucideIcons.Crosshair,
+  Skull: LucideIcons.Skull,
+  Navigation: LucideIcons.Navigation,
+  Search: LucideIcons.Search,
+  Film: LucideIcons.Film,
+  Award: LucideIcons.Award,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
