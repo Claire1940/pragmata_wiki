@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Uscita",
+    "demo": "Demo",
+    "character": "Personaggi",
+    "version": "Versione",
+    "tech": "Tecnico",
+    "media": "Media"
+  }
+}

@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "release": "Release",
+    "demo": "Demo",
+    "character": "Charaktere",
+    "version": "Version",
+    "tech": "Technik",
+    "media": "Medien"
   },
   "common": {
     "home": "Startseite",

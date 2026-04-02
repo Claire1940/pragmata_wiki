@@ -10,7 +10,14 @@
       "twitterDescription": "PRAGMATA Wiki covers release date, demo, characters, hacking combat, Shelter upgrades, and story guides for new players on PS5, Xbox, Steam and Switch 2."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "character": "Characters",
+    "version": "Version",
+    "tech": "Tech",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -499,15 +506,51 @@
         "deluxe": "Deluxe — $69.99"
       },
       "rows": [
-        { "feature": "Base game", "standard": "Included", "deluxe": "Included" },
-        { "feature": "Shelter Variety Pack", "standard": "Not included", "deluxe": "Included" },
-        { "feature": "Hugh Outfits (Deluxe only)", "standard": "—", "deluxe": "Heavy Lifter and Lunar Cat" },
-        { "feature": "Diana Outfits (Deluxe only)", "standard": "—", "deluxe": "Mecha Builder and Fluffy" },
-        { "feature": "Weapon Skin (Deluxe only)", "standard": "—", "deluxe": "Grip Gun DS" },
-        { "feature": "BGM Tracks (Deluxe only)", "standard": "—", "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (Jazz)" },
-        { "feature": "Diana Gestures (Deluxe only)", "standard": "—", "deluxe": "Drowsy, Pumped Up, Stepping" },
-        { "feature": "Data Library Artwork (Deluxe only)", "standard": "—", "deluxe": "Included" },
-        { "feature": "Early purchase bonus (both editions)", "standard": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026", "deluxe": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026" }
+        {
+          "feature": "Base game",
+          "standard": "Included",
+          "deluxe": "Included"
+        },
+        {
+          "feature": "Shelter Variety Pack",
+          "standard": "Not included",
+          "deluxe": "Included"
+        },
+        {
+          "feature": "Hugh Outfits (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Heavy Lifter and Lunar Cat"
+        },
+        {
+          "feature": "Diana Outfits (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Mecha Builder and Fluffy"
+        },
+        {
+          "feature": "Weapon Skin (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Grip Gun DS"
+        },
+        {
+          "feature": "BGM Tracks (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (Jazz)"
+        },
+        {
+          "feature": "Diana Gestures (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Drowsy, Pumped Up, Stepping"
+        },
+        {
+          "feature": "Data Library Artwork (Deluxe only)",
+          "standard": "—",
+          "deluxe": "Included"
+        },
+        {
+          "feature": "Early purchase bonus (both editions)",
+          "standard": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026",
+          "deluxe": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026"
+        }
       ]
     },
     "pragmataSystemRequirements": {
@@ -520,15 +563,51 @@
         "recommended": "Recommended"
       },
       "rows": [
-        { "spec": "OS", "minimum": "Windows 11 (64-bit)", "recommended": "Windows 11 (64-bit)" },
-        { "spec": "Processor", "minimum": "Intel Core i5-8500 or AMD Ryzen 5 3500", "recommended": "Intel Core i7-8700 or AMD Ryzen 5 5500" },
-        { "spec": "Memory", "minimum": "16 GB RAM", "recommended": "16 GB RAM" },
-        { "spec": "Graphics", "minimum": "NVIDIA GTX 1660 6 GB or AMD RX 5500 XT 8 GB", "recommended": "NVIDIA RTX 2060 Super 8 GB or AMD RX 6600 8 GB" },
-        { "spec": "DirectX", "minimum": "Version 12", "recommended": "Version 12" },
-        { "spec": "Storage", "minimum": "40 GB (SSD recommended)", "recommended": "40 GB (SSD recommended)" },
-        { "spec": "Performance target", "minimum": "~1080p at 45 fps (Performance preset)", "recommended": "~1080p at 60 fps (Balanced preset)" },
-        { "spec": "Ray tracing GPU", "minimum": "Not required at minimum tier", "recommended": "AMD RX 6700 XT 12 GB or NVIDIA RTX 3060 12 GB" },
-        { "spec": "Network", "minimum": "Broadband Internet connection", "recommended": "Broadband Internet connection" }
+        {
+          "spec": "OS",
+          "minimum": "Windows 11 (64-bit)",
+          "recommended": "Windows 11 (64-bit)"
+        },
+        {
+          "spec": "Processor",
+          "minimum": "Intel Core i5-8500 or AMD Ryzen 5 3500",
+          "recommended": "Intel Core i7-8700 or AMD Ryzen 5 5500"
+        },
+        {
+          "spec": "Memory",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM"
+        },
+        {
+          "spec": "Graphics",
+          "minimum": "NVIDIA GTX 1660 6 GB or AMD RX 5500 XT 8 GB",
+          "recommended": "NVIDIA RTX 2060 Super 8 GB or AMD RX 6600 8 GB"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "Version 12",
+          "recommended": "Version 12"
+        },
+        {
+          "spec": "Storage",
+          "minimum": "40 GB (SSD recommended)",
+          "recommended": "40 GB (SSD recommended)"
+        },
+        {
+          "spec": "Performance target",
+          "minimum": "~1080p at 45 fps (Performance preset)",
+          "recommended": "~1080p at 60 fps (Balanced preset)"
+        },
+        {
+          "spec": "Ray tracing GPU",
+          "minimum": "Not required at minimum tier",
+          "recommended": "AMD RX 6700 XT 12 GB or NVIDIA RTX 3060 12 GB"
+        },
+        {
+          "spec": "Network",
+          "minimum": "Broadband Internet connection",
+          "recommended": "Broadband Internet connection"
+        }
       ]
     },
     "pragmataWeaponsAndLoadouts": {
@@ -799,125 +878,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Pragmata Guides",
-      "description": "Complete gameplay guides for Pragmata covering combat, hacking, characters, story, and progression.",
-      "metaTitle": "Pragmata Guides - Combat, Hacking & Story Walkthrough",
-      "metaDescription": "Complete Pragmata guides covering combat mechanics, hacking system, characters, story walkthrough, and tips for new players on PS5, Xbox, and PC.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Step-by-step guides covering Pragmata gameplay mechanics, hacking strategies, and story progression. Learn how Hugh and Diana work together in and out of combat.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Pragmata Release Date",
+      "description": "Everything about the Pragmata release date, regional launch windows, and announcement timeline from Capcom.",
+      "metaTitle": "Pragmata Release Date - Launch Date & Announcement History",
+      "metaDescription": "Official Pragmata release date information including April 17, 2026 global launch, regional differences, and full announcement timeline from Capcom.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Pragmata Release Info?",
+      "whatIsDescription": "Pragmata launches on April 17, 2026 for PS5, Xbox Series X|S, and PC via Steam. Nintendo Switch 2 Japan/Asia region releases April 24, 2026. This section covers the full timeline from announcement to launch.",
+      "why": "Why follow Pragmata release news?",
       "whySteps": {
-        "step1Title": "Master the Hacking System",
-        "step1Description": "Learn how to use Diana's grid-based hacking to expose enemy weak points",
-        "step2Title": "Progress Faster",
-        "step2Description": "Follow proven paths through the lunar research station with efficient combat strategies",
-        "step3Title": "Understand the Story",
-        "step3Description": "Get context on Lunafilament, IDUS, and the Hugh-Diana relationship"
+        "step1Title": "Track Launch Dates",
+        "step1Description": "Know the exact release windows for your region and platform",
+        "step2Title": "Pre-order Planning",
+        "step2Description": "Understand pre-order bonuses and edition differences before launch",
+        "step3Title": "Follow the Timeline",
+        "step3Description": "From the 2020 announcement to the April 2026 launch, trace Pragmata's full development journey"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "news": {
-      "title": "Pragmata News",
-      "description": "Latest Pragmata news, release date updates, trailer breakdowns, and official announcements from Capcom.",
-      "metaTitle": "Pragmata News - Latest Updates & Announcements",
-      "metaDescription": "Stay up to date with Pragmata news including release date changes, new trailers, demo updates, and official Capcom announcements.",
-      "categoryLabel": "LATEST NEWS",
-      "whatIs": "What is News?",
-      "whatIsDescription": "Official Pragmata announcements, trailer analysis, release date updates, and key information from Capcom's communications.",
-      "why": "Why follow news?",
-      "whySteps": {
-        "step1Title": "Track Release Updates",
-        "step1Description": "Stay informed on launch dates, platform availability, and pre-order windows",
-        "step2Title": "Watch New Trailers",
-        "step2Description": "Get analysis and breakdowns of each official Pragmata trailer",
-        "step3Title": "Follow Capcom Updates",
-        "step3Description": "Get summaries of Capcom Spotlight appearances and showcase news"
-      },
-      "featured": "Featured & Essential",
-      "all": "All News"
+      "all": "All Release Articles"
     },
     "demo": {
       "title": "Pragmata Demo",
-      "description": "Everything about the Pragmata Sketchbook demo including download links, content overview, secrets, and multiple endings.",
+      "description": "Complete guide to the Pragmata Sketchbook demo including download links, content overview, secrets, and multiple endings.",
       "metaTitle": "Pragmata Sketchbook Demo - Download, Secrets & Endings",
       "metaDescription": "Pragmata Sketchbook demo guide covering download links for PS5, Xbox, and Steam, demo content overview, and how to find the hidden secrets and alternate endings.",
       "categoryLabel": "DEMO GUIDE",
-      "whatIs": "What is the Demo?",
-      "whatIsDescription": "The Pragmata Sketchbook demo is a free playable slice of the game available on PS5, Xbox Series X|S, and Steam. It contains multiple endings and hidden secrets.",
-      "why": "Why play the demo?",
+      "whatIs": "What is the Pragmata Demo?",
+      "whatIsDescription": "The Pragmata Sketchbook demo is a free playable slice of the full game available on PS5, Xbox Series X|S, and Steam. It introduces the hacking-and-shooting combat loop and features multiple endings.",
+      "why": "Why play the Pragmata demo?",
       "whySteps": {
         "step1Title": "Try Before You Buy",
-        "step1Description": "Test the hacking and shooting systems before the full game releases",
+        "step1Description": "Test the hacking and shooting systems before the full game releases on April 17, 2026",
         "step2Title": "Find the Secrets",
-        "step2Description": "Explore the demo's multiple endings and hidden content",
+        "step2Description": "Explore the demo's multiple endings and hidden collectibles",
         "step3Title": "Learn the Combat",
-        "step3Description": "Get comfortable with the Hugh-Diana cooperative combat loop"
+        "step3Description": "Get comfortable with the Hugh-Diana cooperative combat loop early"
       },
       "featured": "Featured & Essential",
       "all": "All Demo Guides"
     },
-    "story": {
-      "title": "Pragmata Story",
-      "description": "Story guides, lore explanations, character profiles, and world-building details for Pragmata's lunar research station setting.",
-      "metaTitle": "Pragmata Story - Lore, Characters & World Explained",
-      "metaDescription": "Explore Pragmata story guides covering Lunafilament, Hugh and Diana's relationship, the IDUS rogue AI, and the mysteries of the lunar research station.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is the Story?",
-      "whatIsDescription": "Pragmata's story follows Hugh Williams and Diana, a Lunafilament android, as they try to escape a hostile lunar research station controlled by the rogue AI IDUS.",
-      "why": "Why explore the story?",
-      "whySteps": {
-        "step1Title": "Understand the World",
-        "step1Description": "Learn what Lunafilament is and why the lunar station turned hostile",
-        "step2Title": "Know the Characters",
-        "step2Description": "Understand Hugh, Diana, IDUS, and Cabin's roles in the narrative",
-        "step3Title": "Follow the Mystery",
-        "step3Description": "Uncover what went wrong and what drives the escape to Earth"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Story Guides"
-    },
-    "characters": {
+    "character": {
       "title": "Pragmata Characters",
-      "description": "Character profiles for Hugh Williams, Diana, IDUS, and Cabin — including their roles, abilities, and story importance in Pragmata.",
+      "description": "Character profiles for Hugh Williams, Diana, IDUS, and Cabin covering their roles, abilities, and story importance in Pragmata.",
       "metaTitle": "Pragmata Characters - Hugh, Diana, IDUS & Cabin",
-      "metaDescription": "Complete Pragmata character profiles covering Hugh Williams, Diana the Pragmata android, the IDUS rogue AI, and Cabin. Learn each character's role in combat and story.",
+      "metaDescription": "Complete Pragmata character profiles covering Hugh Williams, Diana the android, the IDUS rogue AI, and Cabin. Learn each character's role in combat and story.",
       "categoryLabel": "CHARACTERS",
-      "whatIs": "Who are the Characters?",
-      "whatIsDescription": "Pragmata centers on Hugh Williams and Diana working together to escape a hostile lunar station. IDUS is the rogue AI antagonist and Cabin is their Shelter companion.",
-      "why": "Why learn the characters?",
+      "whatIs": "Who are the Pragmata Characters?",
+      "whatIsDescription": "Pragmata centers on Hugh Williams and Diana — an android — working together to escape a hostile lunar research station. IDUS is the rogue AI antagonist, and Cabin is their Shelter companion.",
+      "why": "Why learn the Pragmata characters?",
       "whySteps": {
         "step1Title": "Understand Combat Roles",
-        "step1Description": "Hugh handles firearms while Diana controls the hacking panel",
+        "step1Description": "Hugh handles firearms while Diana controls the hacking panel in battle",
         "step2Title": "Follow the Story",
-        "step2Description": "Know each character's motivation and their place in the larger narrative",
+        "step2Description": "Know each character's motivation and place in the larger narrative",
         "step3Title": "Appreciate the Dynamic",
         "step3Description": "Understand how the Hugh-Diana partnership drives both gameplay and story"
       },
       "featured": "Featured & Essential",
       "all": "All Character Guides"
     },
-    "specs": {
-      "title": "Pragmata System Requirements",
-      "description": "Official PC system requirements, GPU benchmarks, storage needs, and platform compatibility information for Pragmata.",
-      "metaTitle": "Pragmata System Requirements - PC Specs & Platform Info",
-      "metaDescription": "Official Pragmata system requirements for PC including minimum and recommended specs, GPU benchmarks, 40GB storage requirement, and Windows 11 compatibility.",
-      "categoryLabel": "TECHNICAL INFO",
-      "whatIs": "What are the Requirements?",
-      "whatIsDescription": "Pragmata requires Windows 11 and approximately 40 GB of storage. Full minimum and recommended GPU and CPU specifications are listed on the official Steam store page.",
-      "why": "Why check requirements?",
+    "version": {
+      "title": "Pragmata Platforms",
+      "description": "Platform availability, edition differences, and version-specific features for Pragmata on PS5, Xbox Series X|S, PC, and Nintendo Switch 2.",
+      "metaTitle": "Pragmata Platforms - PS5, Xbox, PC & Switch 2 Versions",
+      "metaDescription": "Pragmata platform guide covering PS5, Xbox Series X|S, Steam PC, and Nintendo Switch 2 versions. Compare editions, pricing, and platform-exclusive features.",
+      "categoryLabel": "PLATFORMS & VERSIONS",
+      "whatIs": "What Pragmata Platforms Are Available?",
+      "whatIsDescription": "Pragmata releases on PS5, Xbox Series X|S, PC (Steam), and Nintendo Switch 2. Each platform has specific features and the Switch 2 Japan/Asia region launches one week later on April 24.",
+      "why": "Why compare Pragmata versions?",
       "whySteps": {
-        "step1Title": "Verify Your Hardware",
-        "step1Description": "Check your GPU and CPU against Capcom's official minimum specs",
-        "step2Title": "Plan Storage Space",
-        "step2Description": "Ensure you have the 40 GB needed for installation",
-        "step3Title": "Compare Platforms",
-        "step3Description": "Decide whether PC, console, or Switch 2 best fits your setup"
+        "step1Title": "Choose Your Platform",
+        "step1Description": "Compare PS5, Xbox, PC, and Switch 2 to find the best fit for your setup",
+        "step2Title": "Compare Editions",
+        "step2Description": "Understand the difference between Standard and Deluxe editions",
+        "step3Title": "Check Pricing",
+        "step3Description": "Review regional pricing and pre-order availability before launch"
       },
       "featured": "Featured & Essential",
-      "all": "All Technical Guides"
+      "all": "All Platform Guides"
+    },
+    "tech": {
+      "title": "Pragmata Tech",
+      "description": "PC system requirements, engine details, mod support, and technical specifications for Pragmata.",
+      "metaTitle": "Pragmata System Requirements & Tech Details",
+      "metaDescription": "Pragmata technical guide covering PC system requirements, RE Engine details, Denuvo DRM, mod support, and GeForce NOW cloud gaming compatibility.",
+      "categoryLabel": "TECHNICAL INFO",
+      "whatIs": "What is Pragmata Tech Info?",
+      "whatIsDescription": "Technical details about Pragmata including minimum and recommended PC specs, the RE Engine powering the game, DRM information, and cloud gaming support via GeForce NOW.",
+      "why": "Why check Pragmata tech details?",
+      "whySteps": {
+        "step1Title": "Verify Your PC Build",
+        "step1Description": "Check your GPU and CPU against official minimum and recommended specifications",
+        "step2Title": "Understand the Engine",
+        "step2Description": "Learn how the RE Engine delivers Pragmata's visuals and performance targets",
+        "step3Title": "Plan for Mods",
+        "step3Description": "Find out early what modding support Pragmata will offer at launch"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Tech Articles"
+    },
+    "media": {
+      "title": "Pragmata Media",
+      "description": "Official Pragmata trailers, wallpapers, soundtrack previews, and promotional artwork from Capcom.",
+      "metaTitle": "Pragmata Trailers, Wallpapers & Soundtrack",
+      "metaDescription": "Official Pragmata media including trailers, HD wallpapers, soundtrack previews, and promotional artwork. Watch all official Capcom videos and download assets.",
+      "categoryLabel": "MEDIA & ASSETS",
+      "whatIs": "What Pragmata Media Is Available?",
+      "whatIsDescription": "Capcom has released multiple Pragmata trailers, HD wallpapers, and soundtrack previews. This section collects all official media assets in one place.",
+      "why": "Why explore Pragmata media?",
+      "whySteps": {
+        "step1Title": "Watch the Trailers",
+        "step1Description": "Catch up on every official Pragmata trailer from announcement to release",
+        "step2Title": "Download Wallpapers",
+        "step2Description": "Get official HD wallpapers featuring Hugh, Diana, and the lunar research station",
+        "step3Title": "Preview the Soundtrack",
+        "step3Description": "Listen to music previews and follow the official Pragmata YouTube channel"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }
