@@ -1,10 +1,1002 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki di PRAGMATA - Data di uscita, Demo, Piattaforme e Storia",
+      "description": "La Wiki di PRAGMATA copre la data di uscita, la demo, le piattaforme, i personaggi, il combattimento hacking, i potenziamenti del Shelter, i requisiti di sistema e le guide alla storia per i nuovi giocatori.",
+      "keywords": "PRAGMATA, data di uscita, demo, personaggi, hacking, Shelter, requisiti di sistema, storia, piattaforme",
+      "ogTitle": "Wiki di PRAGMATA - Data di uscita, Demo, Piattaforme e Storia",
+      "ogDescription": "La Wiki di PRAGMATA copre la data di uscita, la demo, le piattaforme, i personaggi, il combattimento hacking, i potenziamenti del Shelter, i requisiti di sistema e le guide alla storia per i nuovi giocatori.",
+      "twitterTitle": "Wiki di PRAGMATA - Data di uscita, Demo, Piattaforme e Storia",
+      "twitterDescription": "La Wiki di PRAGMATA copre la data di uscita, la demo, i personaggi, il combattimento hacking, i potenziamenti del Shelter e le guide alla storia per i nuovi giocatori su PS5, Xbox, Steam e Switch 2."
+    }
+  },
   "nav": {
     "release": "Uscita",
     "demo": "Demo",
     "character": "Personaggi",
     "version": "Versione",
-    "tech": "Tecnico",
+    "tech": "Tecnologia",
     "media": "Media"
+  },
+  "common": {
+    "home": "Home",
+    "more": "Altro",
+    "playNow": "Gioca su Steam",
+    "switchLanguage": "Cambia lingua",
+    "switchTheme": "Cambia tema",
+    "lightMode": "Modalità chiara",
+    "darkMode": "Modalità scura",
+    "notFound": "Pagina non trovata",
+    "notFoundDescription": "La pagina che stai cercando non esiste.",
+    "backToHome": "Torna alla Home",
+    "relatedArticles": "Articoli correlati",
+    "readMore": "Leggi di più"
+  },
+  "hero": {
+    "badge": "Avventura d'azione sci-fi con un tocco di hacking",
+    "title": "Wiki di PRAGMATA",
+    "description": "Segui Hugh e Diana attraverso una stazione di ricerca lunare con combattimenti hack-and-shoot, potenziamenti del Shelter, guide alla storia, aiuto per la demo e info sulle piattaforme.",
+    "getFreeCodesCTA": "Prova la Demo",
+    "playOnSteamCTA": "Gioca su Steam",
+    "stats": {
+      "stat1": {
+        "value": "17 aprile 2026",
+        "label": "Data di uscita"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "Piattaforme"
+      },
+      "stat3": {
+        "value": "2M+",
+        "label": "Wishlist"
+      },
+      "stat4": {
+        "value": "2M+",
+        "label": "Download della Demo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Panoramica del gameplay di PRAGMATA",
+    "description": "Segui Hugh e Diana attraverso una stazione di ricerca lunare ostile. Unisci lo sparatutto in terza persona con l'hacking in tempo reale basato su griglia per sconfiggere bot corazzati e scoprire il mistero del Lunafilament."
+  },
+  "tools": {
+    "title": "PRAGMATA",
+    "titleHighlight": "Guida Wiki",
+    "subtitle": "Tutto quello che devi sapere su PRAGMATA — data di uscita, demo, storia, personaggi, combattimento e altro ancora",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Data di uscita di PRAGMATA",
+        "description": "Cronologia del lancio, date delle piattaforme e cronologia dei rinvii"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Gameplay di PRAGMATA",
+        "description": "Come sparare e hackerare lavorano insieme in combattimento"
+      },
+      {
+        "icon": "Play",
+        "title": "Guida alla Demo di PRAGMATA",
+        "description": "Download della demo Sketchbook, contenuti e cosa aspettarsi"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "La storia di PRAGMATA spiegata",
+        "description": "Lunafilament, Hugh, Diana e il mistero della stazione lunare"
+      },
+      {
+        "icon": "Users",
+        "title": "Personaggi di PRAGMATA",
+        "description": "Profili di Hugh Williams, Diana, IDUS e Cabin"
+      },
+      {
+        "icon": "Zap",
+        "title": "Combattimento e Hacking in PRAGMATA",
+        "description": "Nodi hack, rottura dell'armatura e ciclo di combattimento a due personaggi"
+      },
+      {
+        "icon": "Monitor",
+        "title": "Piattaforme ed Edizioni di PRAGMATA",
+        "description": "Confronto tra PS5, Xbox Series X, Xbox Series S, Steam e Switch 2"
+      },
+      {
+        "icon": "Gift",
+        "title": "Bonus Pre-ordine di PRAGMATA",
+        "description": "Dettagli sui bonus dei costumi Neo Bushido e Neo Kunoichi"
+      },
+      {
+        "icon": "Award",
+        "title": "Edizione Deluxe di PRAGMATA",
+        "description": "Shelter Variety Pack e confronto tra Standard e Deluxe"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Requisiti di sistema di PRAGMATA",
+        "description": "Specifiche PC minime e consigliate per 1080p e 4K"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Armi e Loadout di PRAGMATA",
+        "description": "Tipi di armi Primarie, d'Attacco, di Difesa e Tattiche"
+      },
+      {
+        "icon": "Skull",
+        "title": "Nemici e Boss di PRAGMATA",
+        "description": "Tipi di bot, meccaniche dell'armatura e pattern dei boss"
+      },
+      {
+        "icon": "Home",
+        "title": "Shelter e Potenziamenti di PRAGMATA",
+        "description": "Hub Shelter, stampa di armi, Nodi Hack e Cabin"
+      },
+      {
+        "icon": "Navigation",
+        "title": "Esplorazione e Spostamento in PRAGMATA",
+        "description": "Propulsori, hack ambientali di Diana e sblocco dei percorsi"
+      },
+      {
+        "icon": "Search",
+        "title": "Segreti della Demo di PRAGMATA",
+        "description": "Finali nascosti e segreti nella demo Sketchbook"
+      },
+      {
+        "icon": "Film",
+        "title": "Trailer e News di PRAGMATA",
+        "description": "Trailer ufficiali, cronologia degli annunci e aggiornamenti principali"
+      }
+    ]
+  },
+  "modules": {
+    "pragmataReleaseDate": {
+      "title": "Pragmata Release Date",
+      "displayType": "timeline",
+      "intro": "Pragmata has had one of Capcom's longest modern release roads. The current headline date is April 17, 2026 on Capcom's official site and PlayStation, while Steam shows April 16, 2026 on its store page.",
+      "items": [
+        {
+          "date": "June 11, 2020",
+          "title": "First reveal with a 2022 target",
+          "description": "Pragmata debuted as a new Capcom science-fiction action-adventure and was originally positioned for a 2022 release window."
+        },
+        {
+          "date": "2021",
+          "title": "Window moved to 2023",
+          "description": "Capcom later shifted the game out of 2022 and re-framed the launch window around 2023."
+        },
+        {
+          "date": "June 2023",
+          "title": "Launch timing pulled back again",
+          "description": "A new teaser reintroduced the project but removed a near-term launch target, extending the wait beyond the earlier 2023 expectation."
+        },
+        {
+          "date": "March 5, 2026",
+          "title": "Release moved forward by one week",
+          "description": "Capcom announced the game would now arrive earlier, changing the date from April 24, 2026 to April 17, 2026."
+        },
+        {
+          "date": "Current storefront readout",
+          "title": "What players see right now",
+          "description": "Capcom's official site and PlayStation pages use April 17, 2026. Steam lists April 16, 2026. Both dates point to the same global release window."
+        }
+      ]
+    },
+    "pragmataGameplay": {
+      "title": "How Pragmata Gameplay Works",
+      "displayType": "steps",
+      "intro": "Pragmata blends third-person shooting, live puzzle-hacking, traversal, and environmental problem-solving into one loop. Hugh and Diana are always stronger together than apart.",
+      "steps": [
+        {
+          "title": "Move as Hugh, manage space before you commit",
+          "description": "Hugh handles aiming, firearms, dodging, and suit-based mobility. His thrusters also matter outside combat, helping you zip through the lunar facility and reach new paths.",
+          "highlights": [
+            "Third-person combat built around constant movement",
+            "Suit thrusters support traversal and repositioning",
+            "Both combat and exploration begin from Hugh's movement"
+          ]
+        },
+        {
+          "title": "Hack enemies with Diana to break their defenses",
+          "description": "Most enemy bots are armored, so raw gunfire is not enough by itself. Diana brings up a grid-style hacking panel that lets you weaken or open enemy defenses in real time.",
+          "highlights": [
+            "Connecting more blue squares increases hacking effect",
+            "Successful hacks disable armor and expose weak points",
+            "Known node examples include Decode and Multi-Hack"
+          ]
+        },
+        {
+          "title": "Convert the hack into damage with the right weapon",
+          "description": "Once enemies are opened up, Hugh cashes in with firearms. Some shields must be shot first, some missiles can be hacked back, and your weapon choice changes the pace of each fight.",
+          "highlights": [
+            "Primary, Attack, Defense, and Tactical weapon roles",
+            "Red barrier enemies must be opened by gunfire first",
+            "Incoming missiles can be redirected with a successful hack"
+          ]
+        },
+        {
+          "title": "Use station hacks, upgrades, and Shelter downtime to build your style",
+          "description": "Diana can unlock doors and clear blocked routes, while upgrade stations and the Shelter let players improve Hugh's gear, expand hacking options, and shape their preferred playstyle.",
+          "highlights": [
+            "Diana hacks security systems to open progression routes",
+            "Upgrade stations improve weapons, stats, and hacking tools",
+            "Shelter acts as a recovery and progression hub between pushes"
+          ]
+        }
+      ]
+    },
+    "pragmataDemoGuide": {
+      "title": "Pragmata Sketchbook Demo Guide",
+      "displayType": "cards",
+      "intro": "Sketchbook is the best live entry point for players who want to understand Pragmata before launch. It is built to teach the game's two-track combat loop and the feel of moving through the lunar research station.",
+      "cards": [
+        {
+          "name": "Where to download it",
+          "description": "Sketchbook has dedicated store listings on PlayStation 5 and Xbox Series X|S, and it is also surfaced from the main Steam product page.",
+          "bullets": [
+            "PlayStation Store: PRAGMATA Sketchbook — DEMO",
+            "Xbox Store: PRAGMATA Sketchbook — DEMO",
+            "Steam: listed from the main PRAGMATA store page"
+          ]
+        },
+        {
+          "name": "What the demo includes",
+          "description": "Capcom describes Sketchbook as a hands-on slice of the combat system and lunar-station traversal. It shows how the game asks both halves of the duo to operate together.",
+          "bullets": [
+            "Live shooting-plus-hacking combat",
+            "Traversal through the lunar research station",
+            "A practical first look at the game's pace and control rhythm"
+          ]
+        },
+        {
+          "name": "Platform and language details",
+          "description": "The console store pages confirm that the demo supports English and Japanese voice. PS5 and Xbox demo releases were listed as February 5, 2026.",
+          "bullets": [
+            "Voice support: English and Japanese",
+            "PS5 and Xbox demo release: February 5, 2026",
+            "Xbox page highlights 4K Ultra HD, HDR10, 60fps+, and Dolby Atmos"
+          ]
+        },
+        {
+          "name": "What players can learn before launch",
+          "description": "Sketchbook answers the most important pre-release questions better than trailers do. It lets players test whether the hacking layer feels satisfying under pressure.",
+          "bullets": [
+            "Whether dual-character combat feels intuitive",
+            "Whether grid-based hacking stays readable during live fights",
+            "Whether Pragmata's tone, movement, and combat style match your taste"
+          ]
+        }
+      ]
+    },
+    "pragmataStoryExplained": {
+      "title": "La storia di PRAGMATA spiegata",
+      "displayType": "accordion",
+      "intro": "La storia di PRAGMATA inizia con una stazione lunare perduta, un materiale che plasma la realtà chiamato Lunafilament e un'improbabile collaborazione tra Hugh e Diana. La premessa è facile da comprendere a grandi linee, ma lascia ampio spazio al mistero.",
+      "items": [
+        {
+          "question": "Qual è la premessa di base di PRAGMATA?",
+          "answer": "Nel prossimo futuro, l'umanità sviluppa il Lunafilament, un materiale in grado di creare quasi tutto, a patto che esistano i dati corretti. Quando si perdono i contatti con la stazione lunare che lo studia, viene inviata una squadra di intervento e, poco dopo il loro arrivo, si verifica un massiccio terremoto lunare."
+        },
+        {
+          "question": "Chi sono i due personaggi principali di PRAGMATA?",
+          "answer": "Hugh Williams è un membro della squadra di spedizione inviata a indagare sulla struttura lunare. Diana è una PRAGMATA — un androide unico creato usando il Lunafilament — e diventa la compagna di Hugh mentre i due cercano di sopravvivere nella stazione e trovare una via di ritorno per la Terra."
+        },
+        {
+          "question": "Perché Diana è così importante per la storia e il gameplay di PRAGMATA?",
+          "answer": "Diana è legata direttamente ai sistemi della stazione e all'idea centrale del combattimento del gioco. Può hackerare le armature nemiche per rivelare i punti deboli, hackerare la stazione stessa per aprire percorsi e funge da centro emotivo della relazione tra Hugh e Diana."
+        },
+        {
+          "question": "Qual è il conflitto principale in PRAGMATA?",
+          "answer": "Hugh e Diana sono intrappolati in una stazione di ricerca lunare ostile, piena di bot nemici e oscurata dal mistero dell'IA ribelle IDUS. Il loro obiettivo immediato è la fuga, ma la tensione maggiore deriva dallo scoprire cosa sia andato storto e come i sistemi della stazione si siano rivoltati contro di loro."
+        },
+        {
+          "question": "Cosa sono il Shelter e la Cabin in PRAGMATA?",
+          "answer": "Il Shelter è lo spazio sicuro del duo lontano dall'azione, un luogo che può continuare a crescere nel corso del gioco. Cabin è il bot assistente all'interno di quello spazio, che dona alla storia una piccola isola di calore in un ambiente altrimenti freddo e pericoloso."
+        }
+      ]
+    },
+    "pragmataCharacters": {
+      "title": "Personaggi di PRAGMATA",
+      "displayType": "card-list",
+      "intro": "Hugh Williams e Diana sono il cuore della storia, del ciclo di combattimento e del flusso di esplorazione di PRAGMATA. Hugh è il sopravvissuto umano che cerca di tornare sulla Terra dopo che un terremoto lunare ha separato la sua squadra, mentre Diana è un androide basato sul Lunafilament le cui abilità di hacking rendono possibile la sopravvivenza all'interno della stazione di ricerca lunare.",
+      "items": [
+        {
+          "title": "Diana",
+          "tag": "Androide PRAGMATA",
+          "description": "Conosciuta anche come D-I-0336-7, Diana è una PRAGMATA creata usando il Lunafilament. Hackera le armature nemiche per esporre i punti deboli e può hackerare la stazione lunare stessa per aprire percorsi bloccati.",
+          "highlights": [
+            "Androide unico creato usando il Lunafilament",
+            "Può hackerare i bot nemici e la struttura stessa",
+            "Curiosa, rapida nell'apprendere e profondamente legata al nome che Hugh le dà"
+          ]
+        },
+        {
+          "title": "Hugh Williams",
+          "tag": "Specialista della Sicurezza",
+          "description": "Hugh è un membro della squadra di spedizione inviata a indagare sulla struttura lunare. Esperto con una vasta gamma di armi da fuoco, usa anche i propulsori della sua tuta per muoversi attraverso la stazione.",
+          "highlights": [
+            "Separato dalla sua squadra dopo un massiccio terremoto lunare",
+            "Abile con diverse armi da fuoco e nella mobilità basata sulla tuta",
+            "Scontroso e sarcastico in superficie, ma sinceramente di buon cuore"
+          ]
+        },
+        {
+          "title": "Perché il loro duo è importante",
+          "tag": "Combattimento e Storia",
+          "description": "La configurazione a due protagonisti di PRAGMATA non è estetica. Diana crea aperture hackerando armature, sistemi e porte, mentre Hugh trasforma quelle aperture in progressi con armi, mobilità e sopravvivenza sul campo.",
+          "highlights": [
+            "Diana controlla l'accesso e la vulnerabilità dei nemici",
+            "Hugh fornisce danni, movimento e azione in prima linea",
+            "Entrambi i personaggi sono necessari per il combattimento, l'attraversamento e la progressione narrativa"
+          ]
+        }
+      ]
+    },
+    "pragmataCombatAndHacking": {
+      "title": "Combattimento e Hacking in PRAGMATA",
+      "displayType": "step-by-step",
+      "intro": "Il normale fuoco delle armi non è sufficiente contro i bot corazzati, quindi ogni scontro importante inizia con l'hacking. Hugh aggancia un bersaglio, Diana apre un pannello di hacking a griglia e il giocatore traccia un percorso continuo per attivare l'hack. La scelta dell'arma, la rottura degli scudi, i nodi di hacking e i potenziamenti del Shelter trasformano ogni combattimento in un ritmo di preparazione, esposizione e ricompensa.",
+      "steps": [
+        {
+          "title": "Aggancia e attiva il pannello di hacking di Diana",
+          "description": "Quando Hugh aggancia un nemico, Diana apre un pannello basato su una griglia. Tracciare una linea continua attraverso i quadrati blu completa l'hack.",
+          "highlights": [
+            "Un hack riuscito infligge danni e compromette temporaneamente l'armatura nemica",
+            "Percorsi più lunghi aumentano i danni e mantengono l'armatura disabilitata più a lungo",
+            "La griglia si connette in sequenza: pianifica il tuo percorso prima di confermare"
+          ]
+        },
+        {
+          "title": "Punisci i punti deboli esposti con le armi di Hugh",
+          "description": "Una volta che Diana espone il bersaglio, Hugh passa dalla preparazione al danno. Il ciclo di combattimento premia la trasformazione di un hack pulito in una pressione immediata con le armi da fuoco.",
+          "highlights": [
+            "Hugh usa diversi tipi di armi adatte a vari scenari",
+            "La Primary Unit è l'arma di riserva costante",
+            "Le opzioni Tactical e Attack sono pensate per le combo e le rifiniture rapide"
+          ]
+        },
+        {
+          "title": "Leggi la contromossa nemica prima di agire",
+          "description": "L'hacking non è mai gratuito. Alcuni nemici ti mettono sotto pressione mentre il pannello è aperto, costringendoti a scegliere tra un hack migliore o una schivata rapida.",
+          "highlights": [
+            "Le barriere di scudi rossi bloccano completamente l'hacking di Diana",
+            "Quegli scudi devono essere prima distrutti con l'arma di Hugh",
+            "Alcuni missili a ricerca possono essere hackerati e reindirizzati contro i nemici"
+          ]
+        },
+        {
+          "title": "Usa armi specializzate per il controllo tattico",
+          "description": "Armi diverse supportano diverse fasi dello scontro e rendono la finestra di hacking più sicura o gratificante.",
+          "highlights": [
+            "La Tactical Unit può immobilizzare i nemici durante la preparazione",
+            "L'Attack Unit eccelle nei danni finali a corto raggio",
+            "La Defense Unit può attirare i nemici lontano e creare spazio di manovra"
+          ]
+        },
+        {
+          "title": "Potenzia gli hack con i nodi di hacking",
+          "description": "Se Diana trasporta un nodo di hacking, sul pannello appaiono tessere gialle. Collegandole si attivano effetti extra e si aggiungono più opzioni tattiche a ogni hack riuscito.",
+          "highlights": [
+            "Decode abbassa la difesa nemica per un follow-up più semplice",
+            "Multi-Hack diffonde l'effetto ai bersagli vicini simultaneamente",
+            "Ogni attivazione consuma un nodo di hacking"
+          ]
+        },
+        {
+          "title": "Torna al Shelter per potenziare il ciclo di gioco",
+          "description": "Il Shelter è l'hub di recupero e potenziamento. Ti permette di curarti, spendere il Lunafilament raccolto e migliorare sia gli strumenti di combattimento che l'efficienza dell'hacking.",
+          "highlights": [
+            "Potenzia le armi ed espandi le opzioni dei nodi di hacking",
+            "Trasporta più nodi per una maggiore flessibilità nei combattimenti",
+            "Sblocca abilità come Critical Down per i follow-up dopo l'atterramento"
+          ]
+        }
+      ]
+    },
+    "pragmataPlatformsAndEditions": {
+      "title": "Piattaforme ed Edizioni di PRAGMATA",
+      "displayType": "table",
+      "intro": "Se stai decidendo dove acquistare PRAGMATA, le domande chiave sono su quale piattaforma giochi, quali funzionalità supporta la versione del negozio e se desideri il Shelter Variety Pack extra. Il prezzo standard è fissato a 59,99 USD, mentre la Deluxe è a 69,99 USD.",
+      "rows": [
+        {
+          "platform": "PlayStation 5",
+          "availability": "Pre-ordine disponibile, uscita il 17 aprile 2026",
+          "editions": "Standard $59,99 / Deluxe $69,99",
+          "highlights": [
+            "PS5 Pro Enhanced",
+            "Supporto per vibrazione DualSense ed effetti grilletto",
+            "Supporto per Remote Play e Guida di gioco"
+          ]
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "availability": "Pre-ordine disponibile",
+          "editions": "Standard $59,99+ / Deluxe $69,99+",
+          "highlights": [
+            "4K Ultra HD, HDR10, Ray Tracing, 60 fps+",
+            "Audio spaziale, Dolby Atmos e DTS:X",
+            "Ray tracing non supportato su Xbox Series S"
+          ]
+        },
+        {
+          "platform": "PC via Steam",
+          "availability": "In arrivo il 16 aprile 2026",
+          "editions": "Pre-acquisto Standard $59,99 / Deluxe $69,99",
+          "highlights": [
+            "Giocatore singolo, Achievement di Steam e Cloud",
+            "HDR disponibile e Condivisione familiare inclusa",
+            "Bonus Early Bird presentato separatamente su Steam"
+          ]
+        },
+        {
+          "platform": "Edizione Standard",
+          "availability": "Tutte le piattaforme — negozi digitali",
+          "editions": "Gioco base completo",
+          "highlights": [
+            "PS5 e Xbox includono il set di costumi per Hugh & Diana durante il periodo di validità del bonus",
+            "Steam presenta il bonus dei costumi come Bonus Early Bird",
+            "Esperienza di gioco completa senza contenuti rimossi"
+          ]
+        },
+        {
+          "platform": "Edizione Deluxe",
+          "availability": "Negozi digitali per console e PC",
+          "editions": "Gioco base + Shelter Variety Pack",
+          "highlights": [
+            "Shelter Variety Pack: costumi extra, skin per armi, tracce BGM",
+            "Gesti di Diana e artwork inclusi",
+            "Set di costumi per Hugh & Diana mostrato anche negli store console"
+          ]
+        }
+      ]
+    },
+    "pragmataPreOrderBonus": {
+      "title": "Bonus pre-ordine di PRAGMATA",
+      "displayType": "card-list",
+      "intro": "Il contenuto bonus è incentrato su una coppia di costumi coordinati per Hugh e Diana. Le pagine dei negozi descrivono il set come costumi ispirati a samurai e ninja del periodo Sengoku, e la dicitura è coerente in tutti i listini ufficiali: Neo Bushido per Hugh e Neo Kunoichi per Diana.",
+      "items": [
+        {
+          "title": "Oggetti Bonus",
+          "tag": "Set di costumi",
+          "description": "Il Bonus Early Bird contiene due costumi: Costume per Hugh — Neo Bushido e Costume per Diana — Neo Kunoichi.",
+          "highlights": [
+            "Il set estetico per due personaggi si applica a entrambi i protagonisti",
+            "Ricompensa con costumi a tema senza impatto sul gameplay",
+            "Elencato in modo coerente in tutti i negozi"
+          ]
+        },
+        {
+          "title": "Tema e Stile",
+          "tag": "Ispirato al periodo Sengoku",
+          "description": "Le pagine ufficiali dei negozi descrivono la ricompensa come costumi ispirati a samurai e ninja del periodo Sengoku.",
+          "highlights": [
+            "Neo Bushido è il costume in stile samurai di Hugh",
+            "Neo Kunoichi è il costume in stile ninja di Diana",
+            "Progettato come un set visivo coordinato per entrambi i personaggi"
+          ]
+        },
+        {
+          "title": "Finestra di disponibilità",
+          "tag": "Periodo Early Bird",
+          "description": "Dopo l'anticipo del lancio, il bonus pre-ordine digitale è diventato un Bonus Early Bird. PlayStation lo elenca fino al 23 aprile 2026, mentre Steam mostra orari di scadenza equivalenti per regione.",
+          "highlights": [
+            "Scadenza Steam: 23 aprile 2026 ore 23:59 EDT",
+            "PlayStation Store: fino al 23 aprile 2026 ore 23:59",
+            "Il negozio Xbox mostra il set di costumi incluso nelle edizioni pre-ordine"
+          ]
+        },
+        {
+          "title": "Cosa aggiunge la Deluxe oltre al bonus",
+          "tag": "Aggiornamento Deluxe",
+          "description": "Il set di costumi non è l'intera offerta Deluxe. La Deluxe include anche il Shelter Variety Pack con costumi extra, una skin per armi, tracce musicali Shelter, gesti di Diana e artwork.",
+          "highlights": [
+            "La Standard si concentra sul gioco base e sul bonus di acquisto anticipato attivo",
+            "La Deluxe aggiunge in più il Shelter Variety Pack",
+            "Da considerare se desideri extra estetici e relativi al Shelter"
+          ]
+        }
+      ]
+    },
+    "pragmataDeluxeEdition": {
+      "title": "PRAGMATA Standard vs Deluxe Edition",
+      "eyebrow": "Edizioni",
+      "intro": "PRAGMATA è in vendita a $59.99 per la Standard e $69.99 per la Deluxe. L'aggiornamento Deluxe si concentra sul Shelter Variety Pack: costumi estetici, una skin per arma, tracce musicali di sottofondo, gesti e illustrazioni. Entrambe le edizioni includono il gioco base completo.",
+      "headers": {
+        "feature": "Caratteristica",
+        "standard": "Standard — $59.99",
+        "deluxe": "Deluxe — $69.99"
+      },
+      "rows": [
+        {
+          "feature": "Gioco base",
+          "standard": "Incluso",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Shelter Variety Pack",
+          "standard": "Non incluso",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Costumi per Hugh (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Heavy Lifter e Lunar Cat"
+        },
+        {
+          "feature": "Costumi per Diana (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Mecha Builder e Fluffy"
+        },
+        {
+          "feature": "Skin per arma (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Grip Gun DS"
+        },
+        {
+          "feature": "Tracce BGM (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (Jazz)"
+        },
+        {
+          "feature": "Gesti per Diana (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Drowsy, Pumped Up, Stepping"
+        },
+        {
+          "feature": "Illustrazioni della Data Library (solo Deluxe)",
+          "standard": "—",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Bonus acquisto anticipato (entrambe le edizioni)",
+          "standard": "Costumi Neo Bushido + Neo Kunoichi fino al 23 apr 2026",
+          "deluxe": "Costumi Neo Bushido + Neo Kunoichi fino al 23 apr 2026"
+        }
+      ]
+    },
+    "pragmataSystemRequirements": {
+      "title": "Requisiti di sistema PC per PRAGMATA",
+      "eyebrow": "Specifiche PC",
+      "intro": "PRAGMATA richiede Windows 11, 16 GB di RAM, DirectX 12 e 40 GB di spazio di archiviazione per entrambi i livelli. Le specifiche consigliate mirano a 1080p a 60 fps con il preset Bilanciato. Il ray tracing richiede una GPU di fascia superiore elencata di seguito.",
+      "headers": {
+        "spec": "Specifica",
+        "minimum": "Minimi",
+        "recommended": "Consigliati"
+      },
+      "rows": [
+        {
+          "spec": "SO",
+          "minimum": "Windows 11 (64 bit)",
+          "recommended": "Windows 11 (64 bit)"
+        },
+        {
+          "spec": "Processore",
+          "minimum": "Intel Core i5-8500 o AMD Ryzen 5 3500",
+          "recommended": "Intel Core i7-8700 o AMD Ryzen 5 5500"
+        },
+        {
+          "spec": "Memoria",
+          "minimum": "16 GB di RAM",
+          "recommended": "16 GB di RAM"
+        },
+        {
+          "spec": "Scheda video",
+          "minimum": "NVIDIA GTX 1660 6 GB o AMD RX 5500 XT 8 GB",
+          "recommended": "NVIDIA RTX 2060 Super 8 GB o AMD RX 6600 8 GB"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "Versione 12",
+          "recommended": "Versione 12"
+        },
+        {
+          "spec": "Archiviazione",
+          "minimum": "40 GB (SSD consigliato)",
+          "recommended": "40 GB (SSD consigliato)"
+        },
+        {
+          "spec": "Target di prestazioni",
+          "minimum": "~1080p a 45 fps (preset Prestazioni)",
+          "recommended": "~1080p a 60 fps (preset Bilanciato)"
+        },
+        {
+          "spec": "GPU per ray tracing",
+          "minimum": "Non richiesto per il livello minimo",
+          "recommended": "AMD RX 6700 XT 12 GB o NVIDIA RTX 3060 12 GB"
+        },
+        {
+          "spec": "Rete",
+          "minimum": "Connessione Internet a banda larga",
+          "recommended": "Connessione Internet a banda larga"
+        }
+      ]
+    },
+    "pragmataWeaponsAndLoadouts": {
+      "title": "Armi, Unità e Opzioni di Equipaggiamento di PRAGMATA",
+      "eyebrow": "Guida al Combattimento",
+      "intro": "Il combattimento di PRAGMATA si basa sulla sinergia in tempo reale tra le armi di Hugh e i nodi di hacking di Diana. Diversi ruoli per le armi, strumenti intercambiabili e modifiche all'equipaggiamento nell'hub incoraggiano stili di gioco distinti.",
+      "items": [
+        {
+          "category": "Unità Primaria",
+          "role": "Arma da Fuoco Principale",
+          "description": "L'unica arma che resta a Hugh indipendentemente dalle munizioni. Tutte le altre armi speciali si rompono una volta esaurite. L'Unità Primaria è la risorsa di emergenza per ogni scontro.",
+          "icon": "Target"
+        },
+        {
+          "category": "Unità d'Attacco",
+          "role": "Follow-up ad Alto Danno",
+          "description": "Usata per finire i nemici a corto raggio dopo che un hack ne ha esposto i punti deboli. Le opzioni includono un fucile a pompa per raffiche ravvicinate e la rail gun Charge Piercer per una gittata maggiore.",
+          "icon": "Zap"
+        },
+        {
+          "category": "Unità Tattica",
+          "role": "Controllo e Blocco della Folla",
+          "description": "Blocca, rallenta o atterra i nemici per permetterti di completare gli hack in sicurezza. La Stasis Net immobilizza i bersagli; il Riot Blaster spara colpi a concussione che sbilanciano i nemici.",
+          "icon": "Shield"
+        },
+        {
+          "category": "Unità di Difesa",
+          "role": "Esca e Reindirizzamento dell'Aggro",
+          "description": "Allontana l'attenzione dei nemici da Hugh o reindirizza la pressione. Un Generatore di Esche attira i nemici verso percorsi sicuri o trappole ambientali, aprendo finestre per l'hacking senza subire fuoco nemico.",
+          "icon": "Bot"
+        },
+        {
+          "category": "Nodi di Hacking di Diana",
+          "role": "Toolkit di Hacking",
+          "description": "Decode abbassa la difesa nemica, Multi-Hack diffonde l'effetto ai bersagli vicini e Critical Down permette di atterrare i nemici indeboliti per un follow-up corpo a corpo. La scelta dei nodi plasma ogni combattimento.",
+          "icon": "Cpu"
+        },
+        {
+          "category": "Gestione dell'Equipaggiamento",
+          "role": "Strategia nell'Hub",
+          "description": "I punti di salvataggio permettono di tornare al Shelter per cambiare l'equipaggiamento tra uno scontro e l'altro. I potenziamenti possono sbloccare nuove abilità, aggiungere slot per mod e rafforzare il toolkit di Hugh o Diana.",
+          "icon": "Settings"
+        }
+      ]
+    },
+    "pragmataEnemiesAndBosses": {
+      "title": "Tipi di Nemici e Pattern delle Boss Fight di PRAGMATA",
+      "eyebrow": "Guida ai Nemici",
+      "intro": "I nemici di PRAGMATA sono progettati per interrompere il ritmo del combattimento. I bot con scudo forzano l'uso delle armi prima dell'hacking, i bot missilistici aggiungono pressione durante gli hack e i boss colossali trasformano il loop in uno scambio tattico prolungato.",
+      "enemies": [
+        {
+          "title": "Nemici da Campo Standard",
+          "summary": "Camminatori umanoidi, bot simili a mech e droni volanti stabiliscono la base del combattimento: hackerare per esporre l'armatura, poi colpire i punti deboli.",
+          "details": [
+            "Stabilisce il normale flusso di hacking per esporre l'armatura e successivo attacco ai punti deboli.",
+            "I nemici più comuni, legati alle decisioni sul ruolo delle armi e alla gestione delle munizioni.",
+            "La presenza di più tipi di unità contemporaneamente richiede hack brevi e mirati."
+          ],
+          "lesson": "Concentrati sulla priorità dei bersagli e mantieni gli hack brevi quando sono attive più unità."
+        },
+        {
+          "title": "Bot con Scudo e Missilistici",
+          "summary": "I bot con barriera rossa bloccano l'hacking di Diana finché Hugh non rompe lo scudo. I bot missilistici aggiungono pressione durante l'hacking e possono essere reindirizzati verso i bersagli con un hack tempestivo.",
+          "details": [
+            "Le barriere rosse costringono a passare dall'hacking alle armi da fuoco prima che Diana possa agire.",
+            "I bot missilistici creano pressione mentre tracci i percorsi sul Pannello di Hacking.",
+            "Un hack missilistico riuscito trasforma il fuoco in arrivo in un contrattacco."
+          ],
+          "lesson": "In questi scontri, la rottura dello scudo o il controllo dei proiettili spesso precedono l'hacking."
+        },
+        {
+          "title": "Nemici di Disturbo Avanzati",
+          "summary": "Robot più veloci con finestre di puzzle di hacking più ampie e moduli di disturbo che interferiscono direttamente con la capacità di Diana di completare le connessioni.",
+          "details": [
+            "Si muovono più velocemente e usano pattern di attacco che rendono i combattimenti multi-bersaglio più frenetici.",
+            "Alcuni sono progettati per interferire con l'hacking piuttosto che limitarsi ad assorbire danni.",
+            "Qui la scelta dei nodi e gli strumenti di controllo della folla diventano più importanti della pura potenza di fuoco."
+          ],
+          "lesson": "Porta strumenti di controllo e scegli i nodi di hacking prima di affrontare questi scontri come le prime battaglie della demo."
+        },
+        {
+          "title": "Nemici di Classe Oddity",
+          "summary": "Design bizzarri che includono nemici a forma di ruota e un gigantesco bot strisciante con un volto simile a quello di un neonato che si apre per sparare laser. Le forme insolite cambiano la percezione di distanze e tempismo.",
+          "details": [
+            "Nemici visivamente distinti che spingono l'identità del combattimento oltre i normali droni e camminatori.",
+            "Le forme corporee insolite cambiano il posizionamento e il tempismo dei colpi rispetto ai bot normali.",
+            "Segnalano che il design dei nemici continua a evolversi invece di stabilizzarsi su un unico pattern di combattimento."
+          ],
+          "lesson": "In questi scontri, la sagoma del nemico conta quanto il danno inflitto."
+        },
+        {
+          "title": "Scontri con Boss Colossali",
+          "summary": "Boss enormi con attacchi ad area, molteplici strati di scudi e dimensioni pari a edifici. Un boss confermato somiglia a una formica muscolosa con un volto da mantide e un attacco stritolante con il collo.",
+          "details": [
+            "I boss usano la stessa base hack-and-shoot, ma la estendono su uno scontro più lungo.",
+            "Gli scudi multipli costringono a ripetute transizioni tra rottura dello scudo, hacking e attacco.",
+            "Il progresso dell'hacking viene preservato quando ci si allontana per schivare, cambiando il ritmo del combattimento."
+          ],
+          "lesson": "I boss premiano la pazienza, il progresso parziale e le transizioni pulite tra sopravvivenza, hacking e danni esplosivi."
+        }
+      ]
+    },
+    "pragmataShelterAndUpgrades": {
+      "eyebrow": "Sistemi di base",
+      "title": "Pragmata Shelter e potenziamenti",
+      "displayType": "cards",
+      "intro": "PRAGMATA considera lo Shelter più di una semplice stanza di pausa. È il luogo in cui Hugh e Diana trasformano le scoperte in opzioni di combattimento permanenti, incontrano il bot di supporto Cabin e tornano verso le parti sbloccate della stazione attraverso la rete del Tram e dell'Escape Hatch.",
+      "cards": [
+        {
+          "name": "Stampanti 3D",
+          "description": "Le armi e i nodi di hacking che scopri sul campo diventano sbloccabili presso le stampanti 3D dello Shelter. Trasforma le scoperte sul campo in potenziamenti persistenti che coprono sia le armi che i nodi di hacking."
+        },
+        {
+          "name": "Potenziamenti dell'equipaggiamento",
+          "description": "Lo Shelter è il luogo in cui Hugh e Diana rafforzano il loro assetto da combattimento per affrontare nemici più ostici nelle profondità della struttura lunare. Usa l'hub per perfezionare il tuo prossimo equipaggiamento tra una sessione e l'altra."
+        },
+        {
+          "name": "Cabin",
+          "description": "Cabin è un bot di supporto indipendente di stanza nello Shelter e collegato al più ampio sistema CABIN. Una presenza di supporto amichevole all'interno della base, separata dai sistemi ostili che controllano la stazione."
+        },
+        {
+          "name": "Escape Hatches",
+          "description": "Gli Escape Hatches sono punti di ritorno sbloccabili che collegano l'esplorazione allo Shelter. Sbloccali mentre avanzi nella stazione e rimarranno disponibili come percorsi rapidi permanenti."
+        },
+        {
+          "name": "Il Tram",
+          "description": "Il Tram è il collegamento di viaggio dello Shelter con il resto della stazione, consentendo ai giocatori di tornare verso gli Escape Hatches sbloccati. Rende il backtracking e il rientro parte del ciclo di esplorazione."
+        }
+      ]
+    },
+    "pragmataExplorationAndTraversal": {
+      "eyebrow": "Spostamento",
+      "title": "Esplorazione e spostamento in Pragmata",
+      "displayType": "steps",
+      "intro": "La stazione di ricerca lunare è progettata come uno spazio stratificato che si apre attraverso il lavoro di squadra. Hugh fornisce velocità e movimento, Diana apre percorsi bloccati tramite l'hacking e la rete dello Shelter collega ogni avanzamento in un ciclo di esplorazione più ampio.",
+      "steps": [
+        {
+          "title": "Usa i propulsori di Hugh per muoverti velocemente",
+          "description": "La tuta di Hugh gli permette di sfrecciare attraverso la struttura con movimenti assistiti dai propulsori, rendendo la mobilità una parte centrale dell'esplorazione invece di una camminata passiva tra i combattimenti."
+        },
+        {
+          "title": "Lascia che Diana faccia l'hacking della stazione",
+          "description": "Diana non hackera solo i nemici. Può anche violare i sistemi di sicurezza della stazione per sbloccare porte e liberare percorsi bloccati per proseguire."
+        },
+        {
+          "title": "Interpreta la stazione come uno spazio multi-livello",
+          "description": "La struttura è organizzata per premiare il movimento, l'apertura di percorsi e il ritorno su rotte già visitate con strumenti migliori, piuttosto che una semplice progressione a corridoi."
+        },
+        {
+          "title": "Sblocca gli Escape Hatches lungo il percorso",
+          "description": "Gli Escape Hatches diventano punti di ancoraggio chiave per il percorso durante l'esplorazione. Collegano i tuoi progressi verso l'esterno allo Shelter una volta sbloccati."
+        },
+        {
+          "title": "Torna tramite il Tram",
+          "description": "Dallo Shelter, il Tram permette a Hugh e Diana di tornare verso gli Escape Hatches sbloccati, trasformando l'esplorazione in un ampio ciclo hub-and-spoke attraverso la stazione."
+        },
+        {
+          "title": "Resta pronto per i bot nemici",
+          "description": "Anche quando la stazione sembra vuota, i bot ostili rimangono parte del ritmo di spostamento, quindi movimento, pianificazione del percorso e prontezza al combattimento restano strettamente collegati."
+        }
+      ]
+    },
+    "pragmataDemoSecretsAndEndings": {
+      "eyebrow": "Demo",
+      "title": "Segreti e finali della demo di Pragmata",
+      "displayType": "accordion",
+      "intro": "La Sketchbook Demo è già utile come assaggio del combattimento, ma il suo punto di forza maggiore è la rigiocabilità. PRAGMATA la usa per introdurre lo spostamento, mostrare il ciclo di hacking e sparatorie e premiare i giocatori che la visitano più di una volta.",
+      "faqs": [
+        {
+          "question": "Cos'è la PRAGMATA Sketchbook Demo?",
+          "answer": "PRAGMATA Sketchbook - DEMO è una demo gratuita per PS5 del gioco. È classificata come demo d'azione per giocatore singolo con gioco offline abilitato, supporto Remote Play, supporto PS5 Pro Enhanced e supporto Guida di gioco."
+        },
+        {
+          "question": "Perché i giocatori dovrebbero rigiocare la demo di Pragmata?",
+          "answer": "Xbox Wire afferma esplicitamente che la demo di Pragmata dovrebbe essere completata più volte per scoprire i suoi segreti e i diversi finali, rendendo la rigiocabilità parte dell'esperienza prevista piuttosto che un compito opzionale."
+        },
+        {
+          "question": "Cosa copre effettivamente la demo di Pragmata?",
+          "answer": "La demo è progettata per insegnare il ciclo di combattimento caratteristico di PRAGMATA, dove l'hacking di Diana e le sparatorie di Hugh lavorano insieme. Permette inoltre ai giocatori di sperimentare lo spostamento attraverso la stazione di ricerca lunare."
+        },
+        {
+          "question": "Quali dettagli su piattaforme e lingue sono disponibili per la demo di Pragmata?",
+          "answer": "Sul PlayStation Store, la demo di Pragmata è indicata per PS5 con supporto vocale in inglese e giapponese, rilasciata il 5 febbraio 2026. La pagina dello store mostra una media di 4,66 su 5 da 7.858 valutazioni."
+        }
+      ]
+    },
+    "pragmataTrailersAndNews": {
+      "eyebrow": "Cronologia media",
+      "title": "Trailer e novità di Pragmata",
+      "displayType": "timeline",
+      "intro": "Questa cronologia raccoglie i principali momenti ufficiali più importanti per i giocatori che arrivano al gioco in ritardo. Ordina i trailer significativi di PRAGMATA e mostra cosa ognuno ha aggiunto all'immagine pubblica del gioco.",
+      "entries": [
+        {
+          "title": "Trailer First Contact — Giugno 2025",
+          "type": "Reintroduzione",
+          "description": "Capcom ha reintrodotto PRAGMATA con uno sguardo più chiaro su Hugh, Diana, la stazione lunare e la proposta di azione e strategia 'due in uno' del gioco, restringendo la finestra di uscita al 2026."
+        },
+        {
+          "title": "Trailer dei pre-ordini — Dicembre 2025",
+          "type": "Lancio dei pre-ordini",
+          "description": "I pre-ordini sono stati aperti e la data di uscita del gioco è stata fissata pubblicamente per il 24 aprile 2026. Questo momento ha anche spinto il lancio pubblico più ampio legato alla demo Sketchbook."
+        },
+        {
+          "title": "Trailer principale — 5 marzo 2026",
+          "type": "Trailer completo",
+          "description": "L'ultimo trailer di PRAGMATA ha aggiunto nuovi filmati dei nemici, nuove aree della stazione, dettagli sullo Shelter e Cabin, anticipando il lancio di una settimana, dal 24 aprile al 17 aprile 2026."
+        },
+        {
+          "title": "Data di lancio — 17 aprile 2026",
+          "type": "Release",
+          "description": "Il 17 aprile 2026 è ora l'obiettivo di lancio attuale presentato in tutti i materiali promozionali ufficiali più recenti di PRAGMATA su tutte le piattaforme."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Domande",
+    "titleHighlight": "frequenti",
+    "subtitle": "Tutto quello che devi sapere su Pragmata prima del lancio",
+    "questions": [
+      {
+        "question": "Che tipo di gioco è Pragmata?",
+        "answer": "Pragmata è un'avventura d'azione sci-fi per giocatore singolo sviluppata da Capcom. Presenta sparatorie in terza persona combinate con un sistema di hacking basato su griglia in tempo reale controllato dalla compagna IA Diana."
+      },
+      {
+        "question": "Quando esce Pragmata?",
+        "answer": "Pragmata uscirà il 17 aprile 2026 sul sito ufficiale di Capcom e su PlayStation. Steam indica il 16 aprile 2026 sulla sua pagina del negozio, riflettendo una finestra di lancio globale nello stesso giorno."
+      },
+      {
+        "question": "Su quali piattaforme arriverà Pragmata?",
+        "answer": "Pragmata sarà lanciato su PlayStation 5, Xbox Series X, Xbox Series S, Steam (PC) e Nintendo Switch 2. Tutte e quattro le piattaforme riceveranno il gioco nell'aprile 2026."
+      },
+      {
+        "question": "È disponibile una demo gratuita di Pragmata?",
+        "answer": "Sì. La demo Pragmata Sketchbook è scaricabile gratuitamente su PS5, Xbox Series X, Xbox Series S e Steam. Include sezioni di combattimento, hacking e spostamento all'interno della stazione di ricerca lunare."
+      },
+      {
+        "question": "Chi sono i personaggi principali di Pragmata?",
+        "answer": "Hugh Williams è il protagonista giocabile, un membro della squadra inviata a indagare sulla struttura lunare perduta. Diana è un androide Pragmata che diventa la sua partner e gestisce il sistema di hacking del gioco."
+      },
+      {
+        "question": "Quali sono i requisiti di sistema per Pragmata su PC?",
+        "answer": "Pragmata richiede Windows 11 (64 bit) e circa 40 GB di spazio di archiviazione. Le specifiche complete minime e consigliate per GPU e CPU sono elencate sulla pagina ufficiale del negozio Steam."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto a esplorare PRAGMATA?",
+    "description": "Unisciti alla community di PRAGMATA su Discord per guide, aggiornamenti e discussioni sull'avventura sci-fi hack-and-shoot!",
+    "joinCommunity": "Unisciti a Discord",
+    "joinGame": "Gioca su Steam"
+  },
+  "footer": {
+    "title": "PRAGMATA Wiki",
+    "description": "Il tuo hub di risorse completo per guide alla storia di PRAGMATA, aiuto per la demo, personaggi, combattimento hacking, potenziamenti del Shelter e requisiti di sistema.",
+    "resources": "Risorse",
+    "community": "Community",
+    "legal": "Note legali",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
+    "about": "Informazioni",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 PRAGMATA Wiki. Non affiliato con Capcom o gli sviluppatori di PRAGMATA.",
+    "disclaimer": "Sito web di risorse non ufficiale creato dai fan."
+  },
+  "pages": {
+    "release": {
+      "title": "Data di uscita di PRAGMATA",
+      "description": "Tutto sulla data di uscita di PRAGMATA, le finestre di lancio regionali e la cronologia degli annunci di Capcom.",
+      "metaTitle": "Data di uscita di PRAGMATA - Data di lancio e cronologia degli annunci",
+      "metaDescription": "Informazioni ufficiali sulla data di uscita di PRAGMATA, inclusi il lancio globale del 17 aprile 2026, le differenze regionali e la cronologia completa degli annunci di Capcom.",
+      "categoryLabel": "INFO USCITA",
+      "whatIs": "Cosa sono le info sull'uscita di PRAGMATA?",
+      "whatIsDescription": "PRAGMATA uscirà il 17 aprile 2026 per PS5, Xbox Series X|S e PC via Steam. La versione per Nintendo Switch 2 nella regione Giappone/Asia uscirà il 24 aprile 2026. Questa sezione copre l'intera cronologia dall'annuncio al lancio.",
+      "why": "Perché seguire le notizie sull'uscita di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Monitora le date di lancio",
+        "step1Description": "Scopri le finestre di lancio esatte per la tua regione e piattaforma",
+        "step2Title": "Pianificazione del pre-ordine",
+        "step2Description": "Comprendi i bonus pre-ordine e le differenze tra le edizioni prima del lancio",
+        "step3Title": "Segui la cronologia",
+        "step3Description": "Dall'annuncio del 2020 al lancio di aprile 2026, ripercorri l'intero percorso di sviluppo di PRAGMATA"
+      },
+      "featured": "In evidenza ed essenziali",
+      "all": "Tutti gli articoli sull'uscita"
+    },
+    "demo": {
+      "title": "Demo di PRAGMATA",
+      "description": "Guida completa alla demo Sketchbook di PRAGMATA, inclusi link per il download, panoramica dei contenuti, segreti e finali multipli.",
+      "metaTitle": "Demo Sketchbook di PRAGMATA - Download, segreti e finali",
+      "metaDescription": "Guida alla demo Sketchbook di PRAGMATA che copre i link per il download per PS5, Xbox e Steam, la panoramica dei contenuti della demo e come trovare i segreti nascosti e i finali alternativi.",
+      "categoryLabel": "GUIDA ALLA DEMO",
+      "whatIs": "Cos'è la demo di PRAGMATA?",
+      "whatIsDescription": "La demo Sketchbook di PRAGMATA è una porzione giocabile gratuita del gioco completo disponibile su PS5, Xbox Series X|S e Steam. Introduce il loop di combattimento hacking-and-shooting e presenta finali multipli.",
+      "why": "Perché giocare alla demo di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Prova prima di acquistare",
+        "step1Description": "Testa i sistemi di hacking e shooting prima dell'uscita del gioco completo il 17 aprile 2026",
+        "step2Title": "Trova i segreti",
+        "step2Description": "Esplora i finali multipli della demo e i collezionabili nascosti",
+        "step3Title": "Impara il combattimento",
+        "step3Description": "Prendi confidenza in anticipo con il loop di combattimento cooperativo Hugh-Diana"
+      },
+      "featured": "In evidenza ed essenziali",
+      "all": "Tutte le guide alla demo"
+    },
+    "character": {
+      "title": "Personaggi di PRAGMATA",
+      "description": "Profili dei personaggi per Hugh Williams, Diana, IDUS e Cabin, che coprono i loro ruoli, abilità e importanza nella storia di PRAGMATA.",
+      "metaTitle": "Personaggi di PRAGMATA - Hugh, Diana, IDUS & Cabin",
+      "metaDescription": "Profili completi dei personaggi di PRAGMATA che coprono Hugh Williams, Diana l'androide, l'IA ribelle IDUS e Cabin. Scopri il ruolo di ogni personaggio nel combattimento e nella storia.",
+      "categoryLabel": "PERSONAGGI",
+      "whatIs": "Chi sono i personaggi di PRAGMATA?",
+      "whatIsDescription": "PRAGMATA si concentra su Hugh Williams e Diana — un'androide — che lavorano insieme per fuggire da una stazione di ricerca lunare ostile. IDUS è l'IA ribelle antagonista e Cabin è il loro compagno nel Shelter.",
+      "why": "Perché conoscere i personaggi di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Comprendi i ruoli in combattimento",
+        "step1Description": "Hugh gestisce le armi da fuoco mentre Diana controlla il pannello di hacking in battaglia",
+        "step2Title": "Segui la storia",
+        "step2Description": "Conosci le motivazioni di ogni personaggio e il suo posto nella narrazione più ampia",
+        "step3Title": "Apprezza la dinamica",
+        "step3Description": "Comprendi come la partnership Hugh-Diana guidi sia il gameplay che la storia"
+      },
+      "featured": "In evidenza ed essenziali",
+      "all": "Tutte le guide ai personaggi"
+    },
+    "version": {
+      "title": "Piattaforme di PRAGMATA",
+      "description": "Disponibilità delle piattaforme, differenze tra le edizioni e caratteristiche specifiche delle versioni di PRAGMATA su PS5, Xbox Series X|S, PC e Nintendo Switch 2.",
+      "metaTitle": "Piattaforme di PRAGMATA - Versioni PS5, Xbox, PC e Nintendo Switch 2",
+      "metaDescription": "Guida alle piattaforme di PRAGMATA che copre le versioni PS5, Xbox Series X|S, Steam PC e Nintendo Switch 2. Confronta edizioni, prezzi e caratteristiche esclusive delle piattaforme.",
+      "categoryLabel": "PIATTAFORME E VERSIONI",
+      "whatIs": "Quali piattaforme di PRAGMATA sono disponibili?",
+      "whatIsDescription": "PRAGMATA uscirà su PS5, Xbox Series X|S, PC (Steam) e Nintendo Switch 2. Ogni piattaforma ha caratteristiche specifiche e il lancio per Nintendo Switch 2 nella regione Giappone/Asia avverrà una settimana dopo, il 24 aprile.",
+      "why": "Perché confrontare le versioni di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Scegli la tua piattaforma",
+        "step1Description": "Confronta PS5, Xbox, PC e Nintendo Switch 2 per trovare la soluzione migliore per la tua configurazione",
+        "step2Title": "Confronta le edizioni",
+        "step2Description": "Comprendi la differenza tra le edizioni Standard e Deluxe",
+        "step3Title": "Controlla i prezzi",
+        "step3Description": "Controlla i prezzi regionali e la disponibilità dei pre-ordini prima del lancio"
+      },
+      "featured": "In primo piano ed essenziali",
+      "all": "Tutte le guide alle piattaforme"
+    },
+    "tech": {
+      "title": "Tecnologia di PRAGMATA",
+      "description": "Requisiti di sistema PC, dettagli sul motore, supporto mod e specifiche tecniche per PRAGMATA.",
+      "metaTitle": "Requisiti di sistema e dettagli tecnici di PRAGMATA",
+      "metaDescription": "Guida tecnica di PRAGMATA che copre i requisiti di sistema PC, i dettagli del RE Engine, il DRM Denuvo, il supporto mod e la compatibilità con il cloud gaming GeForce NOW.",
+      "categoryLabel": "INFORMAZIONI TECNICHE",
+      "whatIs": "Cosa sono le informazioni tecniche di PRAGMATA?",
+      "whatIsDescription": "Dettagli tecnici su PRAGMATA inclusi i requisiti PC minimi e consigliati, il RE Engine che alimenta il gioco, informazioni sul DRM e supporto al cloud gaming tramite GeForce NOW.",
+      "why": "Perché controllare i dettagli tecnici di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Verifica la tua configurazione PC",
+        "step1Description": "Controlla la tua GPU e CPU rispetto alle specifiche minime e consigliate ufficiali",
+        "step2Title": "Comprendi il motore di gioco",
+        "step2Description": "Scopri come il RE Engine gestisce la grafica e gli obiettivi di performance di PRAGMATA",
+        "step3Title": "Pianifica per le mod",
+        "step3Description": "Scopri in anticipo quale supporto per il modding offrirà PRAGMATA al lancio"
+      },
+      "featured": "In primo piano ed essenziali",
+      "all": "Tutti gli articoli tecnici"
+    },
+    "media": {
+      "title": "Media di PRAGMATA",
+      "description": "Trailer ufficiali di PRAGMATA, sfondi, anteprime della colonna sonora e artwork promozionali di Capcom.",
+      "metaTitle": "Trailer, sfondi e colonna sonora di PRAGMATA",
+      "metaDescription": "Media ufficiali di PRAGMATA inclusi trailer, sfondi HD, anteprime della colonna sonora e artwork promozionali. Guarda tutti i video ufficiali di Capcom e scarica i contenuti.",
+      "categoryLabel": "MEDIA E RISORSE",
+      "whatIs": "Quali media di PRAGMATA sono disponibili?",
+      "whatIsDescription": "Capcom ha rilasciato diversi trailer di PRAGMATA, sfondi HD e anteprime della colonna sonora. Questa sezione raccoglie tutte le risorse multimediali ufficiali in un unico posto.",
+      "why": "Perché esplorare i media di PRAGMATA?",
+      "whySteps": {
+        "step1Title": "Guarda i trailer",
+        "step1Description": "Rimani aggiornato su ogni trailer ufficiale di PRAGMATA, dall'annuncio al lancio",
+        "step2Title": "Scarica gli sfondi",
+        "step2Description": "Ottieni gli sfondi HD ufficiali con Hugh, Diana e la stazione di ricerca lunare",
+        "step3Title": "Ascolta l'anteprima della colonna sonora",
+        "step3Description": "Ascolta le anteprime musicali e segui il canale YouTube ufficiale di PRAGMATA"
+      },
+      "featured": "In primo piano ed essenziali",
+      "all": "Tutti i media"
+    }
   }
 }

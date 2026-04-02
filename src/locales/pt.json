@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Wiki de PRAGMATA - Data de Lançamento, Demo, Plataformas e História",
+      "description": "A Wiki de PRAGMATA cobre data de lançamento, demo, plataformas, personagens, combate com hacking, melhorias do Shelter, requisitos de sistema e guias de história para novos jogadores.",
+      "keywords": "PRAGMATA, data de lançamento, demo, personagens, hacking, Shelter, requisitos de sistema, história, plataformas",
+      "ogTitle": "Wiki de PRAGMATA - Data de Lançamento, Demo, Plataformas e História",
+      "ogDescription": "A Wiki de PRAGMATA cobre data de lançamento, demo, plataformas, personagens, combate com hacking, melhorias do Shelter, requisitos de sistema e guias de história para novos jogadores.",
+      "twitterTitle": "Wiki de PRAGMATA - Data de Lançamento, Demo, Plataformas e História",
+      "twitterDescription": "A Wiki de PRAGMATA cobre data de lançamento, demo, personagens, combate com hacking, melhorias do Shelter e guias de história para novos jogadores no PS5, Xbox, Steam e Nintendo Switch 2."
     }
   },
   "nav": {
@@ -15,15 +15,15 @@
     "demo": "Demo",
     "character": "Personagens",
     "version": "Versão",
-    "tech": "Técnico",
+    "tech": "Tecnologia",
     "media": "Mídia"
   },
   "common": {
     "home": "Início",
     "more": "Mais",
     "playNow": "Jogue no Steam",
-    "switchLanguage": "Alterar Idioma",
-    "switchTheme": "Alterar Tema",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
     "lightMode": "Modo Claro",
     "darkMode": "Modo Escuro",
     "notFound": "Página Não Encontrada",
@@ -33,768 +33,839 @@
     "readMore": "Leia Mais"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "PRAGMATA Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
+    "badge": "Aventura de Ação Sci-Fi com um Toque de Hacking",
+    "title": "Wiki de PRAGMATA",
+    "description": "Siga Hugh e Diana por uma estação de pesquisa lunar com combate de hack-and-shoot, melhorias do Shelter, guias de história, ajuda com a demo e informações de plataformas.",
+    "getFreeCodesCTA": "Experimente a Demo",
     "playOnSteamCTA": "Jogue no Steam",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "17 de abril de 2026",
+        "label": "Data de Lançamento"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "4",
+        "label": "Plataformas"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "2M+",
+        "label": "Listas de Desejos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "2M+",
+        "label": "Downloads da Demo"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Visão Geral da Jogabilidade de PRAGMATA",
+    "description": "Siga Hugh e Diana por uma estação de pesquisa lunar hostil. Misture tiro em terceira pessoa com hacking em tempo real baseado em grade para derrotar robôs blindados e descobrir o mistério de Lunafilament."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "title": "PRAGMATA",
+    "titleHighlight": "Guia Wiki",
+    "subtitle": "Tudo o que você precisa saber sobre PRAGMATA — data de lançamento, demo, história, personagens, combate e mais",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Guia para Iniciantes",
-        "description": "Primeiros passos, exploração e progressão inicial"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Criação de Apotheosis",
-        "description": "Sistema de fusão livre e receitas iniciais"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Ferramentas e Armas",
-        "description": "Frost Pick, Azrael, __PROTECTED_6a765cb2__ e mais"
-      },
-      {
-        "icon": "Package",
-        "title": "Armazenamento e Inventário",
-        "description": "Cache Cubes, Armários e armazenamento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia e Construção de Base",
-        "description": "Qualia Pessoal e configuração da base principal"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiões do Mundo",
-        "description": "Fog Meadow, Essence Morass e mais"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas e Inimigos",
-        "description": "Manikins, aranhas e como sobreviver"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipamento de Mobilidade",
-        "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
-      },
-      {
-        "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
+        "icon": "Calendar",
+        "title": "Data de Lançamento de PRAGMATA",
+        "description": "Cronograma de lançamento, datas das plataformas e histórico de adiamentos"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
+        "title": "Jogabilidade de PRAGMATA",
+        "description": "Como tiro e hacking funcionam juntos no combate"
       },
       {
-        "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
+        "icon": "Play",
+        "title": "Guia da Demo de PRAGMATA",
+        "description": "Download da demo Sketchbook, conteúdo e o que esperar"
       },
       {
-        "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
+        "icon": "BookOpen",
+        "title": "História de PRAGMATA Explicada",
+        "description": "Lunafilament, Hugh, Diana e o mistério da estação lunar"
       },
       {
-        "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
+        "icon": "Users",
+        "title": "Personagens de PRAGMATA",
+        "description": "Perfis de Hugh Williams, Diana, IDUS e Cabin"
+      },
+      {
+        "icon": "Zap",
+        "title": "Combate e Hacking em PRAGMATA",
+        "description": "Nós de hack, quebra de armadura e o ciclo de combate de dois personagens"
+      },
+      {
+        "icon": "Monitor",
+        "title": "Plataformas e Edições de PRAGMATA",
+        "description": "Comparação entre PS5, Xbox Series X, Xbox Series S, Steam e Nintendo Switch 2"
+      },
+      {
+        "icon": "Gift",
+        "title": "Bônus de Pré-venda de PRAGMATA",
+        "description": "Detalhes dos bônus de trajes Neo Bushido e Neo Kunoichi"
+      },
+      {
+        "icon": "Award",
+        "title": "Edição Deluxe de PRAGMATA",
+        "description": "Shelter Variety Pack e comparação entre Standard vs Deluxe"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Requisitos de Sistema de PRAGMATA",
+        "description": "Especificações mínimas e recomendadas para PC em 1080p e 4K"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Armas e Equipamentos de PRAGMATA",
+        "description": "Tipos de armas Primárias, de Ataque, Defesa e Táticas"
+      },
+      {
+        "icon": "Skull",
+        "title": "Inimigos e Chefes de PRAGMATA",
+        "description": "Tipos de robôs, mecânicas de armadura e padrões de lutas contra chefes"
+      },
+      {
+        "icon": "Home",
+        "title": "Shelter e Melhorias em PRAGMATA",
+        "description": "Hub do Shelter, impressão de armas, Nós de Hack e Cabin"
+      },
+      {
+        "icon": "Navigation",
+        "title": "Exploração e Travessia em PRAGMATA",
+        "description": "Propulsores, hacks de ambiente da Diana e desbloqueio de caminhos"
+      },
+      {
+        "icon": "Search",
+        "title": "Segredos da Demo de PRAGMATA",
+        "description": "Finais ocultos e segredos na demo Sketchbook"
+      },
+      {
+        "icon": "Film",
+        "title": "Trailers e Notícias de PRAGMATA",
+        "description": "Trailers oficiais, cronograma de revelação e principais atualizações"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guia para Iniciantes de Lucid Blocks",
+    "pragmataReleaseDate": {
+      "title": "Data de Lançamento de PRAGMATA",
+      "displayType": "timeline",
+      "intro": "PRAGMATA teve um dos mais longos caminhos de lançamento modernos da Capcom. A data principal atual é 17 de abril de 2026 no site oficial da Capcom e PlayStation, enquanto Steam mostra 16 de abril de 2026 em sua página da loja.",
+      "items": [
+        {
+          "date": "June 11, 2020",
+          "title": "Primeira revelação com meta para 2022",
+          "description": "PRAGMATA estreou como um novo jogo de ação e aventura de ficção científica da Capcom e foi originalmente posicionado para uma janela de lançamento em 2022."
+        },
+        {
+          "date": "2021",
+          "title": "Janela movida para 2023",
+          "description": "Capcom posteriormente tirou o jogo de 2022 e redefiniu a janela de lançamento para 2023."
+        },
+        {
+          "date": "June 2023",
+          "title": "Data de lançamento adiada novamente",
+          "description": "Um novo teaser reintroduziu o projeto, mas removeu uma meta de lançamento de curto prazo, estendendo a espera além da expectativa anterior de 2023."
+        },
+        {
+          "date": "March 5, 2026",
+          "title": "Lançamento antecipado em uma semana",
+          "description": "Capcom anunciou que o jogo chegaria agora mais cedo, mudando a data de 24 de abril de 2026 para 17 de abril de 2026."
+        },
+        {
+          "date": "Current storefront readout",
+          "title": "O que os jogadores veem agora",
+          "description": "O site oficial da Capcom e as páginas do PlayStation usam 17 de abril de 2026. Steam lista 16 de abril de 2026. Ambas as datas apontam para a mesma janela de lançamento global."
+        }
+      ]
+    },
+    "pragmataGameplay": {
+      "title": "Como a Jogabilidade de PRAGMATA Funciona",
       "displayType": "steps",
-      "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
+      "intro": "PRAGMATA combina tiro em terceira pessoa, hacking de quebra-cabeças em tempo real, travessia e resolução de problemas ambientais em um único ciclo. Hugh e Diana são sempre mais fortes juntos do que separados.",
       "steps": [
         {
-          "title": "Explore Antes de se Comprometer",
-          "description": "Caminhe para fora, mine blocos comuns e guarde quaisquer itens estranhos que encontrar. O progresso inicial foca menos em missões fixas e mais em descobrir no que os materiais podem se tornar."
+          "title": "Mova-se como Hugh, gerencie o espaço antes de se comprometer",
+          "description": "Hugh lida com mira, armas de fogo, esquiva e mobilidade baseada no traje. Seus propulsores também são importantes fora do combate, ajudando você a se mover rapidamente pela instalação lunar e alcançar novos caminhos.",
+          "highlights": [
+            "Combate em terceira pessoa construído em torno de movimento constante",
+            "Propulsores do traje apoiam a travessia e o reposicionamento",
+            "Tanto o combate quanto a exploração começam com o movimento de Hugh"
+          ]
         },
         {
-          "title": "Desbloqueie sua Qualia Pessoal Cedo",
-          "description": "Sua Qualia pessoal é um dos marcos iniciais mais importantes. Ela oferece um lugar confiável para se reagrupar e construir ao redor."
+          "title": "Hackeie inimigos com Diana para quebrar suas defesas",
+          "description": "A maioria dos robôs inimigos é blindada, então o fogo de arma bruto não é suficiente por si só. Diana exibe um painel de hacking em estilo de grade que permite enfraquecer ou abrir as defesas inimigas em tempo real.",
+          "highlights": [
+            "Conectar mais quadrados azuis aumenta o efeito de hacking",
+            "Hacks bem-sucedidos desativam a armadura e expõem pontos fracos",
+            "Exemplos de nós conhecidos incluem Decode e Multi-Hack"
+          ]
         },
         {
-          "title": "Use Ósmio para um Progresso Inicial Rápido",
-          "description": "O Ósmio é um dos materiais iniciais mais úteis. Uma rota inicial popular é combinar Ósmio com gravetos para criar uma Picareta de Gelo para mineração rápida."
+          "title": "Converta o hack em dano com a arma certa",
+          "description": "Uma vez que os inimigos são expostos, Hugh finaliza com armas de fogo. Alguns escudos devem ser atingidos primeiro, alguns mísseis podem ser hackeados de volta, e sua escolha de arma muda o ritmo de cada luta.",
+          "highlights": [
+            "Funções de arma Primária, Ataque, Defesa e Tática",
+            "Inimigos com barreira vermelha devem ser expostos por tiros primeiro",
+            "Mísseis recebidos podem ser redirecionados com um hack bem-sucedido"
+          ]
         },
         {
-          "title": "Registre Boas Fusões",
-          "description": "Mantenha um registro das combinações bem-sucedidas em seu diário. Lucid Blocks possui muitos caminhos de fusão possíveis, então anotar resultados úteis economiza muito tempo."
+          "title": "Use hacks de estação, melhorias e tempo de inatividade no Shelter para construir seu estilo",
+          "description": "Diana pode destrancar portas e liberar rotas bloqueadas, enquanto estações de melhoria e o Shelter permitem que os jogadores aprimorem o equipamento de Hugh, expandam as opções de hacking e moldem seu estilo de jogo preferido.",
+          "highlights": [
+            "Diana hackeia sistemas de segurança para abrir rotas de progressão",
+            "Estações de melhoria aprimoram armas, estatísticas e ferramentas de hacking",
+            "Shelter atua como um centro de recuperação e progressão entre os avanços"
+          ]
         }
-      ],
-      "quickTips": [
-        "Apotheosis não requer uma lista de receitas fixa.",
-        "A geração de mundo infinita significa que mover-se para lugares mais altos ou mais profundos pode revelar materiais completamente diferentes.",
-        "Ferramentas de movimento e equipamentos utilitários tornam-se um grande reforço na qualidade de vida assim que você começa a desbloqueá-los.",
-        "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Criação de Apotheosis em Lucid Blocks",
+    "pragmataDemoGuide": {
+      "title": "Guia da Demo Sketchbook de PRAGMATA",
       "displayType": "cards",
-      "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
+      "intro": "Sketchbook é o melhor ponto de entrada ao vivo para jogadores que desejam entender PRAGMATA antes do lançamento. Ele foi construído para ensinar o ciclo de combate de duas vias do jogo e a sensação de se mover pela estação de pesquisa lunar.",
       "cards": [
         {
-          "name": "Fusão de Forma Livre",
-          "description": "Apotheosis permite fundir diferentes itens sem a necessidade de seguir uma lista de receitas fixa."
+          "name": "Onde fazer o download",
+          "description": "Sketchbook possui listagens dedicadas nas lojas do PlayStation 5 e Xbox Series X|S, e também é acessível a partir da página principal do produto Steam.",
+          "bullets": [
+            "PlayStation Store: PRAGMATA Sketchbook — DEMO",
+            "Xbox Store: PRAGMATA Sketchbook — DEMO",
+            "Steam: listado na página principal da loja de PRAGMATA"
+          ]
         },
         {
-          "name": "Múltiplos Resultados Úteis",
-          "description": "Materiais diferentes costumam levar a certos resultados. Descobertas da comunidade mostram que insumos semelhantes ainda podem resultar em ferramentas práticas, armazenamento ou melhorias de combate."
+          "name": "O que a demo inclui",
+          "description": "Capcom descreve Sketchbook como uma amostra prática do sistema de combate e da travessia da estação lunar. Ele mostra como o jogo exige que ambas as metades da dupla operem juntas.",
+          "bullets": [
+            "Combate de tiro e hacking em tempo real",
+            "Travessia pela estação de pesquisa lunar",
+            "Uma primeira olhada prática no ritmo e controle do jogo"
+          ]
         },
         {
-          "name": "Criação Focada no Diário",
-          "description": "A melhor maneira de aprender Apotheosis é rastrear suas combinações bem-sucedidas. Seu diário rapidamente se torna sua própria referência de criação."
+          "name": "Detalhes de plataforma e idioma",
+          "description": "As páginas das lojas de console confirmam que a demo suporta voz em inglês e japonês. Os lançamentos da demo para PS5 e Xbox foram listados como 5 de fevereiro de 2026.",
+          "bullets": [
+            "Suporte de voz: Inglês e Japonês",
+            "Lançamento da demo para PS5 e Xbox: 5 de fevereiro de 2026",
+            "A página do Xbox destaca 4K Ultra HD, HDR10, 60fps+ e Dolby Atmos"
+          ]
         },
         {
-          "name": "Fusões Iniciais Testadas pela Comunidade",
-          "description": "Exemplos iniciais populares incluem Ósmio mais Graveto para uma Picareta de Gelo, Graveto mais Apêndice de Tungstênio para Azrael, e Azrael mais Magnetita para a Rapieira de Gavinhas."
+          "name": "O que os jogadores podem aprender antes do lançamento",
+          "description": "Sketchbook responde às perguntas mais importantes pré-lançamento melhor do que os trailers. Ele permite que os jogadores testem se a camada de hacking é satisfatória sob pressão.",
+          "bullets": [
+            "Se o combate com dois personagens parece intuitivo",
+            "Se o hacking baseado em grade permanece legível durante combates em tempo real",
+            "Se o tom, movimento e estilo de combate de PRAGMATA combinam com seu gosto"
+          ]
         }
-      ],
-      "milestones": [
-        "Fundir um item",
-        "Fundir um verme",
-        "Fundir um artefato divino"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Ferramentas e Armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
+    "pragmataStoryExplained": {
+      "title": "História de PRAGMATA Explicada",
+      "displayType": "accordion",
+      "intro": "A história de PRAGMATA começa com uma estação lunar perdida, um material que molda a realidade chamado Lunafilament e uma parceria improvável entre Hugh e Diana. A premissa é fácil de entender em um nível geral, mas deixa muito espaço para mistério.",
       "items": [
         {
-          "name": "Picareta de Gelo",
-          "type": "Ferramenta de Mineração",
-          "description": "Uma picareta inicial rápida e acessível feita de Ósmio e Graveto. Os jogadores a utilizam para acelerar a coleta inicial de materiais."
+          "question": "Qual é a premissa básica de PRAGMATA?",
+          "answer": "No futuro próximo, a humanidade desenvolve o Lunafilament, um material que pode criar quase qualquer coisa, desde que existam os dados corretos. Quando o contato com a estação lunar que o pesquisa é perdido, uma equipe de resposta é enviada, e um enorme terremoto lunar ocorre logo após a chegada deles."
         },
         {
-          "name": "Azrael",
-          "type": "Arma Inicial",
-          "description": "Uma rota prática de arma inicial criada a partir de Graveto e Apêndice de Tungstênio."
+          "question": "Quem são os dois personagens principais em PRAGMATA?",
+          "answer": "Hugh Williams é um membro da equipe de despacho enviada para investigar a instalação lunar. Diana é uma PRAGMATA — um androide único criado usando Lunafilament — e ela se torna a parceira de Hugh enquanto os dois tentam sobreviver na estação e encontrar uma rota de volta para a Terra."
         },
         {
-          "name": "Rapieira de Gavinhas",
-          "type": "Arma Melhorada",
-          "description": "Uma sequência mais forte feita ao combinar Azrael com Magnetita. É um dos caminhos de combate inicial-médio mais úteis compartilhados pelos jogadores."
+          "question": "Por que Diana é tão importante para a história e jogabilidade de PRAGMATA?",
+          "answer": "Diana está ligada diretamente aos sistemas da estação e à ideia central de combate do jogo. Ela pode hackear a armadura dos inimigos para revelar pontos fracos, hackear a própria estação para abrir rotas à frente e atua como o centro emocional do relacionamento entre Hugh e Diana."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de travessia oficial que melhora muito o movimento e a exploração vertical."
+          "question": "Qual é o conflito principal em PRAGMATA?",
+          "answer": "Hugh e Diana estão presos dentro de uma estação de pesquisa lunar hostil, repleta de robôs inimigos e sob a sombra do mistério da IA rebelde IDUS. O objetivo imediato deles é escapar, mas a tensão maior vem de descobrir o que deu errado e como os sistemas da estação se voltaram contra eles."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de movimento oficial que ajuda a percorrer espaços de forma mais segura e eficiente."
-        },
-        {
-          "name": "Varinha de Bola",
-          "type": "Arma Utilitária",
-          "description": "Um item utilitário oficial de longo alcance que expande suas opções de combate e quebra-cabeças."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Travessia",
-          "description": "Um item utilitário oficial para alcançar áreas que, de outra forma, retardariam a exploração."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Oficialmente destacados como parte do conjunto principal de ferramentas e úteis para romper ameaças ou obstáculos."
+          "question": "O que são o Shelter e o Cabin em PRAGMATA?",
+          "answer": "Shelter é o espaço seguro da dupla longe da ação, um lugar que pode continuar a crescer ao longo do jogo. Cabin é o robô assistente prestativo dentro desse espaço, dando à história uma pequena ilha de calor dentro de um ambiente que, de outra forma, seria frio e perigoso."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Armazenamento e Inventário de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
-      "solutions": [
+    "pragmataCharacters": {
+      "title": "Personagens de PRAGMATA",
+      "displayType": "card-list",
+      "intro": "Hugh Williams e Diana são o núcleo da história, do ciclo de combate e do fluxo de exploração de PRAGMATA. Hugh é o sobrevivente humano tentando retornar à Terra após um terremoto lunar separar sua equipe, enquanto Diana é um androide baseado em Lunafilament cujas habilidades de hacking tornam a sobrevivência possível dentro da estação de pesquisa lunar.",
+      "items": [
         {
-          "name": "Cubo de Cache",
-          "role": "Armazenamento Estilo Baú",
-          "description": "Os Cubos de Cache são uma das primeiras respostas práticas de armazenamento e são tratados pelos jogadores como o principal recipiente estilo baú do jogo."
+          "title": "Diana",
+          "tag": "Androide PRAGMATA",
+          "description": "Também conhecida como D-I-0336-7, Diana é uma PRAGMATA criada usando Lunafilament. Ela hackeia a armadura dos inimigos para expor pontos fracos e pode hackear a própria estação lunar para abrir rotas bloqueadas.",
+          "highlights": [
+            "Androide único criado usando Lunafilament",
+            "Pode hackear robôs inimigos e a própria instalação",
+            "Curiosa, aprende rápido e é profundamente apegada ao nome que Hugh lhe dá"
+          ]
         },
         {
-          "name": "Armário",
-          "role": "Armazenamento Simples de Base",
-          "description": "Armários são outra opção de armazenamento confirmada. Uma receita inicial compartilhada usa 1 Madeira Cortada e 1 Corda."
+          "title": "Hugh Williams",
+          "tag": "Especialista em Segurança",
+          "description": "Hugh é um membro da equipe de despacho enviada para investigar a instalação lunar. Habilidoso com uma ampla gama de armas de fogo, ele também usa os propulsores de seu traje para se mover pela estação.",
+          "highlights": [
+            "Separado de sua equipe após um enorme terremoto lunar",
+            "Proficiente com várias armas de fogo e mobilidade baseada no traje",
+            "Ríspido e sarcástico na superfície, mas genuinamente bondoso"
+          ]
         },
         {
-          "name": "Qualia Pessoal",
-          "role": "Central de Armazenamento de Longo Prazo",
-          "description": "Uma vez desbloqueada, sua Qualia pessoal torna-se um lugar natural para organizar materiais, criar em paz e expandir sua base."
-        },
-        {
-          "name": "Rastreamento pelo Diário",
-          "role": "Eficiência de Inventário",
-          "description": "Registrar combinações úteis em seu diário reduz o desperdício de materiais e facilita muito o gerenciamento do inventário."
+          "title": "Por que a Dupla é Importante",
+          "tag": "Combate e História",
+          "description": "A configuração de dois protagonistas de PRAGMATA não é cosmética. Diana cria aberturas ao hackear armaduras, sistemas e portas, enquanto Hugh transforma essas aberturas em progresso com armas, mobilidade e sobrevivência em campo.",
+          "highlights": [
+            "Diana controla o acesso e a vulnerabilidade dos inimigos",
+            "Hugh fornece dano, movimento e ação na linha de frente",
+            "Ambos os personagens são necessários para o combate, travessia e progressão narrativa"
+          ]
         }
-      ],
-      "managementTips": [
-        "Priorize uma opção de armazenamento confiável antes de acumular itens raros.",
-        "Construa ao redor de sua Qualia pessoal assim que ela estiver disponível.",
-        "Mantenha materiais de criação, ferramentas de combate e equipamentos de movimento separados para que as melhorias sejam mais fáceis de planejar.",
-        "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia e Construção de Base em Lucid Blocks",
+    "pragmataCombatAndHacking": {
+      "title": "Combate e Hacking em PRAGMATA",
+      "displayType": "step-by-step",
+      "intro": "Tiros comuns não são suficientes contra robôs blindados, então cada encontro importante começa com hacking. Hugh trava a mira em um alvo, Diana abre um Painel de Hacking em estilo de grade, e o jogador desenha um caminho contínuo para acionar o hack. Escolha de armas, quebra de escudos, Nós de Hacking e melhorias no Shelter transformam cada luta em um ritmo de preparação, exposição e recompensa.",
+      "steps": [
+        {
+          "title": "Trave a mira e acione o Painel de Hacking da Diana",
+          "description": "Quando Hugh trava a mira em um inimigo, Diana abre um painel baseado em grade. Desenhar uma linha contínua através dos quadrados azuis completa o hack.",
+          "highlights": [
+            "Um hack bem-sucedido causa dano e compromete temporariamente a armadura do inimigo",
+            "Caminhos mais longos aumentam o dano e mantêm a armadura desativada por mais tempo",
+            "A grade se conecta em sequência — planeje seu caminho antes de confirmar"
+          ]
+        },
+        {
+          "title": "Puna os pontos fracos expostos com as armas de Hugh",
+          "description": "Assim que Diana expõe o alvo, Hugh muda da preparação para o dano. O ciclo de combate recompensa transformar um hack limpo em pressão imediata com armas de fogo.",
+          "highlights": [
+            "Hugh usa vários tipos de armas adequadas para diferentes cenários",
+            "A Unidade Primária é a arma de reserva constante",
+            "As opções Tática e de Ataque são destinadas a combos e finalizações explosivas"
+          ]
+        },
+        {
+          "title": "Leia o contra-ataque inimigo antes de se comprometer",
+          "description": "O hacking nunca é gratuito. Alguns inimigos pressionam você enquanto o painel está aberto, forçando-o a escolher entre um hack melhor ou uma esquiva rápida.",
+          "highlights": [
+            "Barreiras de escudo vermelhas bloqueiam o hacking de Diana inteiramente",
+            "Esses escudos devem ser quebrados primeiro com a arma de Hugh",
+            "Alguns mísseis guiados podem ser hackeados e redirecionados de volta para os inimigos"
+          ]
+        },
+        {
+          "title": "Use armas especializadas para controle tático",
+          "description": "Diferentes armas suportam diferentes fases do encontro e tornam a janela de hack mais segura ou recompensadora.",
+          "highlights": [
+            "A Unidade Tática pode imobilizar inimigos durante a preparação",
+            "A Unidade de Ataque se destaca em dano de finalização a curta distância",
+            "A Unidade de Defesa pode atrair inimigos para longe e criar espaço para respirar"
+          ]
+        },
+        {
+          "title": "Potencialize os hacks com Nós de Hacking",
+          "description": "Se Diana estiver carregando um Nó de Hacking, blocos amarelos aparecem no painel. Conectá-los ativa efeitos extras e adiciona mais opções táticas a cada hack bem-sucedido.",
+          "highlights": [
+            "Decode diminui a defesa do inimigo para facilitar o acompanhamento",
+            "Multi-Hack espalha o efeito para alvos próximos simultaneamente",
+            "Cada ativação consome um Nó de Hacking"
+          ]
+        },
+        {
+          "title": "Retorne ao Shelter para melhorar o ciclo",
+          "description": "O Shelter é o centro de recuperação e melhoria. Ele permite que você se cure, gaste o Lunafilament coletado e melhore tanto as ferramentas de combate quanto a eficiência do hacking.",
+          "highlights": [
+            "Melhore armas e expanda suas opções de Nós de Hacking",
+            "Carregue mais nós para maior flexibilidade nas lutas",
+            "Desbloqueie habilidades como Critical Down para sequências após derrubadas"
+          ]
+        }
+      ]
+    },
+    "pragmataPlatformsAndEditions": {
+      "title": "Plataformas e Edições de PRAGMATA",
+      "displayType": "table",
+      "intro": "Se você está decidindo onde comprar PRAGMATA, as principais questões são em qual plataforma você joga, quais recursos a versão da loja suporta e se você deseja o Shelter Variety Pack extra. O preço padrão é definido em 59,99 USD, enquanto a Deluxe custa 69,99 USD.",
+      "rows": [
+        {
+          "platform": "PlayStation 5",
+          "availability": "Pré-venda disponível, lançamento em 17 de abril de 2026",
+          "editions": "Padrão $59,99 / Deluxe $69,99",
+          "highlights": [
+            "Aprimorado para PS5 Pro",
+            "Suporte a vibração e efeitos de gatilho do DualSense",
+            "Suporte a Remote Play e Ajuda do Jogo"
+          ]
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "availability": "Pré-venda disponível",
+          "editions": "Padrão $59,99+ / Deluxe $69,99+",
+          "highlights": [
+            "4K Ultra HD, HDR10, Ray Tracing, 60 fps+",
+            "Som Espacial, Dolby Atmos e DTS:X",
+            "Ray tracing não suportado no Xbox Series S"
+          ]
+        },
+        {
+          "platform": "PC via Steam",
+          "availability": "Chegando em 16 de abril de 2026",
+          "editions": "Pré-venda Padrão $59,99 / Deluxe $69,99",
+          "highlights": [
+            "Um jogador, Conquistas Steam e Nuvem",
+            "HDR disponível e Compartilhamento Familiar listado",
+            "Bônus Early Bird apresentado separadamente no Steam"
+          ]
+        },
+        {
+          "platform": "Edição Padrão",
+          "availability": "Todas as plataformas — lojas digitais",
+          "editions": "Jogo base completo",
+          "highlights": [
+            "PS5 e Xbox incluem o Conjunto de Trajes de Hugh & Diana durante a janela de bônus ativa",
+            "Steam apresenta o bônus de traje como Bônus Early Bird",
+            "Experiência de jogo completa sem conteúdo removido"
+          ]
+        },
+        {
+          "platform": "Edição Deluxe",
+          "availability": "Lojas digitais de console e PC",
+          "editions": "Jogo base + Shelter Variety Pack",
+          "highlights": [
+            "Shelter Variety Pack: trajes extras, skin de arma, faixas de trilha sonora",
+            "Gestos de Diana e artes inclusos",
+            "Conjunto de Trajes de Hugh & Diana também exibido nas lojas de console"
+          ]
+        }
+      ]
+    },
+    "pragmataPreOrderBonus": {
+      "title": "Bônus de Pré-venda de PRAGMATA",
+      "displayType": "card-list",
+      "intro": "O conteúdo de bônus é focado em um par de trajes combinando para Hugh e Diana. As páginas da loja descrevem o conjunto como trajes inspirados em samurais e ninjas do Período Sengoku, e a redação é consistente em todas as listagens oficiais: Neo Bushido para Hugh e Neo Kunoichi para Diana.",
+      "items": [
+        {
+          "title": "Itens de Bônus",
+          "tag": "Conjunto de Trajes",
+          "description": "O Bônus Early Bird contém dois trajes: Traje de Hugh — Neo Bushido e Traje de Diana — Neo Kunoichi.",
+          "highlights": [
+            "Conjunto cosmético de dois personagens aplica-se a ambos os protagonistas",
+            "Recompensa de traje temático sem impacto na jogabilidade",
+            "Listado consistentemente em todas as lojas"
+          ]
+        },
+        {
+          "title": "Tema e Estilo",
+          "tag": "Inspirado em Sengoku",
+          "description": "As páginas oficiais da loja descrevem a recompensa como trajes inspirados em samurais e ninjas do Período Sengoku.",
+          "highlights": [
+            "Neo Bushido é o traje estilo samurai de Hugh",
+            "Neo Kunoichi é o traje estilo ninja de Diana",
+            "Projetado como um conjunto visual pareado para ambos os personagens"
+          ]
+        },
+        {
+          "title": "Janela de Disponibilidade",
+          "tag": "Período Early Bird",
+          "description": "Após o lançamento ser antecipado, o bônus de pré-venda digital tornou-se um Bônus Early Bird. O PlayStation o lista até 23 de abril de 2026, enquanto o Steam mostra horários de encerramento equivalentes por região.",
+          "highlights": [
+            "Encerramento no Steam: 23 de abril de 2026 às 23:59 EDT",
+            "PlayStation Store: até 23 de abril de 2026 às 23:59",
+            "A loja Xbox mostra o conjunto de trajes incluído nas edições de pré-venda"
+          ]
+        },
+        {
+          "title": "O que a Deluxe Adiciona Além do Bônus",
+          "tag": "Upgrade Deluxe",
+          "description": "O conjunto de trajes não é toda a oferta Deluxe. A Deluxe também inclui o Shelter Variety Pack com trajes extras, uma skin de arma, faixas de música do Shelter, gestos de Diana e artes.",
+          "highlights": [
+            "A Padrão foca no jogo base e no bônus de compra antecipada ativo",
+            "A Deluxe adiciona o Shelter Variety Pack por cima",
+            "Vale a pena considerar se você deseja extras cosméticos e do Shelter"
+          ]
+        }
+      ]
+    },
+    "pragmataDeluxeEdition": {
+      "title": "Pragmata Edição Standard vs Deluxe",
+      "eyebrow": "Edições",
+      "intro": "Pragmata está listado a $59,99 para a Standard e $69,99 para a Deluxe. O upgrade Deluxe foca no Shelter Variety Pack: trajes cosméticos, uma skin de arma, faixas de trilha sonora, gestos e artes. Ambas as edições incluem o jogo base completo.",
+      "headers": {
+        "feature": "Recurso",
+        "standard": "Standard — $59,99",
+        "deluxe": "Deluxe — $69,99"
+      },
+      "rows": [
+        {
+          "feature": "Jogo base",
+          "standard": "Incluso",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Shelter Variety Pack",
+          "standard": "Não incluso",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Trajes do Hugh (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Heavy Lifter e Lunar Cat"
+        },
+        {
+          "feature": "Trajes da Diana (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Mecha Builder e Fluffy"
+        },
+        {
+          "feature": "Skin de Arma (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Grip Gun DS"
+        },
+        {
+          "feature": "Faixas de BGM (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (Jazz)"
+        },
+        {
+          "feature": "Gestos da Diana (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Drowsy, Pumped Up, Stepping"
+        },
+        {
+          "feature": "Artes da Biblioteca de Dados (apenas Deluxe)",
+          "standard": "—",
+          "deluxe": "Incluso"
+        },
+        {
+          "feature": "Bônus de compra antecipada (ambas as edições)",
+          "standard": "Trajes Neo Bushido + Neo Kunoichi até 23 de abril de 2026",
+          "deluxe": "Trajes Neo Bushido + Neo Kunoichi até 23 de abril de 2026"
+        }
+      ]
+    },
+    "pragmataSystemRequirements": {
+      "title": "Requisitos de Sistema de Pragmata para PC",
+      "eyebrow": "Especificações de PC",
+      "intro": "Pragmata requer Windows 11, 16 GB de RAM, DirectX 12 e 40 GB de armazenamento em ambos os níveis. A especificação recomendada visa 1080p a 60 fps na predefinição Equilibrada. O Ray tracing requer uma GPU de ponta listada abaixo.",
+      "headers": {
+        "spec": "Especificação",
+        "minimum": "Mínimo",
+        "recommended": "Recomendado"
+      },
+      "rows": [
+        {
+          "spec": "SO",
+          "minimum": "Windows 11 (64 bits)",
+          "recommended": "Windows 11 (64 bits)"
+        },
+        {
+          "spec": "Processador",
+          "minimum": "Intel Core i5-8500 ou AMD Ryzen 5 3500",
+          "recommended": "Intel Core i7-8700 ou AMD Ryzen 5 5500"
+        },
+        {
+          "spec": "Memória",
+          "minimum": "16 GB de RAM",
+          "recommended": "16 GB de RAM"
+        },
+        {
+          "spec": "Placa de Vídeo",
+          "minimum": "NVIDIA GTX 1660 6 GB ou AMD RX 5500 XT 8 GB",
+          "recommended": "NVIDIA RTX 2060 Super 8 GB ou AMD RX 6600 8 GB"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "Versão 12",
+          "recommended": "Versão 12"
+        },
+        {
+          "spec": "Armazenamento",
+          "minimum": "40 GB (SSD recomendado)",
+          "recommended": "40 GB (SSD recomendado)"
+        },
+        {
+          "spec": "Meta de desempenho",
+          "minimum": "~1080p a 45 fps (Predefinição de Desempenho)",
+          "recommended": "~1080p a 60 fps (Predefinição Equilibrada)"
+        },
+        {
+          "spec": "GPU para Ray tracing",
+          "minimum": "Não necessário no nível mínimo",
+          "recommended": "AMD RX 6700 XT 12 GB ou NVIDIA RTX 3060 12 GB"
+        },
+        {
+          "spec": "Rede",
+          "minimum": "Conexão de internet banda larga",
+          "recommended": "Conexão de internet banda larga"
+        }
+      ]
+    },
+    "pragmataWeaponsAndLoadouts": {
+      "title": "Armas, Unidades e Opções de Loadout de PRAGMATA",
+      "eyebrow": "Guia de Combate",
+      "intro": "O combate de PRAGMATA é construído em torno das armas de Hugh e dos nós de hacking de Diana trabalhando juntos em tempo real. Múltiplas funções de armas, ferramentas trocáveis e mudanças de loadout baseadas em hubs incentivam estilos de jogo distintos.",
+      "items": [
+        {
+          "category": "Unidade Primária",
+          "role": "Arma de Fogo Principal",
+          "description": "A única arma que permanece com Hugh independentemente da munição. Todas as outras armas especiais quebram quando esgotadas. Sua Unidade Primária é o recurso de reserva para cada encontro.",
+          "icon": "Target"
+        },
+        {
+          "category": "Unidade de Ataque",
+          "role": "Acompanhamento de Alto Dano",
+          "description": "Usada para finalizar inimigos a curta distância após um hack expor pontos fracos. As opções incluem uma espingarda para rajadas de curto alcance e a arma de trilho Charge Piercer para maior alcance.",
+          "icon": "Zap"
+        },
+        {
+          "category": "Unidade Tática",
+          "role": "Controle e Imobilização de Multidões",
+          "description": "Prende, retarda ou derruba inimigos para que você possa completar hacks com segurança. A Stasis Net imobiliza alvos; o Riot Blaster dispara rajadas concussivas que derrubam os inimigos.",
+          "icon": "Shield"
+        },
+        {
+          "category": "Unidade de Defesa",
+          "role": "Isca e Redirecionamento de Agressividade",
+          "description": "Atrai a atenção dos inimigos para longe de Hugh ou redireciona a pressão. Um Gerador de Isca envia inimigos para rotas seguras ou armadilhas ambientais, abrindo janelas de hacking sem sofrer disparos.",
+          "icon": "Bot"
+        },
+        {
+          "category": "Nós de Hacking da Diana",
+          "role": "Kit de Ferramentas de Hack",
+          "description": "Decode reduz a defesa do inimigo, Multi-Hack espalha o efeito para alvos próximos e Critical Down permite derrubar inimigos enfraquecidos para um acompanhamento corpo a corpo. A escolha do nó molda cada luta.",
+          "icon": "Cpu"
+        },
+        {
+          "category": "Gerenciamento de Loadout",
+          "role": "Estratégia de Hub",
+          "description": "Pontos de salvamento permitem que você retorne ao Shelter para trocar seu loadout entre os encontros. Upgrades podem desbloquear novas habilidades, adicionar slots de modificação e fortalecer o kit de ferramentas de Hugh ou Diana.",
+          "icon": "Settings"
+        }
+      ]
+    },
+    "pragmataEnemiesAndBosses": {
+      "title": "Tipos de Inimigos e Padrões de Lutas de Chefes de PRAGMATA",
+      "eyebrow": "Guia de Inimigos",
+      "intro": "Os inimigos de PRAGMATA são projetados para interromper seu ritmo de combate. Robôs com escudo forçam o uso de armas antes do hacking, robôs de mísseis adicionam pressão durante os hacks e chefes colossais transformam o ciclo em uma troca tática mais longa.",
+      "enemies": [
+        {
+          "title": "Inimigos de Campo Padrão",
+          "summary": "Caminhantes humanoides, robôs tipo mecha e drones voadores estabelecem a base normal de combate: hackear para expor a armadura e depois atirar nos pontos fracos.",
+          "details": [
+            "Estabelece o fluxo normal de hacking para expor a armadura e depois atirar nos pontos fracos.",
+            "Inimigos mais comuns ligados a decisões de função de arma e gerenciamento de munição.",
+            "Múltiplos tipos de unidades ativos ao mesmo tempo exigem hacking curto e direcionado."
+          ],
+          "lesson": "Concentre-se na prioridade do alvo e mantenha os hacks curtos quando várias unidades estiverem ativas."
+        },
+        {
+          "title": "Robôs com Escudo e Baseados em Mísseis",
+          "summary": "Robôs de barreira vermelha bloqueiam o hacking de Diana até que Hugh quebre o escudo primeiro. Robôs de mísseis adicionam pressão durante o hacking e podem ser redirecionados de volta aos alvos com um hack bem cronometrado.",
+          "details": [
+            "Barreiras vermelhas forçam a mudança do hacking de volta para o combate com armas antes que Diana possa agir.",
+            "Robôs de mísseis criam pressão enquanto você desenha rotas no Painel de Hacking.",
+            "Um hack de míssil bem-sucedido transforma o fogo recebido em um contra-ataque."
+          ],
+          "lesson": "A quebra de escudo ou o controle de projéteis geralmente vem antes do hacking nesses encontros."
+        },
+        {
+          "title": "Inimigos Disruptivos Avançados",
+          "summary": "Robôs mais rápidos com janelas de quebra-cabeça de hacking mais amplas e módulos disruptores de hacking que interferem diretamente na capacidade de Diana de completar conexões.",
+          "details": [
+            "Movem-se mais rápido e usam padrões de ataque que tornam as lutas contra vários alvos mais frenéticas.",
+            "Alguns são projetados para interferir no hacking em vez de simplesmente absorver dano.",
+            "A escolha do nó e as ferramentas de controle de multidão tornam-se mais importantes do que o poder de fogo bruto aqui."
+          ],
+          "lesson": "Traga ferramentas de controle e escolha os nós de hacking antes de tratar essas lutas como as batalhas iniciais da demo."
+        },
+        {
+          "title": "Inimigos de Classe Oddity",
+          "summary": "Designs estranhos, incluindo inimigos em forma de roda e um robô rastejante gigante com um rosto de bebê que se abre para disparar lasers. Formas incomuns fazem com que o espaçamento e o tempo pareçam diferentes.",
+          "details": [
+            "Inimigos visualmente distintos que levam a identidade do combate além dos drones e caminhantes padrão.",
+            "Formas corporais incomuns mudam o espaçamento e o tempo de acerto em comparação com robôs normais.",
+            "Sinalizam que o design dos inimigos continua evoluindo em vez de se estabilizar em um único padrão de combate."
+          ],
+          "lesson": "As silhuetas dos inimigos importam tanto quanto seu dano nessas lutas."
+        },
+        {
+          "title": "Encontros com Chefes Colossais",
+          "summary": "Chefes massivos com ataques de área de efeito, múltiplas camadas de escudo e escala do tamanho de prédios. Um chefe confirmado se assemelha a uma formiga musculosa com rosto de louva-a-deus e um ataque de pescoço esmagador.",
+          "details": [
+            "Os chefes usam a mesma base de hackear e atirar, mas a estendem por um encontro mais longo.",
+            "Múltiplos escudos forçam transições repetidas entre quebra de escudo, hacking e ataque.",
+            "O progresso do hack é preservado quando você se afasta para esquivar, mudando o ritmo da luta."
+          ],
+          "lesson": "Os chefes recompensam a paciência, o progresso parcial e as transições limpas entre sobrevivência, hacking e dano explosivo."
+        }
+      ]
+    },
+    "pragmataShelterAndUpgrades": {
+      "eyebrow": "Sistemas de Base",
+      "title": "Pragmata Shelter e Upgrades",
       "displayType": "cards",
-      "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
+      "intro": "PRAGMATA trata o Shelter como mais do que uma sala de pausa. É o lugar onde Hugh e Diana transformam descobertas em opções de combate permanentes, encontram o robô de suporte Cabin e partem de volta para partes desbloqueadas da estação através da rede de Tram e Escotilhas de Fuga.",
       "cards": [
         {
-          "name": "Qualia Pessoal",
-          "description": "Desbloquear uma Qualia é um marco inicial que oferece um lugar mais confiável para retornar enquanto explora o mundo mais amplo."
+          "name": "Impressoras 3D",
+          "description": "Armas e Nós de Hacking que você descobre em campo tornam-se desbloqueáveis nas impressoras 3D do Shelter. Transforma descobertas de campo em melhorias persistentes que abrangem tanto armas quanto Nós de Hacking."
         },
         {
-          "name": "Construção Focada em Armazenamento",
-          "description": "Muitos jogadores começam a usar sua Qualia como um centro de armazenamento antes de transformá-la em uma base maior com espaço organizado para criação e construção."
+          "name": "Upgrades de Equipamento",
+          "description": "O Shelter é onde Hugh e Diana fortalecem sua configuração de combate para inimigos mais difíceis nas profundezas da instalação lunar. Use o hub para refinar seu próximo equipamento entre as incursões."
         },
         {
-          "name": "Construção Criativa de Lares",
-          "description": "Lucid Blocks suporta construção criativa, e os jogadores já estão usando espaços de Qualia para criar casas e layouts personalizados."
+          "name": "Cabin",
+          "description": "Cabin é um robô de suporte independente estacionado no Shelter e conectado ao sistema CABIN mais amplo. Uma presença de suporte amigável dentro da base, separada dos sistemas hostis que controlam a estação."
         },
         {
-          "name": "Central de Progressão",
-          "description": "Uma base sólida ajuda a separar saques de exploração, materiais de criação, sementes, ferramentas e equipamentos de mobilidade para que seus próximos upgrades sejam mais fáceis de planejar."
-        }
-      ],
-      "highlights": [
-        "Entrar em uma qualia",
-        "Armazenar materiais com segurança",
-        "Expandir da utilidade para a decoração",
-        "Usar o espaço da base para apoiar a criação e o cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiões do Mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área Notada pela Comunidade",
-          "description": "Fog Meadow já é conhecida entre os jogadores como uma área tensa associada a ameaças ocultas e encontros perigosos."
+          "name": "Escotilhas de Fuga",
+          "description": "As Escotilhas de Fuga são pontos de retorno desbloqueáveis que vinculam a exploração de volta ao Shelter. Desbloqueie-as conforme avança pela estação e elas permanecerão disponíveis como rotas rápidas permanentes."
         },
         {
-          "name": "Linha de Ley Tiamana",
-          "type": "Marco de Descoberta",
-          "description": "A linha de ley tiamana é importante o suficiente para ter seu próprio marco de conquista, tornando-a uma das descobertas de mundo nomeadas mais claras até agora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espaço de Construção",
-          "description": "Os jogadores já estão usando Clonaqualia como um lugar para construir casas, armazenar materiais e experimentar layouts mais permanentes."
-        },
-        {
-          "name": "Pântano de Essência",
-          "type": "Área de Cultivo",
-          "description": "O Pântano de Essência está sendo compartilhado pelos jogadores como um local de cultivo útil, especialmente para lutar contra slimes e ganhar experiência."
+          "name": "O Tram",
+          "description": "O Tram é o elo de viagem do Shelter com a estação mais ampla, permitindo que os jogadores movam-se de volta para as Escotilhas de Fuga desbloqueadas. Faz com que o retorno e a reentrada façam parte do ciclo de exploração."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas e Inimigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
-      "creatures": [
+    "pragmataExplorationAndTraversal": {
+      "eyebrow": "Travessia",
+      "title": "Exploração e Travessia em Pragmata",
+      "displayType": "steps",
+      "intro": "A estação de pesquisa lunar foi projetada como um espaço em camadas que se abre através do trabalho em equipe. Hugh fornece velocidade e movimento, Diana abre rotas bloqueadas através de hacking, e a rede do Shelter vincula cada avanço a um ciclo de exploração maior.",
+      "steps": [
         {
-          "name": "Manequins",
-          "role": "Inimigo Hostil",
-          "description": "Os Manequins são um dos inimigos oficialmente nomeados no mundo e fazem parte do elenco de ameaças surreais do jogo."
+          "title": "Use os Propulsores de Hugh para se Mover Rápido",
+          "description": "O traje de Hugh permite que ele atravesse a instalação com movimento assistido por propulsores, tornando a mobilidade uma parte central da exploração, em vez de uma caminhada passiva entre as lutas."
         },
         {
-          "name": "Géis Macios",
-          "role": "Inimigo Hostil",
-          "description": "Géis macios são outro tipo de inimigo oficialmente nomeado e ajudam a definir o estilo biológico estranho do jogo."
+          "title": "Deixe Diana Hackear a Estação",
+          "description": "Diana não apenas hackeia inimigos. Ela também pode invadir os sistemas de segurança da estação para desbloquear portas e liberar caminhos bloqueados à frente."
         },
         {
-          "name": "Seres de Dimensões Superiores",
-          "role": "Inimigo Hostil",
-          "description": "Esses seres são apresentados como parte da linha de inimigos mais abstrata e perturbadora do mundo."
+          "title": "Leia a Estação como um Espaço de Múltiplas Camadas",
+          "description": "A instalação é estruturada para recompensar o movimento, a abertura de caminhos e a revisitação de rotas com ferramentas melhores, em vez de uma simples progressão por corredores."
         },
         {
-          "name": "Aranhas Colossais",
-          "role": "Grande Ameaça",
-          "description": "As aranhas são um dos inimigos mais temidos imediatamente em discussões da comunidade e são claramente um perigo memorável."
+          "title": "Desbloqueie Escotilhas de Fuga pelo Caminho",
+          "description": "As Escotilhas de Fuga tornam-se âncoras de rota fundamentais conforme você explora. Elas conectam seu progresso externo de volta ao Shelter assim que são desbloqueadas."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura Nomeada",
-          "description": "__PROTECTED_26ee183b__ é notável o suficiente para ter sua própria conquista, o que o torna um dos encontros com criaturas nomeadas mais claros do jogo."
+          "title": "Retorne via Tram",
+          "description": "A partir do Shelter, o Tram permite que Hugh e Diana viajem de volta para as Escotilhas de Fuga desbloqueadas, transformando a exploração em um ciclo de hub-and-spoke mais amplo por toda a estação."
         },
         {
-          "name": "Vermes Fofos",
-          "role": "Criatura Interagível",
-          "description": "Os vermes não fazem apenas parte da progressão de fusão, eles também podem ser renomeados, ganhando um papel mais pessoal do que os inimigos padrão."
-        },
-        {
-          "name": "Criatura Blasfema",
-          "role": "Ameaça de Elite",
-          "description": "A criatura blasfema está ligada a uma conquista de combate dedicada, marcando-a como um encontro de inimigo significativo."
+          "title": "Esteja Pronto para Robôs Inimigos",
+          "description": "Mesmo quando a estação parece vazia, robôs hostis continuam fazendo parte do ritmo de travessia, de modo que o movimento, o trajeto e a prontidão para o combate permanecem estreitamente ligados."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipamento de Mobilidade de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Travessia",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e possui sua própria conquista dedicada."
-        },
-        {
-          "name": "Luva Planadora",
-          "type": "Mobilidade Aérea",
-          "description": "A luva planadora permite viagens muito mais suaves e é outro marco importante de progressão com sua própria conquista."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Travessia",
-          "description": "Os planadores de abelha são oficialmente destacados como parte do kit de ferramentas de movimento do jogo para percorrer espaços de forma mais eficiente."
-        },
-        {
-          "name": "Varinha de Bola",
-          "type": "Equipamento Utilitário",
-          "description": "As varinhas de bola são uma das ferramentas especiais oficialmente destacadas e expandem a forma como você se move ou interage com o mundo."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Exploração",
-          "description": "O equipamento de mergulho está oficialmente listado como parte do conjunto utilitário principal para alcançar áreas que seriam mais difíceis de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Os explosivos são oficialmente destacados e vinculados a um marco de conquista, tornando-os parte da progressão utilitária principal do jogo."
-        }
-      ],
-      "unlockMilestones": [
-        "Comandar um gancho",
-        "Voar com a luva planadora",
-        "Empunhar uma varinha de projéteis",
-        "Empunhar um explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
-      "sections": [
-        {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
-        },
-        {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
-        },
-        {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
-        },
-        {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
-      "priorities": [
-        {
-          "name": "Qualia Pessoal",
-          "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
-        },
-        {
-          "name": "Picareta de Gelo",
-          "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
-        },
-        {
-          "name": "Cubo de Cache",
-          "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
-        },
-        {
-          "name": "Luva Planadora",
-          "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
-        },
-        {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
-      "groups": [
-        {
-          "name": "Exploração",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
-            }
-          ]
-        },
-        {
-          "name": "Criação e Invocação",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
-            }
-          ]
-        },
-        {
-          "name": "Mobilidade e Utilidade",
-          "achievements": [
-            {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
-            },
-            {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
-        },
-        {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
+    "pragmataDemoSecretsAndEndings": {
+      "eyebrow": "Demo",
+      "title": "Segredos e Finais da Demo de Pragmata",
       "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
+      "intro": "A Sketchbook Demo já é útil como uma amostra de combate, mas seu maior atrativo é o valor de replay. PRAGMATA a utiliza para introduzir a travessia, mostrar o ciclo de hacking e tiro, e recompensar os jogadores que a revisitam mais de uma vez.",
       "faqs": [
         {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
+          "question": "O que é a Pragmata Sketchbook Demo?",
+          "answer": "PRAGMATA Sketchbook - DEMO é uma demo gratuita de PS5 para o jogo. Ela está listada como uma demo de ação para um jogador com jogo offline ativado, suporte a Remote Play, suporte a PS5 Pro Enhanced e suporte a Ajuda do Jogo."
         },
         {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
+          "question": "Por que os jogadores devem jogar a demo de Pragmata novamente?",
+          "answer": "O Xbox Wire diz explicitamente que a demo de Pragmata deve ser concluída várias vezes para descobrir seus segredos e finais diferentes, tornando o replay parte da experiência pretendida, em vez de uma tarefa opcional."
         },
         {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
+          "question": "O que a demo de Pragmata realmente abrange?",
+          "answer": "A demo foi projetada para ensinar o ciclo de combate característico de PRAGMATA, onde o hacking de Diana e os tiros de Hugh trabalham juntos. Ela também permite que os jogadores experimentem a travessia pela estação de pesquisa lunar."
         },
         {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
-        },
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
-        },
-        {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
-        },
-        {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
-        },
-        {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "question": "Quais detalhes de plataforma e idioma estão disponíveis para a demo de Pragmata?",
+          "answer": "Na PlayStation Store, a demo de Pragmata está listada para PS5 com suporte a vozes em inglês e japonês, lançada em 5 de fevereiro de 2026. A página da loja mostra uma média de 4,66 de 5 baseada em 7.858 avaliações."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
-        },
-        {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
-        },
-        {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
-        {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
-        },
-        {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
-        },
-        {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
-        },
-        {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
+    "pragmataTrailersAndNews": {
+      "eyebrow": "Linha do Tempo da Mídia",
+      "title": "Trailers e Notícias de Pragmata",
       "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
+      "intro": "Esta linha do tempo reúne os principais marcos oficiais que mais importam para os jogadores que chegam ao jogo mais tarde. Ela organiza os trailers importantes de PRAGMATA em ordem e mostra o que cada um acrescentou à imagem pública do jogo.",
       "entries": [
         {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
+          "title": "Trailer de Primeiro Contato — Junho de 2025",
+          "type": "Reintrodução",
+          "description": "Capcom reintroduziu PRAGMATA com um olhar mais claro sobre Hugh, Diana, a estação lunar e a proposta de ação e estratégia dois-em-um do jogo, enquanto estreitava a janela de lançamento para 2026."
         },
         {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
+          "title": "Trailer de Pré-venda — Dezembro de 2025",
+          "type": "Lançamento da Pré-venda",
+          "description": "As pré-vendas foram abertas e o jogo foi datado publicamente para 24 de abril de 2026. Este marco também impulsionou a divulgação pública mais ampla em torno da demo Sketchbook."
         },
         {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
-        {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
+          "title": "Trailer Principal — 5 de março de 2026",
+          "type": "Trailer Completo",
+          "description": "O trailer mais recente de PRAGMATA adicionou novas imagens de inimigos, novas áreas da estação, detalhes do Shelter e Cabin, enquanto antecipou o lançamento em uma semana, de 24 de abril para 17 de abril de 2026."
         },
         {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
-        },
-        {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
-        },
-        {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
-        },
-        {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
+          "title": "Data de Lançamento — 17 de abril de 2026",
+          "type": "Lançamento",
+          "description": "17 de abril de 2026 é agora a meta de lançamento ao vivo apresentada nos materiais promocionais oficiais mais recentes de PRAGMATA em todas as plataformas."
         }
       ]
     }
   },
   "faq": {
-    "title": "Perguntas",
-    "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Lucid Blocks",
+    "title": "Perguntas Frequentes",
+    "titleHighlight": "Perguntas",
+    "subtitle": "Tudo o que você precisa saber sobre Pragmata antes do lançamento",
     "questions": [
       {
-        "question": "O Lucid Blocks é um jogo singleplayer?",
-        "answer": "Sim. Lucid Blocks é um jogo exclusivamente singleplayer, sem planos para multiplayer ou co-op."
+        "question": "Que tipo de jogo é Pragmata?",
+        "answer": "Pragmata é um jogo de ação e aventura de ficção científica para um jogador desenvolvido pela Capcom. Ele apresenta tiro em terceira pessoa combinado com um sistema de hacking baseado em grade em tempo real controlado pela companheira de IA Diana."
       },
       {
-        "question": "O que é o sistema Apotheosis em Lucid Blocks?",
-        "answer": "Apotheosis é o sistema de criação por fusão de forma livre do Lucid Blocks. Em vez de seguir receitas fixas, você combina materiais e descobre seus próprios caminhos de criação."
+        "question": "Quando Pragmata será lançado?",
+        "answer": "Pragmata será lançado em 17 de abril de 2026 no site oficial da Capcom e no PlayStation. Steam mostra 16 de abril de 2026 em sua página da loja, refletindo uma janela global de lançamento no mesmo dia."
       },
       {
-        "question": "Onde posso jogar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponível atualmente no Steam para Windows. O suporte para Linux e Steam Deck está disponível através do Proton 9.0."
+        "question": "Para quais plataformas Pragmata será lançado?",
+        "answer": "Pragmata será lançado para PlayStation 5, Xbox Series X, Xbox Series S, Steam (PC) e Nintendo Switch 2. Todas as quatro plataformas receberão o jogo em abril de 2026."
       },
       {
-        "question": "Quanto custa o Lucid Blocks?",
-        "answer": "O Lucid Blocks custa US$ 9,99 no Steam."
+        "question": "Existe uma demo gratuita de Pragmata disponível?",
+        "answer": "Sim. A demo Pragmata Sketchbook é gratuita para baixar no PS5, Xbox Series X, Xbox Series S e Steam. Ela inclui seções de combate em tempo real, hacking e travessia da estação de pesquisa lunar."
       },
       {
-        "question": "O Lucid Blocks tem suporte para controles?",
-        "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso. Teclado e mouse são a opção mais fluida."
+        "question": "Quem são os personagens principais de Pragmata?",
+        "answer": "Hugh Williams é o protagonista jogável, um membro da equipe enviada para investigar a instalação lunar perdida. Diana é uma androide de PRAGMATA que se torna sua parceira e gerencia o sistema de hacking do jogo."
       },
       {
-        "question": "O Lucid Blocks receberá atualizações?",
-        "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
+        "question": "Quais são os requisitos de sistema para Pragmata no PC?",
+        "answer": "Pragmata requer Windows 11 (64 bits) e aproximadamente 40 GB de armazenamento. As especificações completas mínimas e recomendadas de GPU e CPU estão listadas na página oficial da loja no Steam."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
+    "title": "Pronto para explorar PRAGMATA?",
+    "description": "Junte-se à comunidade de PRAGMATA no Discord para guias, atualizações e discussões sobre a aventura de ficção científica de hack-and-shoot!",
     "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "joinGame": "Jogar no Steam"
   },
   "footer": {
-    "title": "Wiki de PRAGMATA",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "PRAGMATA Wiki",
+    "description": "Seu hub de recursos completo para guias de história de PRAGMATA, ajuda com a demo, personagens, combate de hacking, melhorias do Shelter e requisitos de sistema.",
     "resources": "Recursos",
     "community": "Comunidade",
-    "legal": "Legal",
+    "legal": "Jurídico",
     "discord": "Discord",
     "twitter": "X / Twitter",
     "steamCommunity": "Comunidade Steam",
@@ -802,130 +873,130 @@
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 PRAGMATA Wiki. Não afiliado à Capcom ou aos desenvolvedores de PRAGMATA.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
-    "guides": {
-      "title": "Guias de Lucid Blocks",
-      "description": "Guias de jogabilidade completos, desde o básico para iniciantes até estratégias avançadas de Apotheosis. Domine a sobrevivência e a criação.",
-      "metaTitle": "Guias de Lucid Blocks - Estratégias do Iniciante ao Avançado",
-      "metaDescription": "Guias completos de Lucid Blocks abrangendo dicas para iniciantes, sistema Apotheosis, estratégias de sobrevivência e táticas de especialistas para dominar o sandbox surreal.",
-      "categoryLabel": "GUIAS DE JOGO",
-      "whatIs": "O que são Guias?",
-      "whatIsDescription": "Guias abrangentes que cobrem mecânicas de jogo, estratégias de sobrevivência e o sistema de criação Apotheosis. Aprenda tudo, desde os primeiros passos até técnicas avançadas.",
-      "why": "Por que ler os guias?",
+    "release": {
+      "title": "Data de Lançamento de Pragmata",
+      "description": "Tudo sobre a data de lançamento de Pragmata, janelas de lançamento regionais e cronograma de anúncios da Capcom.",
+      "metaTitle": "Data de Lançamento de Pragmata - Data de Lançamento e Histórico de Anúncios",
+      "metaDescription": "Informações oficiais sobre a data de lançamento de Pragmata, incluindo o lançamento global em 17 de abril de 2026, diferenças regionais e cronograma completo de anúncios da Capcom.",
+      "categoryLabel": "INFO DE LANÇAMENTO",
+      "whatIs": "O que são as Info de Lançamento de Pragmata?",
+      "whatIsDescription": "Pragmata será lançado em 17 de abril de 2026 para PS5, Xbox Series X|S e PC via Steam. A versão para Nintendo Switch 2 na região Japão/Ásia será lançada em 24 de abril de 2026. Esta seção cobre o cronograma completo, do anúncio ao lançamento.",
+      "why": "Por que acompanhar as notícias de lançamento de Pragmata?",
       "whySteps": {
-        "step1Title": "Aprenda as Mecânicas Principais",
-        "step1Description": "Entenda o sistema Apotheosis e evite erros comuns de iniciantes",
-        "step2Title": "Progressão Rápida",
-        "step2Description": "Siga caminhos comprovados para sobreviver e prosperar no mundo surreal",
-        "step3Title": "Domine as Estratégias",
-        "step3Description": "Desenvolva táticas avançadas para exploração e criação"
+        "step1Title": "Acompanhe as Datas de Lançamento",
+        "step1Description": "Saiba as janelas de lançamento exatas para sua região e plataforma",
+        "step2Title": "Planejamento de Pré-venda",
+        "step2Description": "Entenda os bônus de pré-venda e as diferenças entre as edições antes do lançamento",
+        "step3Title": "Siga o Cronograma",
+        "step3Description": "Do anúncio em 2020 ao lançamento em abril de 2026, acompanhe toda a jornada de desenvolvimento de Pragmata"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias"
+      "all": "Todos os Artigos de Lançamento"
     },
-    "crafting": {
-      "title": "Criação em Lucid Blocks",
-      "description": "Domine o sistema de fusão Apotheosis com mecânicas de essência, receitas e estratégias de criação para itens poderosos.",
-      "metaTitle": "Criação em Lucid Blocks - Sistema Apotheosis e Receitas",
-      "metaDescription": "Domine o sistema de criação Apotheosis de Lucid Blocks. Aprenda mecânicas de essência, receitas de fusão e estratégias para criar ferramentas e armas poderosas.",
-      "categoryLabel": "SISTEMA DE CRIAÇÃO",
-      "whatIs": "O que é a Criação?",
-      "whatIsDescription": "O sistema Apotheosis é uma mecânica de fusão única baseada em essências, onde você combina até seis itens para descobrir novas receitas. Sem menus de criação fixos — a experimentação é a chave.",
-      "why": "Por que dominar a criação?",
+    "demo": {
+      "title": "Demo de Pragmata",
+      "description": "Guia completo da demo Sketchbook de Pragmata, incluindo links para download, visão geral do conteúdo, segredos e múltiplos finais.",
+      "metaTitle": "Demo Sketchbook de Pragmata - Download, Segredos e Finais",
+      "metaDescription": "Guia da demo Sketchbook de Pragmata cobrindo links de download para PS5, Xbox e Steam, visão geral do conteúdo da demo e como encontrar os segredos ocultos e finais alternativos.",
+      "categoryLabel": "GUIA DA DEMO",
+      "whatIs": "O que é a Demo de Pragmata?",
+      "whatIsDescription": "A demo Sketchbook de Pragmata é uma fatia jogável gratuita do jogo completo disponível no PS5, Xbox Series X|S e Steam. Ela apresenta o ciclo de combate de hacking e tiro e possui múltiplos finais.",
+      "why": "Por que jogar a demo de Pragmata?",
       "whySteps": {
-        "step1Title": "Desbloqueie Itens Poderosos",
-        "step1Description": "Descubra ferramentas essenciais, armas e equipamentos de mobilidade através da fusão",
-        "step2Title": "Entenda as Essências",
-        "step2Description": "Saiba como as essências dos itens se combinam para criar resultados previsíveis",
-        "step3Title": "Otimize Recursos",
-        "step3Description": "Use mecânicas de diluição para maximizar o rendimento de materiais baratos"
+        "step1Title": "Experimente Antes de Comprar",
+        "step1Description": "Teste os sistemas de hacking e tiro antes do lançamento do jogo completo em 17 de abril de 2026",
+        "step2Title": "Encontre os Segredos",
+        "step2Description": "Explore os múltiplos finais da demo e colecionáveis ocultos",
+        "step3Title": "Aprenda o Combate",
+        "step3Description": "Familiarize-se cedo com o ciclo de combate cooperativo de Hugh-Diana"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Criação"
+      "all": "Todos os Guias da Demo"
     },
-    "items": {
-      "title": "Itens de Lucid Blocks",
-      "description": "Guias detalhados de itens abrangendo ferramentas, armas, equipamentos de mobilidade e soluções de armazenamento com receitas de criação e dicas de uso.",
-      "metaTitle": "Itens de Lucid Blocks - Guia de Ferramentas, Armas e Equipamentos",
-      "metaDescription": "Banco de dados completo de itens para Lucid Blocks, incluindo ferramentas, armas, equipamentos de mobilidade e armazenamento. Aprenda a criar e usar cada item de forma eficaz.",
-      "categoryLabel": "ITENS E EQUIPAMENTOS",
-      "whatIs": "O que são Itens?",
-      "whatIsDescription": "Guias abrangentes para ferramentas, armas, equipamentos de mobilidade e itens funcionais. Aprenda receitas de criação, estratégias de uso e combinações ideais.",
-      "why": "Por que consultar os guias de itens?",
+    "character": {
+      "title": "Personagens de Pragmata",
+      "description": "Perfis de personagens para Hugh Williams, Diana, IDUS e Cabin, cobrindo seus papéis, habilidades e importância na história de Pragmata.",
+      "metaTitle": "Personagens de Pragmata - Hugh, Diana, IDUS & Cabin",
+      "metaDescription": "Perfis completos de personagens de Pragmata cobrindo Hugh Williams, a androide Diana, a IA rebelde IDUS e Cabin. Aprenda o papel de cada personagem no combate e na história.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "Quem são os Personagens de Pragmata?",
+      "whatIsDescription": "Pragmata foca em Hugh Williams e Diana — uma androide — trabalhando juntos para escapar de uma estação de pesquisa lunar hostil. IDUS é a IA antagonista rebelde, e Cabin é o companheiro deles no Shelter.",
+      "why": "Por que conhecer os personagens de Pragmata?",
       "whySteps": {
-        "step1Title": "Aprenda Receitas de Criação",
-        "step1Description": "Descubra como criar ferramentas e armas essenciais usando Apotheosis",
-        "step2Title": "Otimize seu Equipamento",
-        "step2Description": "Escolha os melhores itens para seu estilo de jogo e estágio de progressão",
-        "step3Title": "Melhore a Sobrevivência",
-        "step3Description": "Equipe-se com itens de mobilidade e armas para navegar pelo mundo perigoso"
+        "step1Title": "Entenda os Papéis de Combate",
+        "step1Description": "Hugh cuida das armas de fogo enquanto Diana controla o painel de hacking na batalha",
+        "step2Title": "Acompanhe a História",
+        "step2Description": "Saiba a motivação de cada personagem e seu lugar na narrativa maior",
+        "step3Title": "Aprecie a Dinâmica",
+        "step3Description": "Entenda como a parceria Hugh-Diana impulsiona tanto a jogabilidade quanto a história"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Itens"
+      "all": "Todos os Guias de Personagens"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explore as regiões do mundo, características ambientais, locais de recursos e dicas de sobrevivência para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiões do Mundo e Exploração",
-      "metaDescription": "Explore os biomas de Lucid Blocks, incluindo as Linhas de Ley Tiamana, Fog Meadow e regiões surreais. Encontre recursos, evite perigos e navegue pelo mundo infinito.",
-      "categoryLabel": "REGIÕES DO MUNDO",
-      "whatIs": "O que são Biomas?",
-      "whatIsDescription": "Guias para as diferentes regiões do mundo, características ambientais, distribuição de recursos e zonas de perigo. Saiba o que esperar e como se preparar para cada área.",
-      "why": "Por que explorar os biomas?",
+    "version": {
+      "title": "Plataformas de PRAGMATA",
+      "description": "Disponibilidade de plataformas, diferenças entre edições e recursos específicos de versão para PRAGMATA no PS5, Xbox Series X|S, PC e Nintendo Switch 2.",
+      "metaTitle": "Plataformas de PRAGMATA - Versões para PS5, Xbox, PC e Nintendo Switch 2",
+      "metaDescription": "Guia de plataformas de PRAGMATA cobrindo as versões para PS5, Xbox Series X|S, Steam PC e Nintendo Switch 2. Compare edições, preços e recursos exclusivos de cada plataforma.",
+      "categoryLabel": "PLATAFORMAS E VERSÕES",
+      "whatIs": "Quais plataformas de PRAGMATA estão disponíveis?",
+      "whatIsDescription": "PRAGMATA será lançado para PS5, Xbox Series X|S, PC (Steam) e Nintendo Switch 2. Cada plataforma possui recursos específicos e a versão de Nintendo Switch 2 para a região Japão/Ásia será lançada uma semana depois, em 24 de abril.",
+      "why": "Por que comparar as versões de PRAGMATA?",
       "whySteps": {
-        "step1Title": "Encontre Recursos",
-        "step1Description": "Localize materiais raros e essências específicas de cada região",
-        "step2Title": "Evite Perigos",
-        "step2Description": "Entenda os riscos ambientais e as criaturas hostis",
-        "step3Title": "Planeje a Exploração",
-        "step3Description": "Prepare as ferramentas e equipamentos certos para cada tipo de bioma"
+        "step1Title": "Escolha sua plataforma",
+        "step1Description": "Compare PS5, Xbox Series X, Xbox Series S, PC e Nintendo Switch 2 para encontrar a melhor opção para o seu setup",
+        "step2Title": "Compare as edições",
+        "step2Description": "Entenda a diferença entre as edições Standard e Deluxe",
+        "step3Title": "Verifique os preços",
+        "step3Description": "Confira os preços regionais e a disponibilidade de pré-venda antes do lançamento"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Biomas"
+      "all": "Todos os guias de plataforma"
     },
-    "building": {
-      "title": "Construção em Lucid Blocks",
-      "description": "Domine as dimensões pessoais Qualia, construção de bases, gerenciamento de armazenamento e técnicas de construção criativa.",
-      "metaTitle": "Construção em Lucid Blocks - Qualia e Construção de Bases",
-      "metaDescription": "Domine a construção em Lucid Blocks com dimensões pessoais Qualia, construção de bases, soluções de armazenamento e técnicas criativas de construção.",
-      "categoryLabel": "CONSTRUÇÃO E BASES",
-      "whatIs": "O que é a Construção?",
-      "whatIsDescription": "Guias para o sistema de dimensão pessoal Qualia, construção de bases, gerenciamento de armazenamento e construção criativa. Aprenda a criar seu refúgio seguro no mundo surreal.",
-      "why": "Por que construir bases?",
+    "tech": {
+      "title": "Tecnologia de PRAGMATA",
+      "description": "Requisitos de sistema para PC, detalhes do motor gráfico, suporte a mods e especificações técnicas para PRAGMATA.",
+      "metaTitle": "Requisitos de Sistema e Detalhes Técnicos de PRAGMATA",
+      "metaDescription": "Guia técnico de PRAGMATA cobrindo requisitos de sistema para PC, detalhes da RE Engine, DRM Denuvo, suporte a mods e compatibilidade com GeForce NOW.",
+      "categoryLabel": "INFORMAÇÕES TÉCNICAS",
+      "whatIs": "O que são as informações técnicas de PRAGMATA?",
+      "whatIsDescription": "Detalhes técnicos sobre PRAGMATA, incluindo especificações mínimas e recomendadas para PC, a RE Engine que move o jogo, informações de DRM e suporte a jogos na nuvem via GeForce NOW.",
+      "why": "Por que verificar os detalhes técnicos de PRAGMATA?",
       "whySteps": {
-        "step1Title": "Crie Espaços Seguros",
-        "step1Description": "Estabeleça bases seguras para operações de armazenamento e criação",
-        "step2Title": "Gerencie Recursos",
-        "step2Description": "Organize materiais de forma eficiente com soluções de armazenamento",
-        "step3Title": "Desbloqueie a Qualia",
-        "step3Description": "Acesse dimensões de bolso pessoais para o máximo de conveniência"
+        "step1Title": "Verifique as configurações do seu PC",
+        "step1Description": "Compare sua GPU e CPU com as especificações mínimas e recomendadas oficiais",
+        "step2Title": "Entenda o motor gráfico",
+        "step2Description": "Saiba como a RE Engine entrega o visual e as metas de desempenho de PRAGMATA",
+        "step3Title": "Planeje-se para os mods",
+        "step3Description": "Descubra antecipadamente qual suporte a mods PRAGMATA oferecerá no lançamento"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Construção"
+      "all": "Todos os artigos técnicos"
     },
-    "support": {
-      "title": "Suporte de Lucid Blocks",
-      "description": "Suporte técnico, compatibilidade de plataforma, otimização de desempenho e solução de problemas comuns.",
-      "metaTitle": "Suporte de Lucid Blocks - Ajuda Técnica e Correções",
-      "metaDescription": "Obtenha suporte técnico para Lucid Blocks, incluindo configuração do Steam Deck, correções de falhas, otimização de desempenho e guias de compatibilidade de plataforma.",
-      "categoryLabel": "SUPORTE TÉCNICO",
-      "whatIs": "O que é o Suporte?",
-      "whatIsDescription": "Guias técnicos que cobrem compatibilidade de plataforma, otimização de desempenho, correções de falhas e problemas comuns. Obtenha ajuda com o Steam Deck, dúvidas sobre multijogador e configurações.",
-      "why": "Por que consultar o suporte?",
+    "media": {
+      "title": "Mídia de PRAGMATA",
+      "description": "Trailers oficiais de PRAGMATA, papéis de parede, prévias da trilha sonora e artes promocionais da Capcom.",
+      "metaTitle": "Trailers, Papéis de Parede e Trilha Sonora de PRAGMATA",
+      "metaDescription": "Mídia oficial de PRAGMATA, incluindo trailers, papéis de parede em HD, prévias da trilha sonora e artes promocionais. Assista a todos os vídeos oficiais da Capcom e baixe materiais.",
+      "categoryLabel": "MÍDIA E MATERIAIS",
+      "whatIs": "Quais mídias de PRAGMATA estão disponíveis?",
+      "whatIsDescription": "A Capcom lançou diversos trailers de PRAGMATA, papéis de parede em HD e prévias da trilha sonora. Esta seção reúne todos os materiais de mídia oficiais em um só lugar.",
+      "why": "Por que explorar a mídia de PRAGMATA?",
       "whySteps": {
-        "step1Title": "Corrija Problemas Técnicos",
-        "step1Description": "Resolva falhas, problemas de desempenho e questões de compatibilidade",
-        "step2Title": "Otimize o Desempenho",
-        "step2Description": "Configure os ajustes para a melhor experiência em sua plataforma",
-        "step3Title": "Compatibilidade de Plataforma",
-        "step3Description": "Saiba mais sobre o Steam Deck, suporte a controles e requisitos de sistema"
+        "step1Title": "Assista aos trailers",
+        "step1Description": "Fique por dentro de cada trailer oficial de PRAGMATA, desde o anúncio até o lançamento",
+        "step2Title": "Baixe papéis de parede",
+        "step2Description": "Obtenha papéis de parede oficiais em HD com Hugh, Diana e a estação de pesquisa lunar",
+        "step3Title": "Ouça prévias da trilha sonora",
+        "step3Description": "Ouça prévias das músicas e siga o canal oficial de PRAGMATA no YouTube"
       },
       "featured": "Destaques e Essenciais",
-      "all": "Todos os Artigos de Suporte"
+      "all": "Toda a mídia"
     }
   }
 }

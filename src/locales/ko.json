@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "PRAGMATA 위키 - 출시일, 데모, 플랫폼 및 스토리",
+      "description": "PRAGMATA 위키는 신규 플레이어를 위한 출시일, 데모, 플랫폼, 캐릭터, 해킹 전투, Shelter 업그레이드, 시스템 사양 및 스토리 가이드를 다룹니다.",
+      "keywords": "PRAGMATA, 출시일, 데모, 캐릭터, 해킹, Shelter, 시스템 사양, 스토리, 플랫폼",
+      "ogTitle": "PRAGMATA 위키 - 출시일, 데모, 플랫폼 및 스토리",
+      "ogDescription": "PRAGMATA 위키는 신규 플레이어를 위한 출시일, 데모, 플랫폼, 캐릭터, 해킹 전투, Shelter 업그레이드, 시스템 사양 및 스토리 가이드를 다룹니다.",
+      "twitterTitle": "PRAGMATA 위키 - 출시일, 데모, 플랫폼 및 스토리",
+      "twitterDescription": "PRAGMATA 위키는 PS5, Xbox, Steam 및 Nintendo Switch 2 신규 플레이어를 위한 출시일, 데모, 캐릭터, 해킹 전투, Shelter 업그레이드 및 스토리 가이드를 다룹니다."
+    }
+  },
   "nav": {
     "release": "출시",
     "demo": "데모",
@@ -6,5 +17,986 @@
     "version": "버전",
     "tech": "기술",
     "media": "미디어"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "Steam에서 플레이",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "요청하신 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "더 읽어보기"
+  },
+  "hero": {
+    "badge": "해킹 요소가 가미된 SF 액션 어드벤처",
+    "title": "PRAGMATA 위키",
+    "description": "Hugh와 Diana를 따라 달 연구 기지에서 펼쳐지는 해킹 앤 슈팅 전투, Shelter 업그레이드, 스토리 가이드, 데모 도움말 및 플랫폼 정보를 확인하세요.",
+    "getFreeCodesCTA": "데모 체험하기",
+    "playOnSteamCTA": "Steam에서 플레이",
+    "stats": {
+      "stat1": {
+        "value": "2026년 4월 17일",
+        "label": "출시일"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "플랫폼"
+      },
+      "stat3": {
+        "value": "200만+",
+        "label": "찜 목록"
+      },
+      "stat4": {
+        "value": "200만+",
+        "label": "데모 다운로드"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "PRAGMATA 게임플레이 개요",
+    "description": "적대적인 달 연구 기지에서 Hugh와 Diana를 따라가세요. 3인칭 슈팅과 실시간 그리드 기반 해킹을 결합하여 장갑 로봇을 물리치고 루나필라멘트의 비밀을 밝혀내세요."
+  },
+  "tools": {
+    "title": "PRAGMATA",
+    "titleHighlight": "위키 가이드",
+    "subtitle": "PRAGMATA에 대해 알아야 할 모든 것 — 출시일, 데모, 스토리, 캐릭터, 전투 등",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "PRAGMATA 출시일",
+        "description": "출시 일정, 플랫폼별 날짜 및 연기 기록"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "PRAGMATA 게임플레이",
+        "description": "전투에서 슈팅과 해킹이 조화를 이루는 방식"
+      },
+      {
+        "icon": "Play",
+        "title": "PRAGMATA 데모 가이드",
+        "description": "Sketchbook 데모 다운로드, 콘텐츠 및 기대 요소"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "PRAGMATA 스토리 설명",
+        "description": "루나필라멘트, Hugh, Diana, 그리고 달 기지의 미스터리"
+      },
+      {
+        "icon": "Users",
+        "title": "PRAGMATA 캐릭터",
+        "description": "Hugh Williams, Diana, IDUS 및 Cabin 프로필"
+      },
+      {
+        "icon": "Zap",
+        "title": "PRAGMATA 전투 및 해킹",
+        "description": "해킹 노드, 장갑 파괴 및 두 캐릭터의 전투 루프"
+      },
+      {
+        "icon": "Monitor",
+        "title": "PRAGMATA 플랫폼 및 에디션",
+        "description": "PS5, Xbox Series X, Xbox Series S, Steam 및 Nintendo Switch 2 비교"
+      },
+      {
+        "icon": "Gift",
+        "title": "PRAGMATA 예약 구매 특전",
+        "description": "네오 무사 및 네오 쿠노이치 의상 특전 상세 정보"
+      },
+      {
+        "icon": "Award",
+        "title": "PRAGMATA 디럭스 에디션",
+        "description": "Shelter 버라이어티 팩 및 일반판 vs 디럭스판 비교"
+      },
+      {
+        "icon": "Cpu",
+        "title": "PRAGMATA 시스템 사양",
+        "description": "1080p 및 4K를 위한 최소 및 권장 PC 사양"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "PRAGMATA 무기 및 로드아웃",
+        "description": "주무기, 공격, 방어 및 전술 무기 유형"
+      },
+      {
+        "icon": "Skull",
+        "title": "PRAGMATA 적 및 보스",
+        "description": "로봇 유형, 장갑 메커니즘 및 보스전 패턴"
+      },
+      {
+        "icon": "Home",
+        "title": "PRAGMATA Shelter 및 업그레이드",
+        "description": "Shelter 허브, 무기 프린팅, 해킹 노드 및 Cabin"
+      },
+      {
+        "icon": "Navigation",
+        "title": "PRAGMATA 탐험 및 이동",
+        "description": "추진기, Diana의 환경 해킹 및 경로 해제"
+      },
+      {
+        "icon": "Search",
+        "title": "PRAGMATA 데모 비밀",
+        "description": "Sketchbook 데모의 숨겨진 엔딩과 비밀"
+      },
+      {
+        "icon": "Film",
+        "title": "PRAGMATA 트레일러 및 뉴스",
+        "description": "공식 트레일러, 공개 일정 및 주요 업데이트"
+      }
+    ]
+  },
+  "modules": {
+    "pragmataReleaseDate": {
+      "title": "PRAGMATA 출시일",
+      "displayType": "timeline",
+      "intro": "PRAGMATA는 Capcom의 현대 게임 중 가장 긴 출시 여정을 거쳐온 작품 중 하나입니다. 현재 Capcom 공식 사이트와 PlayStation의 주요 출시일은 2026년 4월 17일이며, Steam 상점 페이지에는 2026년 4월 16일로 표시되어 있습니다.",
+      "items": [
+        {
+          "date": "2020년 6월 11일",
+          "title": "2022년 목표로 첫 공개",
+          "description": "PRAGMATA는 Capcom의 새로운 SF 액션 어드벤처로 데뷔했으며, 원래 2022년 출시를 목표로 했습니다."
+        },
+        {
+          "date": "2021년",
+          "title": "출시 시기 2023년으로 변경",
+          "description": "Capcom은 이후 게임 출시를 2022년에서 2023년으로 조정했습니다."
+        },
+        {
+          "date": "2023년 6월",
+          "title": "출시 일정 재연기",
+          "description": "새로운 티저를 통해 프로젝트가 다시 소개되었으나, 단기 출시 목표가 삭제되면서 기존의 2023년 예상보다 더 긴 기다림이 시작되었습니다."
+        },
+        {
+          "date": "2026년 3월 5일",
+          "title": "출시일 1주일 앞당겨짐",
+          "description": "Capcom은 게임 출시를 앞당겨, 날짜를 2026년 4월 24일에서 2026년 4월 17일로 변경한다고 발표했습니다."
+        },
+        {
+          "date": "현재 스토어 표시 정보",
+          "title": "현재 플레이어에게 표시되는 내용",
+          "description": "Capcom 공식 사이트와 PlayStation 페이지에는 2026년 4월 17일로 기재되어 있습니다. Steam은 4월 16일로 표시하고 있습니다. 두 날짜 모두 동일한 글로벌 출시 기간을 가리킵니다."
+        }
+      ]
+    },
+    "pragmataGameplay": {
+      "title": "PRAGMATA 게임플레이 방식",
+      "displayType": "steps",
+      "intro": "PRAGMATA는 3인칭 슈팅, 실시간 퍼즐 해킹, 이동 및 환경 문제 해결을 하나의 루프로 결합했습니다. Hugh와 Diana는 따로 있을 때보다 함께일 때 항상 더 강력합니다.",
+      "steps": [
+        {
+          "title": "Hugh로 이동하며 행동 전 공간 확보",
+          "description": "Hugh는 조준, 화기 사용, 회피 및 슈트 기반 기동을 담당합니다. 그의 추진기는 전투 외에도 달 기지 시설을 빠르게 통과하고 새로운 경로에 도달하는 데 중요하게 작용합니다.",
+          "highlights": [
+            "끊임없는 움직임을 중심으로 구축된 3인칭 전투",
+            "이동 및 위치 선정을 지원하는 슈트 추진기",
+            "Hugh의 움직임에서 시작되는 전투와 탐험"
+          ]
+        },
+        {
+          "title": "Diana로 적을 해킹하여 방어력 무력화",
+          "description": "대부분의 적 로봇은 장갑을 두르고 있어 단순한 사격만으로는 부족합니다. Diana는 실시간으로 적의 방어력을 약화시키거나 무력화할 수 있는 그리드 방식의 해킹 패널을 불러옵니다.",
+          "highlights": [
+            "파란색 사각형을 더 많이 연결할수록 해킹 효과 증대",
+            "해킹 성공 시 장갑 해제 및 약점 노출",
+            "주요 노드 예시: Decode 및 Multi-Hack"
+          ]
+        },
+        {
+          "title": "적절한 무기로 해킹을 대미지로 전환",
+          "description": "적이 무력화되면 Hugh가 화기로 마무리합니다. 일부 보호막은 먼저 사격해야 하며, 일부 미사일은 해킹으로 되돌려 보낼 수 있습니다. 무기 선택에 따라 각 전투의 템포가 달라집니다.",
+          "highlights": [
+            "주무기, 공격, 방어, 전술 무기 역할",
+            "빨간색 장벽 적은 사격으로 먼저 무력화 필요",
+            "날아오는 미사일을 해킹 성공으로 반사 가능"
+          ]
+        },
+        {
+          "title": "스테이션 해킹, 업그레이드, Shelter 휴식으로 자신만의 스타일 구축",
+          "description": "Diana는 문을 열고 막힌 경로를 뚫을 수 있으며, 업그레이드 스테이션과 Shelter에서 플레이어는 Hugh의 장비를 개선하고 해킹 옵션을 확장하며 원하는 플레이 스타일을 만들어갈 수 있습니다.",
+          "highlights": [
+            "Diana가 보안 시스템을 해킹하여 진행 경로 확보",
+            "업그레이드 스테이션에서 무기, 능력치, 해킹 도구 강화",
+            "Shelter는 탐색 사이의 회복 및 성장 거점 역할"
+          ]
+        }
+      ]
+    },
+    "pragmataDemoGuide": {
+      "title": "PRAGMATA Sketchbook 데모 가이드",
+      "displayType": "cards",
+      "intro": "Sketchbook은 출시 전 PRAGMATA를 이해하고자 하는 플레이어에게 가장 좋은 체험 기회입니다. 이 데모는 게임의 이중 트랙 전투 루프와 달 연구 기지를 이동하는 느낌을 익힐 수 있도록 제작되었습니다.",
+      "cards": [
+        {
+          "name": "다운로드 위치",
+          "description": "Sketchbook은 PS5 및 Xbox Series X|S에 전용 스토어 페이지가 있으며, Steam 메인 제품 페이지에서도 확인할 수 있습니다.",
+          "bullets": [
+            "PlayStation Store: PRAGMATA Sketchbook — DEMO",
+            "Xbox Store: PRAGMATA Sketchbook — DEMO",
+            "Steam: PRAGMATA 메인 스토어 페이지에 표시됨"
+          ]
+        },
+        {
+          "name": "데모 포함 내용",
+          "description": "Capcom은 Sketchbook을 전투 시스템과 달 기지 이동을 직접 경험해 볼 수 있는 체험판으로 설명합니다. 이 데모는 두 주인공이 어떻게 협력하는지 보여줍니다.",
+          "bullets": [
+            "실시간 사격 및 해킹 전투",
+            "달 연구 기지 탐험",
+            "게임의 템포와 조작 리듬을 실제로 확인"
+          ]
+        },
+        {
+          "name": "플랫폼 및 언어 상세 정보",
+          "description": "콘솔 스토어 페이지를 통해 데모가 영어 및 일본어 음성을 지원함을 확인할 수 있습니다. PS5 및 Xbox 데모 출시일은 2026년 2월 5일로 기재되었습니다.",
+          "bullets": [
+            "음성 지원: 영어 및 일본어",
+            "PS5 및 Xbox 데모 출시: 2026년 2월 5일",
+            "Xbox 페이지 강조 사항: 4K Ultra HD, HDR10, 60fps+, 및 Dolby Atmos"
+          ]
+        },
+        {
+          "name": "출시 전 미리 알 수 있는 점",
+          "description": "Sketchbook은 트레일러보다 더 확실하게 출시 전 궁금증을 해결해 줍니다. 플레이어는 압박감 속에서 해킹 시스템이 만족스러운지 직접 테스트해 볼 수 있습니다.",
+          "bullets": [
+            "두 캐릭터 전투가 직관적인지 여부",
+            "실전 전투 중 그리드 기반 해킹의 가독성",
+            "PRAGMATA의 분위기, 움직임, 전투 스타일이 취향에 맞는지 확인"
+          ]
+        }
+      ]
+    },
+    "pragmataStoryExplained": {
+      "title": "PRAGMATA 스토리 설명",
+      "displayType": "accordion",
+      "intro": "PRAGMATA의 스토리는 잃어버린 달 기지, 현실을 구현하는 물질인 루나필라멘트(Lunafilament), 그리고 Hugh와 Diana의 뜻밖의 파트너십과 함께 시작됩니다. 전체적인 설정은 이해하기 쉽지만, 그 이면에는 수많은 미스터리가 숨겨져 있습니다.",
+      "items": [
+        {
+          "question": "PRAGMATA의 기본 설정은 무엇인가요?",
+          "answer": "가까운 미래, 인류는 데이터만 있다면 무엇이든 만들어낼 수 있는 물질인 루나필라멘트를 개발합니다. 이를 연구하던 달 기지와의 연락이 끊기자 대응팀이 파견되고, 그들이 도착한 직후 거대한 달 지진이 발생합니다."
+        },
+        {
+          "question": "PRAGMATA의 두 주인공은 누구인가요?",
+          "answer": "Hugh Williams는 달 시설을 조사하기 위해 파견된 파견팀의 일원입니다. Diana는 루나필라멘트를 사용하여 만들어진 독특한 안드로이드인 PRAGMATA이며, 두 사람이 기지에서 살아남아 지구로 돌아가는 경로를 찾는 과정에서 Hugh의 파트너가 됩니다."
+        },
+        {
+          "question": "Diana가 PRAGMATA의 스토리와 게임플레이에서 중요한 이유는 무엇인가요?",
+          "answer": "Diana는 기지의 시스템 및 게임의 핵심 전투 개념과 직접적으로 연결되어 있습니다. 그녀는 적의 장갑을 해킹하여 약점을 드러내고, 기지 자체를 해킹하여 앞으로 나아갈 경로를 열 수 있으며, Hugh와 Diana 관계의 정서적 중심 역할을 합니다."
+        },
+        {
+          "question": "PRAGMATA의 주요 갈등은 무엇인가요?",
+          "answer": "Hugh와 Diana는 적대적인 로봇들로 가득 차고 폭주한 AI인 IDUS의 미스터리가 드리워진 달 연구 기지에 갇히게 됩니다. 그들의 즉각적인 목표는 탈출이지만, 더 큰 긴장감은 무엇이 잘못되었는지, 그리고 기지의 시스템이 왜 그들에게 등을 돌렸는지 밝혀내는 데서 옵니다."
+        },
+        {
+          "question": "PRAGMATA의 Shelter와 Cabin은 무엇인가요?",
+          "answer": "Shelter는 두 사람의 안전한 휴식처로, 게임 진행에 따라 계속해서 성장할 수 있는 공간입니다. Cabin은 그 공간 안에 있는 유용한 로봇 조수로, 차갑고 위험한 환경 속에서 스토리에 작은 따뜻함을 더해줍니다."
+        }
+      ]
+    },
+    "pragmataCharacters": {
+      "title": "PRAGMATA 캐릭터",
+      "displayType": "card-list",
+      "intro": "Hugh Williams와 Diana는 PRAGMATA의 스토리, 전투 루프, 탐험 흐름의 핵심입니다. Hugh는 달 지진으로 팀과 떨어진 후 지구로 돌아가려는 인간 생존자이며, Diana는 해킹 능력으로 달 연구 기지에서의 생존을 가능하게 하는 루나필라멘트 기반 안드로이드입니다.",
+      "items": [
+        {
+          "title": "Diana",
+          "tag": "PRAGMATA 안드로이드",
+          "description": "D-I-0336-7로도 알려진 Diana는 루나필라멘트를 사용하여 만들어진 PRAGMATA입니다. 그녀는 적의 장갑을 해킹하여 약점을 노출시키고, 달 기지 자체를 해킹하여 막힌 경로를 열 수 있습니다.",
+          "highlights": [
+            "루나필라멘트를 사용하여 만들어진 독특한 안드로이드",
+            "적 로봇과 시설 자체를 해킹할 수 있음",
+            "호기심이 많고 학습이 빠르며 Hugh가 지어준 이름에 깊은 애착을 가짐"
+          ]
+        },
+        {
+          "title": "Hugh Williams",
+          "tag": "보안 전문가",
+          "description": "Hugh는 달 시설을 조사하기 위해 파견된 파견팀의 일원입니다. 다양한 총기를 능숙하게 다루며, 슈트의 추진기를 사용하여 기지 내부를 이동합니다.",
+          "highlights": [
+            "거대한 달 지진 이후 팀과 떨어짐",
+            "다양한 총기 사용 및 슈트 기반 이동 능력에 능숙함",
+            "겉으로는 무뚝뚝하고 냉소적이지만 속마음은 진심으로 친절함"
+          ]
+        },
+        {
+          "title": "두 주인공의 협력이 중요한 이유",
+          "tag": "전투 및 스토리",
+          "description": "PRAGMATA의 두 주인공 설정은 단순한 장식이 아닙니다. Diana는 장갑, 시스템, 문을 해킹하여 기회를 만들고, Hugh는 총기, 기동성, 현장 생존 능력을 통해 그 기회를 진전으로 바꿉니다.",
+          "highlights": [
+            "Diana는 접근 권한과 적의 취약성을 제어함",
+            "Hugh는 대미지, 이동, 전방 액션을 담당함",
+            "전투, 이동, 내러티브 진행을 위해 두 캐릭터가 모두 필요함"
+          ]
+        }
+      ]
+    },
+    "pragmataCombatAndHacking": {
+      "title": "PRAGMATA 전투 및 해킹",
+      "displayType": "step-by-step",
+      "intro": "장갑을 두른 로봇에게는 일반적인 사격만으로는 부족하므로, 모든 주요 교전은 해킹으로 시작됩니다. Hugh가 대상을 조준하면 Diana가 그리드 형태의 해킹 패널을 띄우고, 플레이어는 연속된 경로를 그려 해킹을 실행합니다. 무기 선택, 보호막 파괴, 해킹 노드, 그리고 Shelter 업그레이드를 통해 각 전투는 준비, 노출, 보상의 리듬으로 이어집니다.",
+      "steps": [
+        {
+          "title": "조준 및 Diana의 해킹 패널 활성화",
+          "description": "Hugh가 적을 조준하면 Diana가 그리드 기반 패널을 엽니다. 파란색 사각형을 통과하는 하나의 연속된 선을 그리면 해킹이 완료됩니다.",
+          "highlights": [
+            "해킹에 성공하면 대미지를 입히고 일시적으로 적의 장갑을 무력화함",
+            "경로가 길수록 대미지가 증가하고 장갑 무력화 시간이 길어짐",
+            "그리드는 순서대로 연결되므로 실행 전 경로를 계획해야 함"
+          ]
+        },
+        {
+          "title": "Hugh의 무기로 노출된 약점 공략",
+          "description": "Diana가 대상을 노출시키면 Hugh는 준비 단계에서 대미지 단계로 전환합니다. 전투 루프는 깔끔한 해킹을 즉각적인 화력 압박으로 연결하는 것에 보상을 줍니다.",
+          "highlights": [
+            "Hugh는 상황에 맞는 여러 종류의 총기를 사용함",
+            "기본 유닛(Primary Unit)은 언제든 사용할 수 있는 기본 무기임",
+            "전술 및 공격 옵션은 콤보 플레이와 폭발적인 마무리 공격을 위한 것임"
+          ]
+        },
+        {
+          "title": "실행 전 적의 대응 파악",
+          "description": "해킹은 결코 공짜가 아닙니다. 일부 적들은 패널이 열려 있는 동안 압박을 가해오며, 더 나은 해킹을 할지 아니면 빠르게 회피할지 선택하게 만듭니다.",
+          "highlights": [
+            "빨간색 보호막 장벽은 Diana의 해킹을 완전히 차단함",
+            "해당 보호막은 Hugh의 총으로 먼저 파괴해야 함",
+            "일부 유도 미사일은 해킹하여 적에게 되돌려 보낼 수 있음"
+          ]
+        },
+        {
+          "title": "전술적 제어를 위한 특수 무기 사용",
+          "description": "서로 다른 무기들은 교전의 각 단계를 지원하며 해킹 창을 더 안전하거나 보람 있게 만듭니다.",
+          "highlights": [
+            "전술 유닛(Tactical Unit)은 준비 단계에서 적을 붙잡아둘 수 있음",
+            "공격 유닛(Attack Unit)은 근거리 마무리 대미지에 탁월함",
+            "방어 유닛(Defense Unit)은 적을 유인하여 여유 공간을 확보할 수 있음"
+          ]
+        },
+        {
+          "title": "해킹 노드로 해킹 강화",
+          "description": "Diana가 해킹 노드를 소지하고 있으면 패널에 노란색 타일이 나타납니다. 이를 연결하면 추가 효과가 활성화되고 성공적인 해킹에 더 많은 전술적 옵션이 추가됩니다.",
+          "highlights": [
+            "Decode는 후속 공격이 쉽도록 적의 방어력을 낮춤",
+            "Multi-Hack은 주변 대상에게 동시에 효과를 퍼뜨림",
+            "활성화할 때마다 해킹 노드 하나가 소비됨"
+          ]
+        },
+        {
+          "title": "Shelter로 돌아가 루프 업그레이드",
+          "description": "Shelter는 회복 및 업그레이드 허브입니다. 이곳에서 체력을 회복하고, 수집한 루나필라멘트를 소비하며, 전투 도구와 해킹 효율을 모두 개선할 수 있습니다.",
+          "highlights": [
+            "무기를 업그레이드하고 해킹 노드 옵션을 확장함",
+            "전투에서 더 큰 유연성을 갖기 위해 더 많은 노드를 휴대함",
+            "다운된 적을 추격하는 Critical Down과 같은 능력을 해제함"
+          ]
+        }
+      ]
+    },
+    "pragmataPlatformsAndEditions": {
+      "title": "PRAGMATA 플랫폼 및 에디션",
+      "displayType": "table",
+      "intro": "PRAGMATA를 어디에서 구매할지 결정할 때 핵심 질문은 플레이할 플랫폼, 스토어 버전이 지원하는 기능, 그리고 추가 Shelter Variety Pack의 포함 여부입니다. 표준 가격은 59.99 USD, Deluxe는 69.99 USD로 책정되었습니다.",
+      "rows": [
+        {
+          "platform": "PlayStation 5",
+          "availability": "예약 주문 진행 중, 2026년 4월 17일 출시",
+          "editions": "Standard $59.99 / Deluxe $69.99",
+          "highlights": [
+            "PS5 Pro 향상됨",
+            "DualSense 진동 및 트리거 효과 지원",
+            "리모트 플레이 및 게임 도움말 지원"
+          ]
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "availability": "예약 주문 진행 중",
+          "editions": "Standard $59.99+ / Deluxe $69.99+",
+          "highlights": [
+            "4K Ultra HD, HDR10, 레이 트레이싱, 60 fps+",
+            "공간 음향, Dolby Atmos 및 DTS:X",
+            "Xbox Series S에서는 레이 트레이싱이 지원되지 않음"
+          ]
+        },
+        {
+          "platform": "PC via Steam",
+          "availability": "2026년 4월 16일 출시 예정",
+          "editions": "예약 구매 Standard $59.99 / Deluxe $69.99",
+          "highlights": [
+            "싱글 플레이어, Steam 도전 과제 및 클라우드",
+            "HDR 지원 및 가족 공유 목록 포함",
+            "Steam에서는 얼리 버드 보너스가 별도로 제공됨"
+          ]
+        },
+        {
+          "platform": "Standard 에디션",
+          "availability": "모든 플랫폼 — 디지털 스토어",
+          "editions": "기본 게임 전체",
+          "highlights": [
+            "보너스 기간 동안 PS5 및 Xbox 구매 시 Hugh & Diana 의상 세트 포함",
+            "Steam에서는 의상 보너스를 얼리 버드 보너스로 제공",
+            "콘텐츠 삭제 없는 전체 게임 경험"
+          ]
+        },
+        {
+          "platform": "Deluxe 에디션",
+          "availability": "콘솔 및 PC 디지털 스토어",
+          "editions": "기본 게임 + Shelter Variety Pack",
+          "highlights": [
+            "Shelter Variety Pack: 추가 의상, 무기 스킨, BGM 트랙",
+            "Diana 제스처 및 아트워크 포함",
+            "콘솔 스토어에서도 Hugh & Diana 의상 세트 표시됨"
+          ]
+        }
+      ]
+    },
+    "pragmataPreOrderBonus": {
+      "title": "PRAGMATA 예약 주문 보너스",
+      "displayType": "card-list",
+      "intro": "보너스 콘텐츠는 Hugh와 Diana를 위한 세트 코스튬을 중심으로 구성됩니다. 스토어 페이지에서는 이 세트를 전국 시대에서 영감을 받은 사무라이 및 닌자 스타일 의상으로 설명하며, 공식 목록 전반에 걸쳐 동일한 명칭이 사용됩니다: Hugh를 위한 Neo Bushido와 Diana를 위한 Neo Kunoichi.",
+      "items": [
+        {
+          "title": "보너스 아이템",
+          "tag": "의상 세트",
+          "description": "얼리 버드 보너스에는 두 가지 코스튬이 포함됩니다: Hugh 의상 — Neo Bushido 및 Diana 의상 — Neo Kunoichi.",
+          "highlights": [
+            "두 주인공 모두에게 적용되는 캐릭터 꾸미기 세트",
+            "게임 플레이에 영향을 주지 않는 테마 의상 보상",
+            "모든 스토어에서 일관되게 표시됨"
+          ]
+        },
+        {
+          "title": "테마 및 스타일",
+          "tag": "전국 시대 영감",
+          "description": "공식 스토어 페이지에서는 이 보상을 전국 시대의 사무라이 및 닌자에서 영감을 받은 코스튬으로 설명합니다.",
+          "highlights": [
+            "Neo Bushido는 Hugh의 사무라이 스타일 의상입니다",
+            "Neo Kunoichi는 Diana의 닌자 스타일 의상입니다",
+            "두 캐릭터를 위한 세트 디자인"
+          ]
+        },
+        {
+          "title": "제공 기간",
+          "tag": "얼리 버드 기간",
+          "description": "출시일이 앞당겨지면서 디지털 예약 주문 보너스는 얼리 버드 보너스로 변경되었습니다. PlayStation은 2026년 4월 23일까지 제공되는 것으로 명시하고 있으며, Steam은 지역별로 이에 상응하는 마감 시간을 표시합니다.",
+          "highlights": [
+            "Steam 마감: 2026년 4월 23일 오후 11:59 (EDT)",
+            "PlayStation Store: 2026년 4월 23일 오후 11:59까지",
+            "Xbox 스토어에서는 예약 주문 에디션에 의상 세트가 포함된 것으로 표시됨"
+          ]
+        },
+        {
+          "title": "보너스 외 Deluxe 추가 요소",
+          "tag": "Deluxe 업그레이드",
+          "description": "의상 세트가 Deluxe 혜택의 전부는 아닙니다. Deluxe에는 추가 의상, 무기 스킨, Shelter 음악 트랙, Diana 제스처 및 아트워크가 포함된 Shelter Variety Pack이 추가로 포함됩니다.",
+          "highlights": [
+            "Standard는 기본 게임과 현재 진행 중인 조기 구매 보너스에 집중합니다",
+            "Deluxe는 여기에 Shelter Variety Pack을 추가합니다",
+            "꾸미기 아이템과 Shelter 관련 추가 요소를 원하신다면 고려해 볼 가치가 있습니다"
+          ]
+        }
+      ]
+    },
+    "pragmataDeluxeEdition": {
+      "title": "PRAGMATA 스탠다드 vs 디럭스 에디션",
+      "eyebrow": "에디션",
+      "intro": "PRAGMATA는 스탠다드 $59.99, 디럭스 $69.99로 책정되었습니다. 디럭스 업그레이드는 Shelter 버라이어티 팩을 중심으로 구성되어 있으며, 코스튬 의상, 무기 스킨, 배경 음악 트랙, 제스처 및 아트워크가 포함됩니다. 두 에디션 모두 정식 본편 게임을 포함합니다.",
+      "headers": {
+        "feature": "특징",
+        "standard": "스탠다드 — $59.99",
+        "deluxe": "디럭스 — $69.99"
+      },
+      "rows": [
+        {
+          "feature": "본편 게임",
+          "standard": "포함",
+          "deluxe": "포함"
+        },
+        {
+          "feature": "Shelter 버라이어티 팩",
+          "standard": "미포함",
+          "deluxe": "포함"
+        },
+        {
+          "feature": "Hugh 의상 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "헤비 리프터 및 루나 캣"
+        },
+        {
+          "feature": "Diana 의상 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "메카 빌더 및 플러피"
+        },
+        {
+          "feature": "무기 스킨 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "그립 건 DS"
+        },
+        {
+          "feature": "BGM 트랙 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (재즈)"
+        },
+        {
+          "feature": "Diana 제스처 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "졸림, 기운 넘침, 스태핑"
+        },
+        {
+          "feature": "데이터 라이브러리 아트워크 (디럭스 전용)",
+          "standard": "—",
+          "deluxe": "포함"
+        },
+        {
+          "feature": "조기 구매 특전 (두 에디션 공통)",
+          "standard": "2026년 4월 23일까지 네오 부시도 + 네오 쿠노이치 의상 제공",
+          "deluxe": "2026년 4월 23일까지 네오 부시도 + 네오 쿠노이치 의상 제공"
+        }
+      ]
+    },
+    "pragmataSystemRequirements": {
+      "title": "PRAGMATA PC 시스템 사양",
+      "eyebrow": "PC 사양",
+      "intro": "PRAGMATA는 모든 등급에서 Windows 11, 16 GB RAM, DirectX 12 및 40 GB의 저장 공간을 필요로 합니다. 권장 사양은 밸런스 프리셋에서 1080p 60 fps를 목표로 합니다. 레이 트레이싱을 사용하려면 아래에 나열된 고성능 GPU가 필요합니다.",
+      "headers": {
+        "spec": "사양 항목",
+        "minimum": "최소 사양",
+        "recommended": "권장 사양"
+      },
+      "rows": [
+        {
+          "spec": "운영체제",
+          "minimum": "Windows 11 (64비트)",
+          "recommended": "Windows 11 (64비트)"
+        },
+        {
+          "spec": "프로세서",
+          "minimum": "Intel Core i5-8500 또는 AMD Ryzen 5 3500",
+          "recommended": "Intel Core i7-8700 또는 AMD Ryzen 5 5500"
+        },
+        {
+          "spec": "메모리",
+          "minimum": "16 GB RAM",
+          "recommended": "16 GB RAM"
+        },
+        {
+          "spec": "그래픽",
+          "minimum": "NVIDIA GTX 1660 6 GB 또는 AMD RX 5500 XT 8 GB",
+          "recommended": "NVIDIA RTX 2060 Super 8 GB 또는 AMD RX 6600 8 GB"
+        },
+        {
+          "spec": "DirectX",
+          "minimum": "버전 12",
+          "recommended": "버전 12"
+        },
+        {
+          "spec": "저장 공간",
+          "minimum": "40 GB (SSD 권장)",
+          "recommended": "40 GB (SSD 권장)"
+        },
+        {
+          "spec": "목표 성능",
+          "minimum": "~1080p 45 fps (성능 프리셋)",
+          "recommended": "~1080p 60 fps (밸런스 프리셋)"
+        },
+        {
+          "spec": "레이 트레이싱 GPU",
+          "minimum": "최소 사양에서는 요구되지 않음",
+          "recommended": "AMD RX 6700 XT 12 GB 또는 NVIDIA RTX 3060 12 GB"
+        },
+        {
+          "spec": "네트워크",
+          "minimum": "광대역 인터넷 연결",
+          "recommended": "광대역 인터넷 연결"
+        }
+      ]
+    },
+    "pragmataWeaponsAndLoadouts": {
+      "title": "PRAGMATA 무기, 유닛 및 로드아웃 옵션",
+      "eyebrow": "전투 가이드",
+      "intro": "PRAGMATA의 전투는 Hugh의 총과 Diana의 해킹 노드가 실시간으로 함께 작동하는 것을 중심으로 구축됩니다. 다양한 무기 역할, 교체 가능한 도구, 허브 기반 로드아웃 변경은 독특한 플레이 스타일을 장려합니다.",
+      "items": [
+        {
+          "category": "주력 유닛",
+          "role": "핵심 화기",
+          "description": "탄약 소진 여부와 관계없이 Hugh와 함께하는 유일한 무기입니다. 다른 모든 특수 무기는 소진되면 파괴됩니다. 주력 유닛은 모든 전투에서 최후의 수단입니다.",
+          "icon": "Target"
+        },
+        {
+          "category": "공격 유닛",
+          "role": "고피해 후속 공격",
+          "description": "해킹으로 약점이 노출된 후 근거리에서 적을 마무리하는 데 사용됩니다. 근거리 폭발을 위한 샷건과 장거리 공격을 위한 차지 피어서 레일건이 옵션으로 포함됩니다.",
+          "icon": "Zap"
+        },
+        {
+          "category": "전술 유닛",
+          "role": "제어 및 군중 제압",
+          "description": "적을 고정시키거나, 느리게 하거나, 넘어뜨려 안전하게 해킹을 완료할 수 있도록 합니다. 스테이시스 넷은 대상을 움직이지 못하게 하고, 라이엇 블래스터는 적의 균형을 무너뜨리는 충격파를 발사합니다.",
+          "icon": "Shield"
+        },
+        {
+          "category": "방어 유닛",
+          "role": "미끼 및 어그로 전환",
+          "description": "Hugh로부터 적의 주의를 돌리거나 압력을 전환합니다. 디코이 제너레이터는 적을 안전한 통로나 환경 함정으로 유인하여 공격받지 않고 해킹 기회를 만듭니다.",
+          "icon": "Bot"
+        },
+        {
+          "category": "Diana의 해킹 노드",
+          "role": "해킹 툴킷",
+          "description": "디코드(Decode)는 적의 방어력을 낮추고, Multi-Hack은 효과를 주변 대상에게 확산시키며, 크리티컬 다운(Critical Down)은 약화된 적을 넘어뜨려 근접 공격으로 마무리할 수 있게 합니다. 노드 선택이 모든 전투의 형태를 결정합니다.",
+          "icon": "Cpu"
+        },
+        {
+          "category": "로드아웃 관리",
+          "role": "허브 전략",
+          "description": "저장 지점을 통해 Shelter로 돌아가 전투 사이에 로드아웃을 교체할 수 있습니다. 업그레이드는 새로운 능력을 잠금 해제하고, 모드 슬롯을 추가하며, Hugh 또는 Diana의 툴킷을 강화할 수 있습니다.",
+          "icon": "Settings"
+        }
+      ]
+    },
+    "pragmataEnemiesAndBosses": {
+      "title": "PRAGMATA 적 유형 및 보스 전투 패턴",
+      "eyebrow": "적 가이드",
+      "intro": "PRAGMATA의 적들은 전투 리듬을 방해하도록 설계되었습니다. 방패 로봇은 해킹 전에 총격전을 강요하고, 미사일 로봇은 해킹 중에 압박을 가하며, 거대한 보스들은 전투를 더 긴 전술적 교전으로 만듭니다.",
+      "enemies": [
+        {
+          "title": "표준 필드 적",
+          "summary": "인간형 워커, 발을 구르는 메카형 로봇, 드론형 비행체가 일반적인 전투의 기본을 설정합니다: 해킹으로 방어구를 노출시킨 다음 약점을 쏘세요.",
+          "details": [
+            "방어구를 노출시키기 위한 해킹과 약점 사격의 일반적인 흐름을 설정합니다.",
+            "무기 역할 결정 및 탄약 관리에 가장 흔하게 연관되는 적입니다.",
+            "여러 유닛 유형이 동시에 활성화될 경우 짧고 집중적인 해킹이 필요합니다."
+          ],
+          "lesson": "여러 유닛이 활성화되어 있을 때는 목표 우선순위에 집중하고 해킹을 짧게 유지하세요."
+        },
+        {
+          "title": "방패 및 미사일 기반 로봇",
+          "summary": "빨간색 방벽 로봇은 Hugh가 먼저 방패를 부술 때까지 Diana의 해킹을 차단합니다. 미사일 로봇은 해킹 중에 압박을 가하며, 적절한 타이밍의 해킹으로 목표물 쪽으로 다시 유도할 수 있습니다.",
+          "details": [
+            "빨간색 방벽은 Diana가 행동하기 전에 해킹에서 총격전으로 전환하도록 강요합니다.",
+            "미사일 로봇은 해킹 패널에 경로를 그리는 동안 압박을 가합니다.",
+            "성공적인 미사일 해킹은 날아오는 공격을 반격으로 바꿉니다."
+          ],
+          "lesson": "이러한 전투에서는 해킹보다 방패 파괴 또는 투사체 제어가 선행되는 경우가 많습니다."
+        },
+        {
+          "title": "고급 방해 적",
+          "summary": "더 넓은 해킹 퍼즐 창과 Diana의 연결 완료 능력을 직접적으로 방해하는 해킹 방해 모듈을 가진 더 빠른 로봇입니다.",
+          "details": [
+            "더 빠르게 움직이며, 다중 목표 전투를 더 혼란스럽게 만드는 공격 패턴을 사용합니다.",
+            "일부는 단순히 피해를 흡수하는 대신 해킹을 방해하도록 설계되었습니다.",
+            "여기서는 순수한 화력보다 노드 선택과 군중 제어 도구가 더 중요해집니다."
+          ],
+          "lesson": "이러한 전투를 데모의 초기 전투처럼 다루기 전에 제어 도구를 가져오고 해킹 노드를 선택하세요."
+        },
+        {
+          "title": "기이종 적",
+          "summary": "바퀴 모양의 적과 아기 얼굴을 가진 거대한 기어가는 로봇이 입을 열어 레이저를 발사하는 등 기이한 디자인을 가지고 있습니다. 특이한 형태는 간격과 타이밍을 다르게 느끼게 합니다.",
+          "details": [
+            "표준 드론과 워커를 넘어 전투의 정체성을 확장하는 시각적으로 독특한 적입니다.",
+            "특이한 신체 형태는 일반 로봇에 비해 간격과 타격 타이밍을 변화시킵니다.",
+            "적 디자인이 하나의 전투 패턴에 안주하지 않고 계속 진화하고 있음을 나타냅니다."
+          ],
+          "lesson": "이러한 전투에서는 적의 실루엣이 피해량만큼 중요합니다."
+        },
+        {
+          "title": "거대 보스 조우",
+          "summary": "광역 공격, 여러 겹의 방패, 건물 크기의 거대한 보스입니다. 확인된 보스 중 하나는 사마귀 같은 얼굴과 목을 부수는 공격을 가진 근육질 개미와 닮았습니다.",
+          "details": [
+            "보스들은 동일한 해킹 및 사격 기반을 사용하지만, 더 긴 전투에 걸쳐 이를 확장합니다.",
+            "여러 개의 방패는 방패 파괴, 해킹, 공격 사이의 반복적인 전환을 강요합니다.",
+            "회피를 위해 물러날 때 해킹 진행 상황이 유지되어 전투의 속도를 변화시킵니다."
+          ],
+          "lesson": "보스들은 인내심, 부분적인 진행, 그리고 생존, 해킹, 폭발적인 피해 사이의 깔끔한 전환에 보상합니다."
+        }
+      ]
+    },
+    "pragmataShelterAndUpgrades": {
+      "eyebrow": "기본 시스템",
+      "title": "PRAGMATA Shelter 및 업그레이드",
+      "displayType": "cards",
+      "intro": "PRAGMATA에서 Shelter는 단순한 휴식 공간 그 이상입니다. 이곳은 Hugh와 Diana가 발견한 것들을 영구적인 전투 옵션으로 전환하고, 지원 로봇 Cabin을 만나며, 트램과 탈출 해치 네트워크를 통해 스테이션의 잠금 해제된 구역으로 다시 나가는 장소입니다.",
+      "cards": [
+        {
+          "name": "3D 프린터",
+          "description": "현장에서 발견한 무기와 해킹 노드는 Shelter의 3D 프린터에서 잠금 해제할 수 있습니다. 필드에서의 발견을 무기와 해킹 노드 모두를 아우르는 영구적인 업그레이드로 전환하세요."
+        },
+        {
+          "name": "로드아웃 업그레이드",
+          "description": "Shelter는 Hugh와 Diana가 달 시설 더 깊은 곳에 있는 더 강력한 적들에 대비해 전투 설정을 강화하는 곳입니다. 허브를 사용하여 다음 탐사 사이에 로드아웃을 정교하게 다듬으세요."
+        },
+        {
+          "name": "Cabin",
+          "description": "Cabin은 Shelter에 주둔하며 더 넓은 CABIN 시스템에 연결된 독립적인 지원 로봇입니다. 스테이션을 제어하는 적대적인 시스템과는 분리된, 기지 내부의 우호적인 지원 존재입니다."
+        },
+        {
+          "name": "탈출 해치",
+          "description": "탈출 해치는 탐험을 Shelter와 다시 연결해 주는 잠금 해제 가능한 귀환 지점입니다. 스테이션을 진행하며 해치를 잠금 해제하면 영구적인 빠른 이동 경로로 사용할 수 있습니다."
+        },
+        {
+          "name": "트램",
+          "description": "트램은 Shelter와 더 넓은 스테이션을 잇는 이동 수단으로, 플레이어가 잠금 해제된 탈출 해치를 향해 다시 나갈 수 있게 해줍니다. 역추적과 재진입을 탐험 루프의 일부로 만듭니다."
+        }
+      ]
+    },
+    "pragmataExplorationAndTraversal": {
+      "eyebrow": "이동 및 탐사",
+      "title": "PRAGMATA 탐험 및 이동",
+      "displayType": "steps",
+      "intro": "달 연구 스테이션은 팀워크를 통해 열리는 다층적인 공간으로 설계되었습니다. Hugh는 속도와 움직임을 제공하고, Diana는 해킹을 통해 막힌 경로를 열며, Shelter 네트워크는 각 전진을 더 큰 탐험 루프로 연결합니다.",
+      "steps": [
+        {
+          "title": "Hugh의 스러스트를 사용하여 빠르게 이동",
+          "description": "Hugh의 슈트는 스러스트 보조 이동을 통해 시설을 빠르게 통과할 수 있게 해주며, 기동성을 전투 사이의 수동적인 걷기가 아닌 탐험의 핵심 요소로 만듭니다."
+        },
+        {
+          "title": "Diana가 스테이션을 해킹하게 하세요",
+          "description": "Diana는 적만 해킹하는 것이 아닙니다. 스테이션의 보안 시스템에 침투하여 문을 열고 막힌 앞길을 뚫을 수도 있습니다."
+        },
+        {
+          "title": "스테이션을 다층적인 공간으로 파악하세요",
+          "description": "시설은 단순한 복도식 진행이 아니라, 움직임과 경로 개척, 그리고 더 나은 도구를 가지고 경로를 다시 방문하는 것에 보상을 주도록 구조화되어 있습니다."
+        },
+        {
+          "title": "진행하며 탈출 해치 잠금 해제",
+          "description": "탈출 해치는 탐험 시 중요한 경로 거점이 됩니다. 잠금 해제되면 외부로 향하는 진행 상황을 Shelter와 다시 연결해 줍니다."
+        },
+        {
+          "title": "트램을 통한 귀환",
+          "description": "Shelter에서 트램을 타면 Hugh와 Diana가 잠금 해제된 탈출 해치로 다시 이동할 수 있어, 탐험을 스테이션 전역의 광범위한 허브 앤 스포크 루프로 전환합니다."
+        },
+        {
+          "title": "적 로봇에 항상 대비하세요",
+          "description": "스테이션이 비어 있는 것처럼 느껴질 때도 적대적인 로봇은 이동 리듬의 일부로 남아 있으므로, 이동, 경로 파악 및 전투 준비 상태가 긴밀하게 연결되어야 합니다."
+        }
+      ]
+    },
+    "pragmataDemoSecretsAndEndings": {
+      "eyebrow": "데모",
+      "title": "PRAGMATA 데모 비밀 및 엔딩",
+      "displayType": "accordion",
+      "intro": "Sketchbook 데모는 전투 샘플러로서 이미 유용하지만, 더 큰 매력은 반복 플레이 가치에 있습니다. PRAGMATA는 이를 통해 이동 방식을 소개하고, 해킹과 사격 루프를 선보이며, 여러 번 다시 플레이하는 플레이어에게 보상을 제공합니다.",
+      "faqs": [
+        {
+          "question": "PRAGMATA Sketchbook 데모란 무엇인가요?",
+          "answer": "PRAGMATA Sketchbook - DEMO는 게임의 무료 PS5 데모입니다. 오프라인 플레이, Remote Play 지원, PS5 Pro Enhanced 지원 및 게임 도움말 기능이 포함된 싱글 플레이어 액션 데모로 등록되어 있습니다."
+        },
+        {
+          "question": "플레이어가 PRAGMATA 데모를 다시 플레이해야 하는 이유는 무엇인가요?",
+          "answer": "Xbox Wire는 PRAGMATA 데모를 여러 번 완료하여 비밀과 다양한 엔딩을 찾아내야 한다고 명시적으로 언급하며, 반복 플레이를 선택적인 작업이 아닌 의도된 경험의 일부로 만들었습니다."
+        },
+        {
+          "question": "PRAGMATA 데모는 실제로 어떤 내용을 다루나요?",
+          "answer": "이 데모는 Diana의 해킹과 Hugh의 사격이 함께 작동하는 PRAGMATA 특유의 전투 루프를 익히도록 설계되었습니다. 또한 플레이어는 달 연구 스테이션을 통한 이동을 경험할 수 있습니다."
+        },
+        {
+          "question": "PRAGMATA 데모의 플랫폼 및 언어 상세 정보는 어떻게 되나요?",
+          "answer": "PlayStation Store에서 PRAGMATA 데모는 2026년 2월 5일에 출시되었으며, 영어 및 일본어 음성을 지원하는 PS5용으로 등록되어 있습니다. 스토어 페이지에는 7,858개의 평가를 통해 5점 만점에 평균 4.66점을 기록하고 있습니다."
+        }
+      ]
+    },
+    "pragmataTrailersAndNews": {
+      "eyebrow": "미디어 타임라인",
+      "title": "PRAGMATA 트레일러 및 뉴스",
+      "displayType": "timeline",
+      "intro": "이 타임라인은 게임을 늦게 접한 플레이어들에게 가장 중요한 주요 공식 소식들을 모았습니다. 중요한 PRAGMATA 트레일러를 순서대로 배치하고 각 트레일러가 게임의 공개된 모습에 무엇을 더했는지 보여줍니다.",
+      "entries": [
+        {
+          "title": "퍼스트 컨택트 트레일러 — 2025년 6월",
+          "type": "재소개",
+          "description": "Capcom은 Hugh, Diana, 달 스테이션, 그리고 게임의 액션과 전략이 결합된 피치를 더 명확하게 보여주며 PRAGMATA를 다시 소개했고, 출시 시기를 2026년으로 좁혔습니다."
+        },
+        {
+          "title": "예약 주문 트레일러 — 2025년 12월",
+          "type": "예약 주문 시작",
+          "description": "예약 주문이 시작되었으며 출시일이 2026년 4월 24일로 공개되었습니다. 이 시점에는 Sketchbook 데모를 중심으로 한 광범위한 홍보도 함께 진행되었습니다."
+        },
+        {
+          "title": "메인 트레일러 — 2026년 3월 5일",
+          "type": "풀 트레일러",
+          "description": "최신 PRAGMATA 트레일러에는 새로운 적 영상, 새로운 스테이션 구역, Shelter 상세 정보 및 Cabin이 추가되었으며, 출시일을 4월 24일에서 4월 17일로 일주일 앞당겼습니다."
+        },
+        {
+          "title": "출시일 — 2026년 4월 17일",
+          "type": "출시",
+          "description": "2026년 4월 17일은 현재 모든 플랫폼의 PRAGMATA 최신 공식 홍보 자료에서 제시하는 실시간 출시 목표일입니다."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "출시 전 PRAGMATA에 대해 알아야 할 모든 것",
+    "questions": [
+      {
+        "question": "PRAGMATA는 어떤 종류의 게임인가요?",
+        "answer": "PRAGMATA는 Capcom에서 개발한 싱글 플레이어 SF 액션 어드벤처입니다. 3인칭 슈팅과 AI 동료 Diana가 제어하는 실시간 그리드 기반 해킹 시스템이 결합된 것이 특징입니다."
+      },
+      {
+        "question": "PRAGMATA는 언제 출시되나요?",
+        "answer": "PRAGMATA는 2026년 4월 17일에 Capcom 공식 사이트와 PlayStation으로 출시됩니다. Steam 스토어 페이지에는 2026년 4월 16일로 표시되어 전 세계 동시 출시 기간을 반영하고 있습니다."
+      },
+      {
+        "question": "PRAGMATA는 어떤 플랫폼으로 출시되나요?",
+        "answer": "PRAGMATA는 PlayStation 5, Xbox Series X, Xbox Series S, Steam (PC), 그리고 Nintendo Switch 2로 출시됩니다. 네 가지 플랫폼 모두 2026년 4월에 게임을 선보입니다."
+      },
+      {
+        "question": "무료 PRAGMATA 데모를 이용할 수 있나요?",
+        "answer": "네. PRAGMATA Sketchbook 데모는 PS5, Xbox Series X, Xbox Series S 및 Steam에서 무료로 다운로드할 수 있습니다. 달 연구 스테이션에서의 실시간 전투, 해킹 및 이동 섹션이 포함되어 있습니다."
+      },
+      {
+        "question": "PRAGMATA의 주요 캐릭터는 누구인가요?",
+        "answer": "Hugh Williams는 플레이 가능한 주인공으로, 유실된 달 시설을 조사하기 위해 파견된 팀의 일원입니다. Diana는 그의 파트너가 되어 게임의 해킹 시스템을 담당하는 PRAGMATA 안드로이드입니다."
+      },
+      {
+        "question": "PC용 PRAGMATA의 시스템 요구 사양은 어떻게 되나요?",
+        "answer": "PRAGMATA는 Windows 11(64비트)과 약 40GB의 저장 공간이 필요합니다. 전체 최소 및 권장 GPU, CPU 사양은 공식 Steam 스토어 페이지에 나열되어 있습니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "PRAGMATA를 탐험할 준비가 되셨나요?",
+    "description": "핵앤슈팅 SF 어드벤처 PRAGMATA에 대한 가이드, 업데이트 및 토론을 위해 Discord에서 PRAGMATA 커뮤니티에 참여하세요!",
+    "joinCommunity": "Discord 참여",
+    "joinGame": "Steam에서 플레이"
+  },
+  "footer": {
+    "title": "PRAGMATA 위키",
+    "description": "PRAGMATA 스토리 가이드, 데모 도움말, 캐릭터, 해킹 전투, Shelter 업그레이드 및 시스템 요구 사항을 위한 완벽한 리소스 허브입니다.",
+    "resources": "자료",
+    "community": "커뮤니티",
+    "legal": "법률",
+    "discord": "Discord",
+    "twitter": "X / 트위터",
+    "steamCommunity": "Steam 커뮤니티",
+    "steamStore": "Steam 상점",
+    "about": "소개",
+    "privacy": "개인정보처리방침",
+    "terms": "서비스 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 PRAGMATA Wiki. Capcom 또는 PRAGMATA 개발사와는 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 리소스 웹사이트."
+  },
+  "pages": {
+    "release": {
+      "title": "Pragmata 출시일",
+      "description": "Pragmata 출시일, 지역별 출시 기간, Capcom의 발표 타임라인에 대한 모든 정보.",
+      "metaTitle": "Pragmata 출시일 - 출시일 및 발표 기록",
+      "metaDescription": "2026년 4월 17일 전 세계 출시, 지역별 차이, Capcom의 전체 발표 타임라인을 포함한 공식 Pragmata 출시일 정보.",
+      "categoryLabel": "출시 정보",
+      "whatIs": "Pragmata 출시 정보란 무엇인가요?",
+      "whatIsDescription": "Pragmata는 2026년 4월 17일 PS5, Xbox Series X|S, Steam을 통해 PC로 출시됩니다. Nintendo Switch 2 일본/아시아 지역은 2026년 4월 24일에 출시됩니다. 이 섹션은 발표부터 출시까지의 전체 타임라인을 다룹니다.",
+      "why": "Pragmata 출시 소식을 따라야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "출시일 추적",
+        "step1Description": "귀하의 지역 및 플랫폼에 대한 정확한 출시 기간을 파악하세요",
+        "step2Title": "사전 주문 계획",
+        "step2Description": "출시 전에 사전 주문 보너스 및 에디션 차이점을 이해하세요",
+        "step3Title": "타임라인 따르기",
+        "step3Description": "2020년 발표부터 2026년 4월 출시까지, Pragmata의 전체 개발 여정을 추적하세요"
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 출시 기사"
+    },
+    "demo": {
+      "title": "Pragmata 데모",
+      "description": "다운로드 링크, 콘텐츠 개요, 비밀, 여러 엔딩을 포함한 Pragmata Sketchbook 데모의 완벽 가이드.",
+      "metaTitle": "Pragmata Sketchbook 데모 - 다운로드, 비밀 및 엔딩",
+      "metaDescription": "PS5, Xbox, Steam용 다운로드 링크, 데모 콘텐츠 개요, 숨겨진 비밀과 대체 엔딩을 찾는 방법을 다루는 Pragmata Sketchbook 데모 가이드.",
+      "categoryLabel": "데모 가이드",
+      "whatIs": "Pragmata 데모란 무엇인가요?",
+      "whatIsDescription": "Pragmata Sketchbook 데모는 PS5, Xbox Series X|S, Steam에서 이용 가능한 전체 게임의 무료 플레이 가능한 부분입니다. 핵앤슈팅 전투 루프를 소개하고 여러 엔딩을 제공합니다.",
+      "why": "Pragmata 데모를 플레이해야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "구매 전 체험",
+        "step1Description": "2026년 4월 17일 정식 게임 출시 전에 해킹 및 슈팅 시스템을 테스트하세요",
+        "step2Title": "비밀 찾기",
+        "step2Description": "데모의 여러 엔딩과 숨겨진 수집품을 탐험하세요",
+        "step3Title": "전투 배우기",
+        "step3Description": "Hugh-Diana 협동 전투 루프에 일찍 익숙해지세요"
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 데모 가이드"
+    },
+    "character": {
+      "title": "Pragmata 캐릭터",
+      "description": "Hugh Williams, Diana, IDUS, Cabin의 역할, 능력, Pragmata에서의 스토리 중요성을 다루는 캐릭터 프로필.",
+      "metaTitle": "Pragmata 캐릭터 - Hugh, Diana, IDUS & Cabin",
+      "metaDescription": "Hugh Williams, 안드로이드 Diana, 불량 AI IDUS, Cabin을 다루는 완벽한 Pragmata 캐릭터 프로필. 각 캐릭터의 전투 및 스토리에서의 역할을 알아보세요.",
+      "categoryLabel": "캐릭터",
+      "whatIs": "Pragmata 캐릭터는 누구인가요?",
+      "whatIsDescription": "Pragmata는 Hugh Williams와 안드로이드 Diana가 적대적인 달 연구 기지를 탈출하기 위해 협력하는 이야기를 중심으로 합니다. IDUS는 불량 AI 적대자이며, Cabin은 그들의 Shelter 동반자입니다.",
+      "why": "Pragmata 캐릭터를 알아야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "전투 역할 이해",
+        "step1Description": "Hugh는 총기를 다루고 Diana는 전투에서 해킹 패널을 제어합니다",
+        "step2Title": "스토리 따라가기",
+        "step2Description": "각 캐릭터의 동기와 더 큰 서사에서의 위치를 파악하세요",
+        "step3Title": "역동성 이해",
+        "step3Description": "Hugh-Diana 파트너십이 게임 플레이와 스토리를 어떻게 이끄는지 이해하세요"
+      },
+      "featured": "주요 및 필수",
+      "all": "모든 캐릭터 가이드"
+    },
+    "version": {
+      "title": "PRAGMATA 플랫폼",
+      "description": "PS5, Xbox Series X, Xbox Series S, PC 및 Nintendo Switch 2용 PRAGMATA의 플랫폼 가용성, 에디션 차이점 및 버전별 기능을 확인하세요.",
+      "metaTitle": "PRAGMATA 플랫폼 - PS5, Xbox, PC 및 Nintendo Switch 2 버전",
+      "metaDescription": "PS5, Xbox Series X, Xbox Series S, Steam PC 및 Nintendo Switch 2 버전을 다루는 PRAGMATA 플랫폼 가이드입니다. 에디션, 가격 및 플랫폼 독점 기능을 비교해 보세요.",
+      "categoryLabel": "플랫폼 및 버전",
+      "whatIs": "어떤 PRAGMATA 플랫폼을 이용할 수 있나요?",
+      "whatIsDescription": "PRAGMATA는 PS5, Xbox Series X, Xbox Series S, PC(Steam) 및 Nintendo Switch 2로 출시됩니다. 각 플랫폼은 고유한 기능을 갖추고 있으며, Nintendo Switch 2 일본/아시아 지역은 일주일 늦은 4월 24일에 출시됩니다.",
+      "why": "왜 PRAGMATA 버전을 비교해야 하나요?",
+      "whySteps": {
+        "step1Title": "플랫폼 선택",
+        "step1Description": "PS5, Xbox, PC 및 Nintendo Switch 2를 비교하여 사용자 환경에 가장 적합한 플랫폼을 찾아보세요.",
+        "step2Title": "에디션 비교",
+        "step2Description": "Standard 및 Deluxe 에디션의 차이점을 알아보세요.",
+        "step3Title": "가격 확인",
+        "step3Description": "출시 전 지역별 가격 및 예약 구매 가능 여부를 확인하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 플랫폼 가이드"
+    },
+    "tech": {
+      "title": "PRAGMATA 기술 정보",
+      "description": "PRAGMATA의 PC 시스템 사양, 엔진 상세 정보, 모드 지원 및 기술 사양입니다.",
+      "metaTitle": "PRAGMATA 시스템 사양 및 기술 상세 정보",
+      "metaDescription": "PC 시스템 사양, RE Engine 상세 정보, Denuvo DRM, 모드 지원 및 GeForce NOW 클라우드 게임 호환성을 다루는 PRAGMATA 기술 가이드입니다.",
+      "categoryLabel": "기술 정보",
+      "whatIs": "PRAGMATA 기술 정보란 무엇인가요?",
+      "whatIsDescription": "최소 및 권장 PC 사양, 게임을 구동하는 RE Engine, DRM 정보 및 GeForce NOW를 통한 클라우드 게임 지원을 포함한 PRAGMATA의 기술적 세부 사항입니다.",
+      "why": "왜 PRAGMATA 기술 정보를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "PC 사양 확인",
+        "step1Description": "공식 최소 및 권장 사양과 비교하여 GPU 및 CPU를 확인하세요.",
+        "step2Title": "엔진 이해하기",
+        "step2Description": "RE Engine이 PRAGMATA의 비주얼과 성능 목표를 어떻게 구현하는지 알아보세요.",
+        "step3Title": "모드 계획",
+        "step3Description": "출시 시 PRAGMATA가 제공할 모딩 지원에 대해 미리 알아보세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 기술 문서"
+    },
+    "media": {
+      "title": "PRAGMATA 미디어",
+      "description": "Capcom에서 제공하는 공식 PRAGMATA 트레일러, 월페이퍼, 사운드트랙 미리보기 및 홍보 아트워크입니다.",
+      "metaTitle": "PRAGMATA 트레일러, 월페이퍼 및 사운드트랙",
+      "metaDescription": "트레일러, HD 월페이퍼, 사운드트랙 미리보기 및 홍보 아트워크를 포함한 공식 PRAGMATA 미디어입니다. 모든 공식 Capcom 영상을 시청하고 에셋을 다운로드하세요.",
+      "categoryLabel": "미디어 및 에셋",
+      "whatIs": "어떤 PRAGMATA 미디어를 이용할 수 있나요?",
+      "whatIsDescription": "Capcom은 여러 PRAGMATA 트레일러, HD 월페이퍼 및 사운드트랙 미리보기를 공개했습니다. 이 섹션에서는 모든 공식 미디어 에셋을 한곳에 모았습니다.",
+      "why": "왜 PRAGMATA 미디어를 탐색해야 하나요?",
+      "whySteps": {
+        "step1Title": "트레일러 시청",
+        "step1Description": "발표부터 출시까지 모든 공식 PRAGMATA 트레일러를 확인하세요.",
+        "step2Title": "월페이퍼 다운로드",
+        "step2Description": "Hugh, Diana 및 달 연구 기지가 포함된 공식 HD 월페이퍼를 받아보세요.",
+        "step3Title": "사운드트랙 미리듣기",
+        "step3Description": "음악 미리보기를 듣고 공식 PRAGMATA YouTube 채널을 팔로우하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 미디어"
+    }
   }
 }
