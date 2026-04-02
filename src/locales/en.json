@@ -490,106 +490,144 @@
       ]
     },
     "pragmataDeluxeEdition": {
-      "title": "Pragmata Deluxe Edition",
-      "displayType": "cards",
-      "intro": "The Deluxe Edition adds the Shelter Variety Pack on top of the base game. Here is what to expect from each edition before you decide.",
-      "cards": [
-        {
-          "name": "Standard Edition",
-          "description": "Includes the full base game. Available on PS5, Xbox Series X|S, Steam, and Nintendo Switch 2 across digital storefronts."
-        },
-        {
-          "name": "Deluxe Edition",
-          "description": "Includes the full base game plus the Shelter Variety Pack, a cosmetic add-on for the in-game Shelter hub. Available on Xbox and Steam."
-        },
-        {
-          "name": "Shelter Variety Pack",
-          "description": "The key Deluxe Edition extra. A collection of cosmetic items for Hugh and Diana's Shelter safe space. Does not affect combat or progression."
-        },
-        {
-          "name": "Should you upgrade?",
-          "description": "If you plan to spend time in the Shelter and enjoy cosmetic customization, the Deluxe Edition adds value. The Standard Edition covers the full game experience."
-        }
+      "title": "Pragmata Standard vs Deluxe Edition",
+      "eyebrow": "Editions",
+      "intro": "Pragmata is listed at $59.99 for Standard and $69.99 for Deluxe. The Deluxe upgrade centers on the Shelter Variety Pack: cosmetic outfits, a weapon skin, background music tracks, gestures, and artwork. Both editions include the full base game.",
+      "headers": {
+        "feature": "Feature",
+        "standard": "Standard — $59.99",
+        "deluxe": "Deluxe — $69.99"
+      },
+      "rows": [
+        { "feature": "Base game", "standard": "Included", "deluxe": "Included" },
+        { "feature": "Shelter Variety Pack", "standard": "Not included", "deluxe": "Included" },
+        { "feature": "Hugh Outfits (Deluxe only)", "standard": "—", "deluxe": "Heavy Lifter and Lunar Cat" },
+        { "feature": "Diana Outfits (Deluxe only)", "standard": "—", "deluxe": "Mecha Builder and Fluffy" },
+        { "feature": "Weapon Skin (Deluxe only)", "standard": "—", "deluxe": "Grip Gun DS" },
+        { "feature": "BGM Tracks (Deluxe only)", "standard": "—", "deluxe": "Memories Are You (Lo-fi), Dawn (EDM), Shelter (Jazz)" },
+        { "feature": "Diana Gestures (Deluxe only)", "standard": "—", "deluxe": "Drowsy, Pumped Up, Stepping" },
+        { "feature": "Data Library Artwork (Deluxe only)", "standard": "—", "deluxe": "Included" },
+        { "feature": "Early purchase bonus (both editions)", "standard": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026", "deluxe": "Neo Bushido + Neo Kunoichi outfits through Apr 23, 2026" }
       ]
     },
     "pragmataSystemRequirements": {
-      "title": "Pragmata System Requirements",
-      "displayType": "settingCards",
-      "intro": "Pragmata has official PC system requirements listed on Steam. The game targets a wide range of hardware, with the recommended spec aimed at a smooth 1080p experience.",
-      "specs": [
-        {
-          "name": "OS",
-          "type": "System",
-          "description": "Windows 11 (64-bit) is listed as the operating system requirement on the Steam store page."
-        },
-        {
-          "name": "Storage",
-          "type": "Disk Space",
-          "description": "Approximately 40 GB of available storage is required for installation."
-        },
-        {
-          "name": "Minimum Graphics",
-          "type": "GPU",
-          "description": "The minimum GPU targets basic performance. Check the official Steam page for the specific card listed by Capcom."
-        },
-        {
-          "name": "Recommended Graphics",
-          "type": "GPU",
-          "description": "The recommended spec is aimed at 1080p play at 45fps or higher. Capcom has provided official GPU benchmarks on the Steam store page."
-        }
+      "title": "Pragmata PC System Requirements",
+      "eyebrow": "PC Specs",
+      "intro": "Pragmata requires Windows 11, 16 GB RAM, DirectX 12, and 40 GB storage at both tiers. The recommended spec targets 1080p at 60 fps on the Balanced preset. Ray tracing requires a higher-end GPU listed below.",
+      "headers": {
+        "spec": "Specification",
+        "minimum": "Minimum",
+        "recommended": "Recommended"
+      },
+      "rows": [
+        { "spec": "OS", "minimum": "Windows 11 (64-bit)", "recommended": "Windows 11 (64-bit)" },
+        { "spec": "Processor", "minimum": "Intel Core i5-8500 or AMD Ryzen 5 3500", "recommended": "Intel Core i7-8700 or AMD Ryzen 5 5500" },
+        { "spec": "Memory", "minimum": "16 GB RAM", "recommended": "16 GB RAM" },
+        { "spec": "Graphics", "minimum": "NVIDIA GTX 1660 6 GB or AMD RX 5500 XT 8 GB", "recommended": "NVIDIA RTX 2060 Super 8 GB or AMD RX 6600 8 GB" },
+        { "spec": "DirectX", "minimum": "Version 12", "recommended": "Version 12" },
+        { "spec": "Storage", "minimum": "40 GB (SSD recommended)", "recommended": "40 GB (SSD recommended)" },
+        { "spec": "Performance target", "minimum": "~1080p at 45 fps (Performance preset)", "recommended": "~1080p at 60 fps (Balanced preset)" },
+        { "spec": "Ray tracing GPU", "minimum": "Not required at minimum tier", "recommended": "AMD RX 6700 XT 12 GB or NVIDIA RTX 3060 12 GB" },
+        { "spec": "Network", "minimum": "Broadband Internet connection", "recommended": "Broadband Internet connection" }
       ]
     },
     "pragmataWeaponsAndLoadouts": {
-      "title": "Pragmata Weapons and Loadouts",
-      "displayType": "itemCards",
-      "intro": "Pragmata's weapon system splits into four roles. Choosing the right role for each encounter directly shapes how effectively you capitalize on Diana's hacks.",
+      "title": "Pragmata Weapons, Units, and Loadout Options",
+      "eyebrow": "Combat Guide",
+      "intro": "Pragmata's combat is built around Hugh's guns and Diana's hacking nodes working together in real time. Multiple weapon roles, swappable tools, and hub-based loadout changes encourage distinct playstyles.",
       "items": [
         {
-          "name": "Primary Weapons",
-          "type": "Core Firearm",
-          "description": "The backbone of Hugh's loadout. Used for general combat once Diana exposes enemy weak points through successful hacking."
+          "category": "Primary Unit",
+          "role": "Core Firearm",
+          "description": "The one weapon that stays with Hugh regardless of ammo. All other special weapons break once depleted. Your Primary Unit is the fallback for every encounter.",
+          "icon": "Target"
         },
         {
-          "name": "Attack Weapons",
-          "type": "Offensive Role",
-          "description": "High-damage options that maximize output when enemy armor has been fully stripped. Best used immediately after a successful hack combo."
+          "category": "Attack Unit",
+          "role": "High-Damage Follow-Up",
+          "description": "Used to finish enemies at close range after a hack exposes weak points. Options include a shotgun for close-range bursts and the Charge Piercer rail gun for longer output.",
+          "icon": "Zap"
         },
         {
-          "name": "Defense Weapons",
-          "type": "Counter Role",
-          "description": "Required to break through red-barrier enemies whose shields must be penetrated by gunfire before Diana can attempt a hack."
+          "category": "Tactical Unit",
+          "role": "Control and Crowd Pinning",
+          "description": "Pins, slows, or knocks down enemies so you can safely complete hacks. The Stasis Net immobilizes targets; the Riot Blaster fires concussive blasts that knock enemies off their footing.",
+          "icon": "Shield"
         },
         {
-          "name": "Tactical Weapons",
-          "type": "Utility Role",
-          "description": "Adds utility options such as area control, crowd management, and situational tools that give Hugh more flexibility in multi-enemy encounters."
+          "category": "Defense Unit",
+          "role": "Decoy and Aggro Redirect",
+          "description": "Pulls enemy attention away from Hugh or redirects pressure. A Decoy Generator sends enemies toward safe lanes or environmental traps, opening hacking windows without taking fire.",
+          "icon": "Bot"
+        },
+        {
+          "category": "Diana's Hacking Nodes",
+          "role": "Hack Toolkit",
+          "description": "Decode lowers enemy defense, Multi-Hack spreads the effect to nearby targets, and Critical Down lets you knock down weakened enemies for a melee follow-up. Node choice shapes every fight.",
+          "icon": "Cpu"
+        },
+        {
+          "category": "Loadout Management",
+          "role": "Hub Strategy",
+          "description": "Save points let you return to the Shelter to swap your loadout between encounters. Upgrades can unlock new abilities, add mod slots, and strengthen Hugh or Diana's toolkit.",
+          "icon": "Settings"
         }
       ]
     },
     "pragmataEnemiesAndBosses": {
-      "title": "Pragmata Enemies and Bosses",
-      "displayType": "creatureCards",
-      "intro": "The lunar research station is filled with hostile bots and at least one confirmed boss encounter. Understanding each enemy type is key to choosing the right hack and weapon combination.",
+      "title": "Pragmata Enemy Types and Boss Fight Patterns",
+      "eyebrow": "Enemy Guide",
+      "intro": "Pragmata's enemies are designed to interrupt your combat rhythm. Shield bots force gunplay before hacking, missile bots add pressure during hacks, and colossal bosses turn the loop into a longer tactical exchange.",
       "enemies": [
         {
-          "name": "Armored Bots",
-          "role": "Standard Enemy",
-          "description": "The most common enemy type. Armored bots resist raw gunfire and require Diana's hacking to expose weak points before Hugh can deal meaningful damage."
+          "title": "Standard Field Enemies",
+          "summary": "Humanoid walkers, stomping mech-like bots, and drone-like flyers establish the normal combat baseline: hack to expose armor, then shoot weak points.",
+          "details": [
+            "Sets up the normal flow of hacking to expose armor and then shooting weak points.",
+            "Most common enemies tied to weapon-role decisions and ammo management.",
+            "Multiple unit types active at once require short, targeted hacking."
+          ],
+          "lesson": "Focus on target priority and keep hacks short when multiple units are active."
         },
         {
-          "name": "Red Barrier Enemies",
-          "role": "Counter Enemy",
-          "description": "A specific enemy variant protected by red barriers that must be broken by gunfire first, preventing Diana from hacking until Hugh strips the outer defense."
+          "title": "Shielded and Missile-Based Bots",
+          "summary": "Red barrier bots block Diana's hacking until Hugh breaks the shield first. Missile bots add pressure during hacking and can be redirected back toward targets with a well-timed hack.",
+          "details": [
+            "Red barriers force a switch from hacking back into gunplay before Diana can act.",
+            "Missile bots create pressure while you are drawing routes on the Hacking Panel.",
+            "A successful missile hack turns incoming fire into a counterattack."
+          ],
+          "lesson": "Shield break or projectile control often comes before hacking in these encounters."
         },
         {
-          "name": "Missile Launchers",
-          "role": "Ranged Threat",
-          "description": "Enemies or turrets that fire missiles. Diana can intercept and redirect incoming missiles back toward targets with a well-timed hack."
+          "title": "Advanced Disruptive Enemies",
+          "summary": "Faster robots with broader hacking puzzle windows and hacking disruptor modules that interfere directly with Diana's ability to complete connections.",
+          "details": [
+            "Move faster and use attack patterns that make multitarget fights more hectic.",
+            "Some are designed to interfere with hacking rather than simply absorb damage.",
+            "Node choice and crowd-control tools become more important than raw firepower here."
+          ],
+          "lesson": "Bring control tools and choose hacking nodes before treating these fights like the demo's early battles."
         },
         {
-          "name": "Boss Encounter",
-          "role": "Major Threat",
-          "description": "At least one major boss fight has been shown in hands-on coverage. The encounter involves multiple combat phases and requires shifting between hacking and shooting at the right moments."
+          "title": "Oddity-Class Enemies",
+          "summary": "Strange designs including wheel-like enemies and a giant crawling bot with a baby-like face that opens to fire lasers. Unusual shapes make spacing and timing feel different.",
+          "details": [
+            "Visually distinct enemies that push combat identity beyond standard drones and walkers.",
+            "Unusual body shapes change spacing and hit timing compared to normal bots.",
+            "Signal that enemy design keeps evolving rather than settling into one combat pattern."
+          ],
+          "lesson": "Enemy silhouettes matter as much as their damage output in these fights."
+        },
+        {
+          "title": "Colossal Boss Encounters",
+          "summary": "Massive bosses with area-of-effect attacks, multiple shield layers, and building-sized scale. One confirmed boss resembles a musclebound ant with a mantis-like face and a crushing neck attack.",
+          "details": [
+            "Bosses use the same hack-and-shoot foundation but stretch it over a longer encounter.",
+            "Multiple shields force repeated transitions between shield breaking, hacking, and offense.",
+            "Hack progress is preserved when you back off to evade, changing the pacing of the fight."
+          ],
+          "lesson": "Bosses reward patience, partial progress, and clean transitions between survival, hacking, and burst damage."
         }
       ]
     },

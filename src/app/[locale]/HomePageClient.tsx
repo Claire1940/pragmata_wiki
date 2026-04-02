@@ -166,6 +166,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
   // FAQ accordion states
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null)
   const [demoExpanded, setDemoExpanded] = useState<number | null>(null)
+  const [enemiesExpanded, setEnemiesExpanded] = useState<number | null>(null)
 
   // Scroll reveal animation
   useEffect(() => {
@@ -710,6 +711,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-deluxe-edition" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataDeluxeEdition.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Package className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -720,17 +724,25 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataDeluxeEdition.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataDeluxeEdition.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`pragmataDeluxeEdition::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left p-4 font-semibold text-muted-foreground w-1/3">{t.modules.pragmataDeluxeEdition.headers.feature}</th>
+                  <th className="text-left p-4 font-semibold w-1/3">{t.modules.pragmataDeluxeEdition.headers.standard}</th>
+                  <th className="text-left p-4 font-semibold w-1/3 text-[hsl(var(--nav-theme-light))]">{t.modules.pragmataDeluxeEdition.headers.deluxe}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pragmataDeluxeEdition.rows.map((row: any, index: number) => (
+                  <tr key={index} className={`border-b border-border/50 hover:bg-white/[0.03] transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.015]'}`}>
+                    <td className="p-4 font-medium text-muted-foreground">{row.feature}</td>
+                    <td className="p-4">{row.standard}</td>
+                    <td className="p-4 text-[hsl(var(--nav-theme-light))]">{row.deluxe}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
@@ -739,6 +751,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-system-requirements" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataSystemRequirements.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Cpu className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -749,21 +764,25 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataSystemRequirements.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataSystemRequirements.specs.map((spec: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`pragmataSystemRequirements::specs::${index}`]} locale={locale}>
-                      {spec.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{spec.type}</span>
-                </div>
-                <p className="text-muted-foreground text-sm">{spec.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border bg-white/5">
+                  <th className="text-left p-4 font-semibold text-muted-foreground w-1/4">{t.modules.pragmataSystemRequirements.headers.spec}</th>
+                  <th className="text-left p-4 font-semibold w-3/8">{t.modules.pragmataSystemRequirements.headers.minimum}</th>
+                  <th className="text-left p-4 font-semibold w-3/8 text-[hsl(var(--nav-theme-light))]">{t.modules.pragmataSystemRequirements.headers.recommended}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pragmataSystemRequirements.rows.map((row: any, index: number) => (
+                  <tr key={index} className={`border-b border-border/50 hover:bg-white/[0.03] transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.015]'}`}>
+                    <td className="p-4 font-medium text-muted-foreground whitespace-nowrap">{row.spec}</td>
+                    <td className="p-4">{row.minimum}</td>
+                    <td className="p-4 text-[hsl(var(--nav-theme-light))]">{row.recommended}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
@@ -772,6 +791,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-weapons-loadouts" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataWeaponsAndLoadouts.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Crosshair className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -782,21 +804,29 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataWeaponsAndLoadouts.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataWeaponsAndLoadouts.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Crosshair className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.pragmataWeaponsAndLoadouts.items.map((item: any, index: number) => {
+              const weaponIcons = [Target, Zap, Shield, Bot, Cpu, Settings]
+              const WeaponIcon = weaponIcons[index] || Crosshair
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                      <WeaponIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] inline-block mb-2">{item.role}</span>
+                      <h3 className="font-bold text-base leading-tight">
+                        <LinkedTitle linkData={moduleLinkMap[`pragmataWeaponsAndLoadouts::items::${index}`]} locale={locale}>
+                          {item.category}
+                        </LinkedTitle>
+                      </h3>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`pragmataWeaponsAndLoadouts::items::${index}`]} locale={locale}>
-                    {item.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -805,6 +835,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-enemies-bosses" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataEnemiesAndBosses.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Skull className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -815,20 +848,51 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataEnemiesAndBosses.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataEnemiesAndBosses.enemies.map((enemy: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3">
-                  <span className={`text-xs px-2 py-1 rounded-full border ${["Major Threat"].includes(enemy.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{enemy.role}</span>
+          <div className="scroll-reveal space-y-2">
+            {t.modules.pragmataEnemiesAndBosses.enemies.map((enemy: any, index: number) => {
+              const enemyIcons = [Users, Shield, AlertTriangle, Sparkles, Skull]
+              const EnemyIcon = enemyIcons[index] || Bot
+              const isExpanded = enemiesExpanded === index
+              const isBoss = index === 4
+              return (
+                <div key={index} className={`border rounded-xl overflow-hidden transition-colors ${isBoss ? 'border-red-500/30 hover:border-red-500/50' : 'border-border hover:border-[hsl(var(--nav-theme)/0.5)]'}`}>
+                  <button
+                    onClick={() => setEnemiesExpanded(isExpanded ? null : index)}
+                    className="w-full flex items-center gap-4 p-5 text-left hover:bg-white/5 transition-colors"
+                  >
+                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${isBoss ? 'bg-red-500/10' : 'bg-[hsl(var(--nav-theme)/0.1)]'}`}>
+                      <EnemyIcon className={`w-5 h-5 ${isBoss ? 'text-red-400' : 'text-[hsl(var(--nav-theme-light))]'}`} />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-semibold text-base leading-tight">
+                        <LinkedTitle linkData={moduleLinkMap[`pragmataEnemiesAndBosses::enemies::${index}`]} locale={locale}>
+                          {enemy.title}
+                        </LinkedTitle>
+                      </h3>
+                      <p className="text-sm text-muted-foreground mt-1 line-clamp-1">{enemy.summary}</p>
+                    </div>
+                    <ChevronDown className={`w-5 h-5 flex-shrink-0 text-muted-foreground transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
+                  </button>
+                  {isExpanded && (
+                    <div className="px-5 pb-5 border-t border-border/50">
+                      <p className="text-muted-foreground text-sm mb-4 mt-4 leading-relaxed">{enemy.summary}</p>
+                      <ul className="space-y-2 mb-4">
+                        {enemy.details.map((detail: string, di: number) => (
+                          <li key={di} className="flex items-start gap-2">
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span className="text-sm text-muted-foreground">{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <div className={`flex items-start gap-2 p-3 rounded-lg text-sm ${isBoss ? 'bg-red-500/5 border border-red-500/20' : 'bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)]'}`}>
+                        <Award className={`w-4 h-4 mt-0.5 flex-shrink-0 ${isBoss ? 'text-red-400' : 'text-[hsl(var(--nav-theme-light))]'}`} />
+                        <span className={isBoss ? 'text-red-300' : 'text-[hsl(var(--nav-theme-light))]'}>{enemy.lesson}</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`pragmataEnemiesAndBosses::enemies::${index}`]} locale={locale}>
-                    {enemy.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{enemy.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
