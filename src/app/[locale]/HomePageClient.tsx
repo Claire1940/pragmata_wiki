@@ -4,7 +4,9 @@ import { useEffect, useState, Suspense, lazy } from 'react'
 import {
   AlertTriangle,
   ArrowRight,
+  Award,
   BookOpen,
+  Bot,
   Calendar,
   Check,
   ChevronDown,
@@ -16,15 +18,20 @@ import {
   Gamepad2,
   Gift,
   Home,
+  Laptop,
   MessageCircle,
   Monitor,
   Navigation,
   Package,
+  Palette,
   Play,
   Search,
   Settings,
+  Shield,
   Skull,
   Sparkles,
+  Star,
+  Target,
   Users,
   Zap,
 } from 'lucide-react'
@@ -503,20 +510,39 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataCharacters.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataCharacters.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
-                    <LinkedTitle linkData={moduleLinkMap[`pragmataCharacters::cards::${index}`]} locale={locale}>
-                      {card.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{card.role}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-6">
+            {t.modules.pragmataCharacters.items.map((item: any, index: number) => {
+              const charIcons = [Bot, Shield, Target]
+              const CharIcon = charIcons[index] || Users
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                      <CharIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg leading-tight mb-1">
+                        <LinkedTitle linkData={moduleLinkMap[`pragmataCharacters::items::${index}`]} locale={locale}>
+                          {item.title}
+                        </LinkedTitle>
+                      </h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-4">{item.description}</p>
+                  {item.highlights && (
+                    <ul className="space-y-1.5">
+                      {item.highlights.map((h: string, hi: number) => (
+                        <li key={hi} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span className="text-xs text-muted-foreground">{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -582,21 +608,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataPlatformsAndEditions.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataPlatformsAndEditions.platforms.map((platform: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Monitor className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`pragmataPlatformsAndEditions::platforms::${index}`]} locale={locale}>
-                      {platform.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{platform.type}</span>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.pragmataPlatformsAndEditions.rows.map((row: any, index: number) => {
+              const platformIcons = [Gamepad2, Monitor, Laptop, Star, Award]
+              const PlatIcon = platformIcons[index] || Monitor
+              return (
+                <div key={index} className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-start gap-4">
+                    <div className="flex items-center gap-3 md:w-52 flex-shrink-0">
+                      <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                        <PlatIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <h3 className="font-bold text-sm">
+                        <LinkedTitle linkData={moduleLinkMap[`pragmataPlatformsAndEditions::rows::${index}`]} locale={locale}>
+                          {row.platform}
+                        </LinkedTitle>
+                      </h3>
+                    </div>
+                    <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div>
+                        <p className="text-xs text-[hsl(var(--nav-theme-light))] font-medium mb-1">Availability</p>
+                        <p className="text-sm text-muted-foreground">{row.availability}</p>
+                      </div>
+                      <div>
+                        <p className="text-xs text-[hsl(var(--nav-theme-light))] font-medium mb-1">Editions</p>
+                        <p className="text-sm text-muted-foreground">{row.editions}</p>
+                      </div>
+                      {row.highlights && (
+                        <div className="md:col-span-2">
+                          <ul className="flex flex-wrap gap-2">
+                            {row.highlights.map((h: string, hi: number) => (
+                              <li key={hi} className="flex items-center gap-1 text-xs text-muted-foreground bg-white/5 border border-border px-2 py-1 rounded-full">
+                                <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                                {h}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  </div>
                 </div>
-                <p className="text-muted-foreground text-sm">{platform.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -615,17 +669,39 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataPreOrderBonus.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataPreOrderBonus.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`pragmataPreOrderBonus::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.pragmataPreOrderBonus.items.map((item: any, index: number) => {
+              const bonusIcons = [Gift, Palette, Clock, Package]
+              const BonusIcon = bonusIcons[index] || Gift
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                      <BonusIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg leading-tight mb-1">
+                        <LinkedTitle linkData={moduleLinkMap[`pragmataPreOrderBonus::items::${index}`]} locale={locale}>
+                          {item.title}
+                        </LinkedTitle>
+                      </h3>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.tag}</span>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-sm mb-4">{item.description}</p>
+                  {item.highlights && (
+                    <ul className="space-y-1.5">
+                      {item.highlights.map((h: string, hi: number) => (
+                        <li key={hi} className="flex items-start gap-2">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span className="text-xs text-muted-foreground">{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>

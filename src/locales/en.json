@@ -289,121 +289,203 @@
     },
     "pragmataCharacters": {
       "title": "Pragmata Characters",
-      "displayType": "cards",
-      "intro": "Pragmata centers on two leads whose skills and personalities complement each other. Understanding each character's role is key to both the story and the combat system.",
-      "cards": [
+      "displayType": "card-list",
+      "intro": "Hugh Williams and Diana are the core of Pragmata's story, combat loop, and exploration flow. Hugh is the human survivor trying to return to Earth after a lunar quake separates his team, while Diana is a Lunafilament-based android whose hacking abilities make survival possible inside the lunar research station.",
+      "items": [
         {
-          "name": "Hugh Williams",
-          "role": "Protagonist",
-          "description": "A member of the dispatch team sent to investigate the lost lunar facility. Hugh handles all firearms, dodging, and suit-based mobility in combat."
+          "title": "Diana",
+          "tag": "Pragmata Android",
+          "description": "Also known as D-I-0336-7, Diana is a Pragmata created using Lunafilament. She hacks enemy armor to expose weak points and can hack the lunar station itself to open blocked routes.",
+          "highlights": [
+            "Unique android created using Lunafilament",
+            "Can hack enemy bots and the facility itself",
+            "Curious, quick to learn, and deeply attached to the name Hugh gives her"
+          ]
         },
         {
-          "name": "Diana",
-          "role": "Pragmata Android",
-          "description": "A unique android built from Lunafilament who becomes Hugh's partner. Diana controls the grid-based hacking system, opening enemy armor and unlocking station paths."
+          "title": "Hugh Williams",
+          "tag": "Security Specialist",
+          "description": "Hugh is a member of the dispatch team sent to investigate the lunar facility. Skilled with a wide range of firearms, he also uses his suit's thrusters to move through the station.",
+          "highlights": [
+            "Separated from his team after a massive lunar quake",
+            "Proficient with multiple firearms and suit-based mobility",
+            "Blunt and sarcastic on the surface, but genuinely kind-hearted"
+          ]
         },
         {
-          "name": "IDUS",
-          "role": "Antagonist AI",
-          "description": "The rogue AI whose actions turned the lunar station hostile. IDUS is at the center of the mystery driving Hugh and Diana's push to escape and return to Earth."
-        },
-        {
-          "name": "Cabin",
-          "role": "Shelter Assistant",
-          "description": "A helpful bot companion who lives in the Shelter. Cabin provides a warmer, more personal side to an otherwise cold and dangerous scientific setting."
+          "title": "Why Their Duo Matters",
+          "tag": "Combat and Story",
+          "description": "Pragmata's two-protagonist setup is not cosmetic. Diana creates openings by hacking armor, systems, and doors, while Hugh turns those openings into progress with guns, mobility, and field survival.",
+          "highlights": [
+            "Diana controls access and enemy vulnerability",
+            "Hugh supplies damage, movement, and frontline action",
+            "Both characters are required for combat, traversal, and narrative progression"
+          ]
         }
       ]
     },
     "pragmataCombatAndHacking": {
       "title": "Pragmata Combat and Hacking",
-      "displayType": "steps",
-      "intro": "Combat in Pragmata is a two-layer loop. Diana exposes enemy weaknesses through real-time panel-based hacking while Hugh capitalizes with firearms, positioning, and timing.",
+      "displayType": "step-by-step",
+      "intro": "Regular gunfire is not enough against armored bots, so every major encounter starts with hacking. Hugh locks onto a target, Diana brings up a grid-style Hacking Panel, and the player draws a continuous path to trigger the hack. Weapon choice, shield breaking, Hacking Nodes, and Shelter upgrades turn each fight into a rhythm of setup, exposure, and payoff.",
       "steps": [
         {
-          "title": "Identify armored targets and initiate a hack",
-          "description": "Most bots in the station carry armor that resists raw gunfire. Diana's hacking panel appears as a grid of nodes — connect the right squares to start breaking down defenses.",
+          "title": "Lock on and trigger Diana's Hacking Panel",
+          "description": "When Hugh locks onto an enemy, Diana opens a grid-based panel. Drawing one continuous line through blue squares completes the hack.",
           "highlights": [
-            "Armored bots require hacking before they take full damage",
-            "Grid nodes light up as you connect them in sequence",
-            "Successful hack exposes the enemy's weak point"
+            "A successful hack deals damage and temporarily compromises enemy armor",
+            "Longer paths increase damage and keep armor disabled longer",
+            "Grid connects in sequence — plan your path before committing"
           ]
         },
         {
-          "title": "Use Multi-Hack to hit multiple targets at once",
-          "description": "As encounters grow more complex, Diana's Multi-Hack node allows hacking several enemies or objects simultaneously, dramatically shifting the pace of a fight.",
+          "title": "Punish exposed weak points with Hugh's weapons",
+          "description": "Once Diana exposes the target, Hugh switches from setup to damage. The combat loop rewards turning a clean hack into immediate firearm pressure.",
           "highlights": [
-            "Multi-Hack is one of Diana's most powerful confirmed abilities",
-            "Targets multiple armored bots or station elements at once",
-            "Requires careful grid management to execute correctly"
+            "Hugh uses multiple gun types suited to different scenarios",
+            "The Primary Unit is the constant fallback weapon",
+            "Tactical and Attack options are meant for combo play and burst finishes"
           ]
         },
         {
-          "title": "Redirect incoming threats with defensive hacking",
-          "description": "Not all hacking is offensive. Diana can intercept incoming missiles and redirect them back toward enemies, turning the station's weaponry against itself.",
+          "title": "Read enemy counterplay before committing",
+          "description": "Hacking is never free. Some enemies pressure you while the panel is open, forcing you to choose between a better hack or a quick dodge.",
           "highlights": [
-            "Missile redirection is a confirmed defensive hack move",
-            "Timing the hack correctly converts a threat into an advantage",
-            "Pairs naturally with Hugh repositioning for follow-up shots"
+            "Red shield barriers block Diana's hacking entirely",
+            "Those shields must be broken first with Hugh's gun",
+            "Some homing missiles can be hacked and redirected back at enemies"
           ]
         },
         {
-          "title": "Match weapon choice to the combat situation",
-          "description": "Hugh's arsenal splits into Primary, Attack, Defense, and Tactical roles. Choosing the right weapon type for each encounter shapes how quickly you can capitalize after a successful hack.",
+          "title": "Use specialized weapons for tactical control",
+          "description": "Different weapons support different phases of the encounter and make the hack window safer or more rewarding.",
           "highlights": [
-            "Four weapon roles shown in hands-on coverage",
-            "Defense weapons handle red-barrier enemies that need shooting first",
-            "Tactical weapons add utility like crowd control and area damage"
+            "Tactical Unit can pin enemies down during setup",
+            "Attack Unit excels at close-range finishing damage",
+            "Defense Unit can lure enemies away and create breathing room"
+          ]
+        },
+        {
+          "title": "Boost hacks with Hacking Nodes",
+          "description": "If Diana is carrying a Hacking Node, yellow tiles appear on the panel. Connecting them activates extra effects and adds more tactical options to each successful hack.",
+          "highlights": [
+            "Decode lowers enemy defense for easier follow-up",
+            "Multi-Hack spreads the effect to nearby targets simultaneously",
+            "Each activation consumes one Hacking Node"
+          ]
+        },
+        {
+          "title": "Return to the Shelter to upgrade the loop",
+          "description": "The Shelter is the recovery and upgrade hub. It lets you heal, spend gathered Lunafilament, and improve both combat tools and hacking efficiency.",
+          "highlights": [
+            "Upgrade weapons and expand your Hacking Node options",
+            "Carry more nodes for greater flexibility in fights",
+            "Unlock abilities like Critical Down for knockdown follow-ups"
           ]
         }
       ]
     },
     "pragmataPlatformsAndEditions": {
       "title": "Pragmata Platforms and Editions",
-      "displayType": "regionCards",
-      "intro": "Pragmata launches across four platforms in April 2026. Each storefront has its own edition structure and presentation features.",
-      "platforms": [
+      "displayType": "table",
+      "intro": "If you are deciding where to buy Pragmata, the key questions are which platform you play on, what features the storefront version supports, and whether you want the extra Shelter Variety Pack. Standard pricing is set at 59.99 USD, while Deluxe is 69.99 USD.",
+      "rows": [
         {
-          "name": "PlayStation 5",
-          "type": "Console",
-          "description": "The headline console platform. PS5 uses April 17, 2026 as the release date and has a dedicated demo listing for the Sketchbook."
+          "platform": "PlayStation 5",
+          "availability": "Pre-order live, releases April 17, 2026",
+          "editions": "Standard $59.99 / Deluxe $69.99",
+          "highlights": [
+            "PS5 Pro Enhanced",
+            "DualSense vibration and trigger effect supported",
+            "Remote Play and Game Help supported"
+          ]
         },
         {
-          "name": "Xbox Series X|S",
-          "type": "Console",
-          "description": "Full Xbox support with 4K Ultra HD, HDR10, 60fps+, and Dolby Atmos. Xbox also has its own Sketchbook demo page and a Deluxe Edition listing."
+          "platform": "Xbox Series X|S",
+          "availability": "Pre-order live",
+          "editions": "Standard $59.99+ / Deluxe $69.99+",
+          "highlights": [
+            "4K Ultra HD, HDR10, Ray Tracing, 60 fps+",
+            "Spatial Sound, Dolby Atmos, and DTS:X",
+            "Ray tracing not supported on Xbox Series S"
+          ]
         },
         {
-          "name": "Steam (PC)",
-          "type": "PC",
-          "description": "Steam shows April 16, 2026 on the product page, one day ahead of the Capcom and PlayStation date. Supports Standard and Deluxe editions."
+          "platform": "PC via Steam",
+          "availability": "Coming April 16, 2026",
+          "editions": "Pre-Purchase Standard $59.99 / Deluxe $69.99",
+          "highlights": [
+            "Single-player, Steam Achievements and Cloud",
+            "HDR available and Family Sharing listed",
+            "Early Bird Bonus presented separately on Steam"
+          ]
         },
         {
-          "name": "Nintendo Switch 2",
-          "type": "Hybrid Console",
-          "description": "Confirmed for Switch 2. Nintendo's US store shows the April 17 global date; Japan and Asia region may see April 24 depending on territory."
+          "platform": "Standard Edition",
+          "availability": "All platforms — digital storefronts",
+          "editions": "Full base game",
+          "highlights": [
+            "PS5 and Xbox include Hugh & Diana Outfit Set during active bonus window",
+            "Steam presents outfit bonus as Early Bird Bonus",
+            "Full game experience with no content removed"
+          ]
+        },
+        {
+          "platform": "Deluxe Edition",
+          "availability": "Console and PC digital storefronts",
+          "editions": "Base game + Shelter Variety Pack",
+          "highlights": [
+            "Shelter Variety Pack: extra outfits, weapon skin, BGM tracks",
+            "Diana gestures and artwork included",
+            "Hugh & Diana Outfit Set also shown on console stores"
+          ]
         }
       ]
     },
     "pragmataPreOrderBonus": {
       "title": "Pragmata Pre-Order Bonus",
-      "displayType": "cards",
-      "intro": "Pre-ordering Pragmata on any platform unlocks two exclusive costume sets for Hugh. These outfits are available as pre-order bonuses across all storefronts.",
-      "cards": [
+      "displayType": "card-list",
+      "intro": "The bonus content is centered on a matching costume pair for Hugh and Diana. Store pages describe the set as samurai- and ninja-inspired outfits from the Sengoku Period, and the wording is consistent across official listings: Neo Bushido for Hugh and Neo Kunoichi for Diana.",
+      "items": [
         {
-          "name": "Neo Bushido Outfit",
-          "description": "An exclusive costume for Hugh available as a pre-order bonus. Listed on Steam, PlayStation, and Xbox storefronts as part of the pre-purchase reward."
+          "title": "Bonus Items",
+          "tag": "Outfit Set",
+          "description": "The Early Bird Bonus contains two costumes: Hugh Outfit — Neo Bushido and Diana Outfit — Neo Kunoichi.",
+          "highlights": [
+            "Two-character cosmetic set applies to both leads",
+            "Themed outfit reward with no gameplay impact",
+            "Listed consistently across all storefronts"
+          ]
         },
         {
-          "name": "Neo Kunoichi Outfit",
-          "description": "A second exclusive costume bundled with the Neo Bushido outfit as a pre-order bonus. Both outfits are cosmetic and do not affect gameplay."
+          "title": "Theme and Style",
+          "tag": "Sengoku-Inspired",
+          "description": "Official store pages describe the reward as samurai- and ninja-inspired costumes from the Sengoku Period.",
+          "highlights": [
+            "Neo Bushido is Hugh's samurai-styled outfit",
+            "Neo Kunoichi is Diana's ninja-styled outfit",
+            "Designed as a paired visual set for both characters"
+          ]
         },
         {
-          "name": "Available on all platforms",
-          "description": "The pre-order bonus is listed on PS5, Xbox Series X|S, Steam, and Nintendo Switch 2 storefronts. Check your platform's store page for current availability."
+          "title": "Availability Window",
+          "tag": "Early Bird Period",
+          "description": "After the launch moved forward, the digital pre-order bonus became an Early Bird Bonus. PlayStation lists it through April 23, 2026, while Steam shows equivalent cutoff times by region.",
+          "highlights": [
+            "Steam cutoff: April 23, 2026 11:59 PM EDT",
+            "PlayStation Store: through April 23, 2026 11:59 PM",
+            "Xbox storefront shows outfit set included with pre-order editions"
+          ]
         },
         {
-          "name": "Digital only",
-          "description": "Pre-order bonuses are delivered digitally. Physical edition buyers should verify bonus inclusion with the retailer before purchasing."
+          "title": "What Deluxe Adds Beyond the Bonus",
+          "tag": "Deluxe Upgrade",
+          "description": "The outfit set is not the whole Deluxe offer. Deluxe also includes the Shelter Variety Pack with extra outfits, a weapon skin, Shelter music tracks, Diana gestures, and artwork.",
+          "highlights": [
+            "Standard focuses on the base game and active early purchase bonus",
+            "Deluxe adds the Shelter Variety Pack on top",
+            "Worth considering if you want cosmetic and Shelter-side extras"
+          ]
         }
       ]
     },
