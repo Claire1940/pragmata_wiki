@@ -1,12 +1,12 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
+      "title": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
       "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
       "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
+      "ogTitle": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
       "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
+      "twitterTitle": "Wiki de PRAGMATA - Fabricação, Biomas e Conquistas",
       "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
     }
   },
@@ -34,7 +34,7 @@
   },
   "hero": {
     "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
+    "title": "PRAGMATA Wiki",
     "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
     "getFreeCodesCTA": "Explore o Guia de Criação",
     "playOnSteamCTA": "Jogue no Steam",
@@ -790,7 +790,7 @@
     "joinGame": "Jogue no Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
+    "title": "Wiki de PRAGMATA",
     "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
     "resources": "Recursos",
     "community": "Comunidade",

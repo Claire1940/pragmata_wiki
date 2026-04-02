@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "PRAGMATA Wiki - Release Date, Demo, Platforms & Story",
+      "description": "PRAGMATA Wiki covers release date, demo, platforms, characters, hacking combat, Shelter upgrades, system requirements, and story guides for new players.",
+      "keywords": "PRAGMATA, release date, demo, characters, hacking, Shelter, system requirements, story, platforms",
+      "ogTitle": "PRAGMATA Wiki - Release Date, Demo, Platforms & Story",
+      "ogDescription": "PRAGMATA Wiki covers release date, demo, platforms, characters, hacking combat, Shelter upgrades, system requirements, and story guides for new players.",
+      "twitterTitle": "PRAGMATA Wiki - Release Date, Demo, Platforms & Story",
+      "twitterDescription": "PRAGMATA Wiki covers release date, demo, characters, hacking combat, Shelter upgrades, and story guides for new players on PS5, Xbox, Steam and Switch 2."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Sci-Fi Action Adventure with a Hacking Twist",
+    "title": "PRAGMATA Wiki",
+    "description": "Follow Hugh and Diana through a lunar research station with hack-and-shoot combat, Shelter upgrades, story guides, demo help, and platform info.",
+    "getFreeCodesCTA": "Try the Demo",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "April 17, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2M+",
+        "label": "Wishlists"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2M+",
+        "label": "Demo Downloads"
       }
     }
   },
@@ -784,14 +784,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore PRAGMATA?",
+    "description": "Join the PRAGMATA community on Discord for guides, updates, and discussions about the hack-and-shoot sci-fi adventure!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "PRAGMATA Wiki",
+    "description": "Your complete resource hub for PRAGMATA story guides, demo help, characters, hacking combat, Shelter upgrades, and system requirements.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -803,7 +803,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 PRAGMATA Wiki. Not affiliated with Capcom or the developers of PRAGMATA.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
