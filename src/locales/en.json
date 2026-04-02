@@ -632,118 +632,114 @@
       ]
     },
     "pragmataShelterAndUpgrades": {
+      "eyebrow": "Base Systems",
       "title": "Pragmata Shelter and Upgrades",
       "displayType": "cards",
-      "intro": "The Shelter is Hugh and Diana's safe space inside the station. It is not just a menu screen — it functions as a progression hub that grows over the course of the game.",
+      "intro": "PRAGMATA treats the Shelter as more than a pause room. It is the place where Hugh and Diana turn discoveries into permanent combat options, meet support bot Cabin, and launch back out toward unlocked parts of the station through the Tram and Escape Hatch network.",
       "cards": [
         {
-          "name": "Weapon Printing",
-          "description": "The Shelter lets you print and unlock new weapons for Hugh's loadout. Expanding your weapon options is one of the primary reasons to return after each mission push."
+          "name": "3D Printers",
+          "description": "Weapons and Hacking Nodes that you discover in the field become unlockable at the Shelter's 3D printers. Turns field discoveries into persistent upgrades covering both weapons and Hacking Nodes."
         },
         {
-          "name": "Hack Node Upgrades",
-          "description": "Diana's hacking toolkit can be expanded from the Shelter. Unlocking new Hack Nodes like Decode and Multi-Hack opens up more options for breaking enemy defenses."
-        },
-        {
-          "name": "Escape Hatches and Tram Travel",
-          "description": "The Shelter connects to Escape Hatches and a Tram system that lets you move between areas of the lunar facility without backtracking on foot."
+          "name": "Loadout Upgrades",
+          "description": "The Shelter is where Hugh and Diana strengthen their combat setup for tougher enemies deeper in the lunar facility. Use the hub to refine your next loadout between runs."
         },
         {
           "name": "Cabin",
-          "description": "Cabin is the bot companion who lives inside the Shelter. In addition to providing support, you can give Cabin gifts — small interactions that add warmth to the setting."
+          "description": "Cabin is an independent support bot stationed in the Shelter and connected to the wider CABIN system. A friendly support presence inside the base, separate from the hostile systems controlling the station."
+        },
+        {
+          "name": "Escape Hatches",
+          "description": "Escape Hatches are unlockable return points that tie exploration back to the Shelter. Unlock them as you advance through the station and they remain available as permanent fast routes."
+        },
+        {
+          "name": "The Tram",
+          "description": "The Tram is the Shelter's travel link to the wider station, letting players move back out toward unlocked Escape Hatches. Makes backtracking and re-entry part of the exploration loop."
         }
       ]
     },
     "pragmataExplorationAndTraversal": {
+      "eyebrow": "Traversal",
       "title": "Pragmata Exploration and Traversal",
       "displayType": "steps",
-      "intro": "Moving through the lunar research station in Pragmata is not passive. Hugh's thrusters and Diana's ability to hack the environment both affect how quickly and safely you can explore new areas.",
+      "intro": "The lunar research station is designed as a layered space that opens through teamwork. Hugh supplies speed and movement, Diana opens blocked routes through hacking, and the Shelter network ties each push into a larger exploration loop.",
       "steps": [
         {
-          "title": "Use Hugh's thrusters for vertical movement and repositioning",
-          "description": "Hugh's suit includes thrusters that extend his mobility beyond standard ground movement. They allow faster repositioning in combat and open up vertical paths in exploration.",
-          "highlights": [
-            "Thrusters work both in and out of combat",
-            "Enable access to elevated paths and shortcuts",
-            "Used to dodge enemy attacks and reset positioning"
-          ]
+          "title": "Use Hugh's Thrusters to Move Fast",
+          "description": "Hugh's suit lets him zip through the facility with thruster-assisted movement, making mobility a core part of exploration instead of a passive walk between fights."
         },
         {
-          "title": "Let Diana unlock blocked routes",
-          "description": "Diana hacks station security systems to open doors, deactivate barriers, and clear paths blocked by the facility's automated defenses.",
-          "highlights": [
-            "Diana can hack locked doors and security nodes",
-            "Clears barriers that block exploration routes",
-            "Integrates environmental hacking with combat flow"
-          ]
+          "title": "Let Diana Hack the Station",
+          "description": "Diana does not only hack enemies. She can also break into the station's security systems to unlock doors and clear blocked paths forward."
         },
         {
-          "title": "Use the Tram and Escape Hatches to navigate between areas",
-          "description": "The Shelter's Tram network and Escape Hatches let you move between sections of the station efficiently without retracing entire paths on foot.",
-          "highlights": [
-            "Tram travel connects major areas of the lunar facility",
-            "Escape Hatches offer fast return routes to the Shelter",
-            "Reduces repetitive backtracking during exploration"
-          ]
+          "title": "Read the Station as a Multi-Layered Space",
+          "description": "The facility is structured to reward movement, path opening, and revisiting routes with better tools rather than simple corridor progression."
+        },
+        {
+          "title": "Unlock Escape Hatches Along the Way",
+          "description": "Escape Hatches become key route anchors as you explore. They connect your outward progress back to the Shelter once they are unlocked."
+        },
+        {
+          "title": "Return via the Tram",
+          "description": "From the Shelter, the Tram lets Hugh and Diana travel back toward unlocked Escape Hatches, turning exploration into a broader hub-and-spoke loop across the station."
+        },
+        {
+          "title": "Stay Ready for Enemy Bots",
+          "description": "Even when the station feels empty, hostile bots remain part of the traversal rhythm, so movement, pathing, and combat readiness stay tightly linked."
         }
       ]
     },
     "pragmataDemoSecretsAndEndings": {
+      "eyebrow": "Demo",
       "title": "Pragmata Demo Secrets and Endings",
       "displayType": "accordion",
-      "intro": "The Sketchbook demo contains secrets and multiple endings. Capcom and Xbox have both confirmed that replaying the demo with different choices leads to different outcomes.",
+      "intro": "The Sketchbook Demo is already useful as a combat sampler, but its bigger hook is replay value. PRAGMATA uses it to introduce traversal, showcase the hacking-and-shooting loop, and reward players who revisit it more than once.",
       "faqs": [
         {
-          "question": "Does the Pragmata Sketchbook demo have multiple endings?",
-          "answer": "Yes. Capcom and Xbox have both confirmed that the Sketchbook demo contains multiple endings. Players who replay it with different approaches will encounter different conclusions."
+          "question": "What is the Pragmata Sketchbook Demo?",
+          "answer": "PRAGMATA Sketchbook - DEMO is a free PS5 demo for the game. It is listed as a single-player action demo with offline play enabled, Remote Play support, PS5 Pro Enhanced support, and Game Help support."
         },
         {
-          "question": "Are there hidden secrets in the Pragmata demo?",
-          "answer": "Yes. Both Capcom and Xbox have explicitly teased that secrets are hidden inside the Sketchbook demo beyond what is immediately visible on a first playthrough."
+          "question": "Why should players replay the Pragmata demo?",
+          "answer": "Xbox Wire explicitly says the Pragmata demo should be completed multiple times to uncover its secrets and different endings, making replaying part of the intended experience rather than optional busywork."
         },
         {
-          "question": "How do I find the alternate endings in the Pragmata demo?",
-          "answer": "The specifics of how endings unlock have not been officially detailed. Based on the combat design, trying different approaches to key encounters and choosing different hack strategies during fights are the most likely paths to alternate outcomes."
+          "question": "What does the Pragmata demo actually cover?",
+          "answer": "The demo is designed to teach PRAGMATA's signature combat loop, where Diana's hacking and Hugh's shooting work together. It also lets players experience traversal through the lunar research station."
         },
         {
-          "question": "Is the Sketchbook demo the same on all platforms?",
-          "answer": "The demo content is consistent across PS5, Xbox, and Steam. Platform-specific features like HDR, frame rate, and audio vary, but the core demo experience and secrets are the same."
-        },
-        {
-          "question": "Can I replay the Pragmata demo after completing it?",
-          "answer": "Yes. The demo is designed to be replayed. Capcom has encouraged players to return to the Sketchbook specifically to find the secrets and alternate endings."
+          "question": "What platform and language details are available for the Pragmata demo?",
+          "answer": "On PlayStation Store, the Pragmata demo is listed for PS5 with English and Japanese voice support, released February 5, 2026. The store page shows a 4.66 out of 5 average from 7,858 ratings."
         }
       ]
     },
     "pragmataTrailersAndNews": {
+      "eyebrow": "Media Timeline",
       "title": "Pragmata Trailers and News",
       "displayType": "timeline",
-      "intro": "Pragmata has had a long stop-start marketing cycle since its 2020 reveal. Here is a summary of the key trailers and announcements in order.",
+      "intro": "This timeline pulls together the major official beats that matter most for players landing on the game late. It places the important PRAGMATA trailers in order and shows what each one added to the public picture of the game.",
       "entries": [
         {
-          "title": "First Reveal Trailer — June 2020",
-          "type": "Reveal",
-          "description": "Pragmata debuted at PlayStation's June 2020 showcase as a new Capcom science-fiction title. The trailer introduced Hugh, Diana, and the lunar setting for the first time."
+          "title": "First Contact Trailer — June 2025",
+          "type": "Reintroduction",
+          "description": "Capcom reintroduced PRAGMATA with a clearer look at Hugh, Diana, the lunar station, and the game's two-in-one action-and-strategy pitch, while narrowing the release window to 2026."
         },
         {
-          "title": "Re-reveal Teaser — June 2023",
-          "type": "Teaser",
-          "description": "After an extended period of silence, Capcom released a new teaser that confirmed the project was still in development without providing a new release window."
+          "title": "Pre-Order Trailer — December 2025",
+          "type": "Pre-Order Launch",
+          "description": "Pre-orders opened and the game was publicly dated for April 24, 2026. This beat also pushed the broader public rollout around the Sketchbook demo."
         },
         {
-          "title": "Main Trailer — 2025",
+          "title": "Main Trailer — March 5, 2026",
           "type": "Full Trailer",
-          "description": "The main gameplay trailer at youtube.com/watch?v=TzBtbtOghV0 showed hacking mechanics, combat systems, the lunar station environment, and the Hugh-Diana dynamic in detail."
+          "description": "The newest PRAGMATA trailer added fresh enemy footage, new station areas, Shelter details, and Cabin, while moving the launch one week earlier from April 24 to April 17, 2026."
         },
         {
-          "title": "Capcom Spotlight — March 5, 2026",
-          "type": "Release Date Reveal",
-          "description": "Capcom confirmed April 17, 2026 as the launch date, announced the one-week move-up from the earlier April 24 window, and showed new gameplay footage."
-        },
-        {
-          "title": "Sketchbook Demo Launch — February 5, 2026",
-          "type": "Demo Release",
-          "description": "The free Sketchbook demo went live on PS5 and Xbox Series X|S, giving players hands-on access to the combat and hacking systems ahead of the full release."
+          "title": "Launch Date — April 17, 2026",
+          "type": "Release",
+          "description": "April 17, 2026 is now the live launch target presented across PRAGMATA's latest official promotional materials on all platforms."
         }
       ]
     }

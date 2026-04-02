@@ -901,6 +901,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-shelter-upgrades" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataShelterAndUpgrades.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Home className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -911,17 +914,26 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             </div>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.pragmataShelterAndUpgrades.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.pragmataShelterAndUpgrades.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`pragmataShelterAndUpgrades::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.pragmataShelterAndUpgrades.cards.map((card: any, index: number) => {
+              const shelterIcons = [Cpu, Settings, Bot, Navigation, Zap]
+              const ShelterIcon = shelterIcons[index] || Home
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors group">
+                  <div className="flex items-start gap-3 mb-3">
+                    <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0 group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                      <ShelterIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <h3 className="font-bold text-base leading-tight pt-1 text-[hsl(var(--nav-theme-light))]">
+                      <LinkedTitle linkData={moduleLinkMap[`pragmataShelterAndUpgrades::cards::${index}`]} locale={locale}>
+                        {card.name}
+                      </LinkedTitle>
+                    </h3>
+                  </div>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{card.description}</p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -930,6 +942,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-exploration-traversal" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataExplorationAndTraversal.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Navigation className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -974,6 +989,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-demo-secrets" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataDemoSecretsAndEndings.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Search className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
@@ -1007,6 +1025,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="pragmata-trailers-news" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-semibold uppercase tracking-widest text-[hsl(var(--nav-theme-light))] mb-3">
+              {t.modules.pragmataTrailersAndNews.eyebrow}
+            </span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Film className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold">
