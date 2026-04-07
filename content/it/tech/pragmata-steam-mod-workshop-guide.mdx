@@ -1,0 +1,111 @@
+export const metadata = {
+  title: "Guida al Workshop dei Mod di Pragmata su Steam: Personalizzazione Estrema 2026",
+  description: "Padroneggia l'arte del modding in Pragmata. La nostra guida completa copre l'installazione tramite Steam Workshop, i cosmetici per il personaggio di Diana e l'ottimizzazione delle prestazioni.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+Mod+Workshop+Guide",
+  date: "2026-04-07",
+  author: "Team Wiki di Pragmata"
+}
+
+L'epopea fantascientifica di Capcom è finalmente arrivata e la community sta già spingendo i confini del paesaggio lunare attraverso estese modifiche. Sia che tu stia cercando di migliorare la fedeltà visiva della base lunare o di sostituire i modelli dei personaggi per un'esperienza fresca, la nostra **guida al workshop dei mod di Pragmata su Steam** è progettata per aiutarti a navigare tra gli ostacoli tecnici della personalizzazione del gioco. Il modding nel 2026 è diventato più accessibile che mai, ma alcune sfumature riguardanti il RE Engine e la verifica dei file di Steam richiedono una mano ferma. Seguendo questa **guida al workshop dei mod di Pragmata su Steam**, imparerai come installare in sicurezza i contenuti creati dalla community, ottimizzare i tuoi frame rate su hardware mobile come lo Steam Deck e scoprire dove sono ospitati i mod estetici più rari.
+
+## Comprendere il panorama del modding di Pragmata
+
+La scena del modding per questo titolo è divisa in due settori primari: il Workshop ufficiale di Steam e i repository esterni. Mentre lo Steam Workshop offre un'installazione "con un clic" per semplici pacchetti di texture e modifiche all'interfaccia utente (UI), le modifiche più complesse, come la sostituzione dei modelli dei personaggi per Diana o le revisioni profonde del gameplay, richiedono spesso un'installazione manuale tramite strumenti specializzati.
+
+Nel 2026, Capcom ha mantenuto la sua posizione nel fornire supporto modulare per il RE Engine, consentendo ai giocatori di iniettare script e risorse personalizzate senza compromettere i file core del gioco. Tuttavia, i giocatori dovrebbero essere consapevoli che alcuni siti web "tematici" e hub della community come NexusMods o server Discord specializzati ospitano spesso contenuti che superano le rigide linee guida della piattaforma ufficiale di Steam.
+
+| Tipo di Mod | Difficoltà di Installazione | Supporto Steam Workshop | Strumento Principale Necessario |
+| :--- | :--- | :--- | :--- |
+| **Modifiche UI & HUD** | Facile | Supporto Completo | Nessuno (Client Steam) |
+| **Revisioni Texture** | Media | Parziale | Fluffy Mod Manager |
+| **Sostituzione Personaggi (Diana)** | Difficile | No | REFramework / Fluffy |
+| **Script di Prestazione** | Media | No | Optiscaler / Decky |
+
+## Strumenti essenziali per il modding di Pragmata
+
+Prima di tuffarti nel Workshop, hai bisogno di una suite di strumenti per gestire i tuoi file. Poiché il gioco utilizza una versione sofisticata del RE Engine, il semplice trascinamento dei file raramente funziona. Avrai bisogno di un mod manager in grado di "leggere" gli archivi .pak del gioco e iniettare in sicurezza le modifiche desiderate.
+
+### 1. Fluffy Mod Manager (Edizione 2026)
+Questo rimane lo standard di riferimento per i titoli Capcom. Ti consente di attivare e disattivare i mod senza alterare permanentemente la directory del gioco. È essenziale per la risoluzione dei problemi se un mod specifico causa il crash del gioco durante le transizioni lunari.
+
+### 2. REFramework
+Per gli utenti avanzati, REFramework fornisce una potente API di scripting. È necessario per i mod che cambiano la logica del gioco, come il carburante infinito per il jetpack o angolazioni personalizzate della telecamera. Funge anche da bypass per alcune restrizioni a livello di motore che potrebbero impedire la sostituzione dei modelli dei personaggi.
+
+### 3. Optiscaler e Frame Generation
+Come discusso nei recenti approfondimenti sulle prestazioni, molti giocatori utilizzano strumenti come Optiscaler per iniettare FSR4 o XSS2 nel gioco. Questo è particolarmente utile per gli utenti di Steam Deck che vogliono mantenere un frame rate stabile a 60 FPS mentre esplorano gli ambienti ad alta densità della città lunare.
+
+> **💡 Suggerimento:** Fai sempre un backup del tuo file `re_chunk_000.pak` prima di tentare iniezioni manuali di mod. Sebbene i mod manager siano sicuri, un archivio corrotto può forzare un nuovo download da 60 GB.
+
+## Ottimizzazione delle prestazioni per il gameplay moddato
+
+Il modding può spesso mettere a dura prova il tuo hardware. Se stai aggiungendo texture ad alta risoluzione o modelli di personaggi complessi, il tuo frame rate potrebbe risentirne. Utilizzare la più recente tecnologia di upscaling è il modo migliore per contrastare questo calo di prestazioni.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/sLFr3hRvnUQ"
+    title="ULTIMATE FSR4 Steam Deck + Lossless Scaling FULL Setup Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+Su dispositivi come lo Steam Deck, l'uso del plugin **Deki Frame Gen** è diventato un punto fermo per la community. Assegnando il tasto "Insert" a un pulsante dell'impugnatura posteriore (come L4), puoi richiamare il menu Optiscaler in-game per passare da FSR 3.1 a FSR 4.0.2. Ciò garantisce che, anche con pesanti mod estetici attivi, lo sfarfallio sui capelli dei personaggi e sulle superfici metalliche sia ridotto al minimo.
+
+## Guida all'installazione passo dopo passo
+
+Per garantire che il tuo gioco rimanga stabile, segui questi passaggi per l'installazione dei mod attraverso i due metodi principali disponibili nel 2026.
+
+### Metodo A: Steam Workshop (Ufficiale)
+1. Naviga nella pagina di **Pragmata** nella tua Libreria di Steam.
+2. Clicca sulla scheda **Workshop**.
+3. Sfoglia le categorie (Obiettivi, Personaggi, Mappe, ecc.).
+4. Clicca su **Iscriviti** sul mod di tua scelta.
+5. Avvia il gioco; il client Steam gestirà automaticamente il posizionamento dei file.
+
+### Metodo B: Installazione manuale (Avanzata)
+L'installazione manuale è spesso richiesta per i mod più popolari, come quelli che trasformano il tuo "compagno di zaino" in varie icone della cultura pop o forniscono i cambi estetici per "Diana" menzionati nelle discussioni della community.
+
+| Passaggio | Azione | Descrizione |
+| :--- | :--- | :--- |
+| **1** | **Scarica il Mod** | Ottieni il file .rar o .7z da un repository affidabile. |
+| **2** | **Apri il Mod Manager** | Avvia Fluffy Mod Manager e seleziona Pragmata dalla lista dei giochi. |
+| **3** | **Inserisci i File** | Trascina l'archivio scaricato nella finestra del Mod Manager. |
+| **4** | **Aggiorna la Lista** | Clicca su "Define Game Path" se è la prima volta, quindi su "Refresh Mod List". |
+| **5** | **Abilita** | Attiva il mod su "On" e avvia il gioco tramite il manager. |
+
+## Trovare i migliori mod estetici
+
+Una domanda frequente all'interno della community riguarda la posizione di specifici mod per il personaggio di Diana. Mentre lo Steam Workshop è eccellente per le modifiche ambientali, i mod "estetici" specifici per i personaggi si trovano spesso su siti "tematici" esterni.
+
+I membri della community hanno notato che alcune sostituzioni di modelli di alta qualità, simili ai famosi mod di Resident Evil 2, sono ospitate su siti come NexusMods o forum privati della community. Questi mod possono variare da semplici ricolorazioni di abiti a sostituzioni complete di modelli, come i divertenti cambi "Danny DeVito compagno di zaino" o "Homer Simpson" che sono diventati virali di recente sui social media.
+
+> **⚠️ Attenzione:** Sii cauto quando scarichi mod da siti non ufficiali. Controlla sempre i commenti degli utenti e il numero di "endorsement" per assicurarti che il file sia sicuro e funzionante con l'attuale versione del gioco del 2026.
+
+## L'etica del modding nel 2026
+
+Man mano che il modding diventa più professionale, il dibattito tra "Mod a pagamento" e "Contenuti gratuiti della community" continua. Nel 2026, molti creatori offrono l'accesso anticipato al loro lavoro tramite piattaforme come Patreon, mentre altri credono che tutti i mod dovrebbero rimanere gratuiti come "fan art".
+
+Il consenso tra la comunità di modding veterana è che, sebbene le commissioni siano accettabili per lavori personalizzati, la versione pubblica dei mod dovrebbe idealmente essere gratuita per garantire la longevità della base di giocatori del gioco. Il modding è essenziale per mantenere vivi i titoli molto tempo dopo che gli sviluppatori sono passati a nuovi progetti.
+
+## FAQ
+
+**D: L'uso di questa guida al workshop dei mod di Pragmata su Steam disabilita i miei obiettivi?**
+
+R: In generale, i mod visivi ed estetici non disabilitano gli obiettivi di Steam. Tuttavia, l'uso di mod in stile "trainer" (come salute infinita) o script REFramework che alterano la logica del gioco potrebbe impedire l'attivazione degli obiettivi. È sempre meglio controllare la descrizione del mod per note specifiche sulla compatibilità.
+
+**D: Dove posso trovare i mod estetici di Diana menzionati nei forum?**
+
+R: Sebbene alcune ricolorazioni di base siano sullo Steam Workshop, le sostituzioni di modelli più dettagliate sono in genere ospitate su NexusMods o hub specializzati della community. Cerca "Diana Character Replacer" per trovare le opzioni più popolari del momento.
+
+**D: Posso usare i mod se gioco su Steam Deck?**
+
+R: Sì. Infatti, molti giocatori usano la **guida al workshop dei mod di Pragmata su Steam** specificamente per trovare mod che migliorano le prestazioni come l'iniezione FSR4 tramite il plugin Deki Frame Gen, che migliora significativamente la qualità dell'immagine sullo schermo portatile del Deck.
+
+**D: Il modding di Pragmata è legale?**
+
+R: Il modding è generalmente considerato una "zona grigia" simile alla fan art. Finché non distribuisci file di gioco protetti da copyright o non usi mod per barare in un ambiente multiplayer competitivo, Capcom in genere permette alla community di prosperare.
+
+Utilizzando gli strumenti e i metodi delineati in questa guida, puoi trasformare il tuo viaggio lunare in un'esperienza veramente personalizzata. Dai tweak per prestazioni ad alta fedeltà ai bizzarri cambi di personaggi, le possibilità nel 2026 sono limitate solo dalla creatività della community. Per ulteriori informazioni, visita l'[hub ufficiale della community di Pragmata su Steam](https://steamcommunity.com/app/3357650) per vedere le ultime guide di tendenza e i contributi al workshop.

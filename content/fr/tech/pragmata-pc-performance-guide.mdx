@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Guide de Performance PC Pragmata : Optimisation et Paramètres 2026",
+  description: "Maximisez votre taux de rafraîchissement dans Pragmata avec notre guide complet de performance PC. Explorez les benchmarks, les configurations requises et les meilleurs réglages pour le RE Engine.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+Performance+Guide",
+  date: "2026-04-07",
+  author: "Pragmata Wiki Team"
+}
+
+La sortie tant attendue de l'épopée de science-fiction de Capcom est enfin là, et s'assurer que votre matériel est à la hauteur est la première étape pour profiter du voyage lunaire de Hugh et Diana. Ce **guide de performance PC Pragmata** est conçu pour vous aider à naviguer dans les complexités de la dernière itération du RE Engine. Que vous utilisiez une ancienne configuration de milieu de gamme ou une machine de pointe de 2026, comprendre comment le jeu gère le ray tracing, l'allocation de la VRAM et la compilation des shaders est crucial pour une expérience sans saccades.
+
+Dans ce **guide de performance PC Pragmata**, nous détaillons les configurations système officielles, fournissons des données de benchmark en conditions réelles sur plusieurs gammes de GPU, et proposons un guide de réglages définitif pour vous aider à équilibrer la fidélité visuelle et les taux de rafraîchissement élevés. Avec des environnements complexes et des effets d'éclairage avancés, l'optimisation de votre configuration fera la différence entre un chef-d'œuvre cinématographique et un casse-tête technique. Suivez ces étapes pour vous assurer que votre PC est pleinement optimisé pour les paysages lunaires, rudes mais magnifiques.
+
+## Configurations Requises Officielles pour Pragmata
+
+Avant de plonger dans les réglages granulaires, il est essentiel de voir où se situe votre matériel par rapport aux spécifications officielles. Capcom a optimisé le RE Engine spécifiquement pour les environnements plus clos et atmosphériques des premières sections "Cradle" du jeu. Cependant, à mesure que l'échelle augmente, les exigences sur votre processeur (CPU) et votre carte graphique (GPU) augmentent également.
+
+| Niveau d'exigence | Recommandation CPU | Recommandation GPU | Performance Cible |
+|---|---|---|---|
+| **Minimum** | Ryzen 5 5500 / Intel i5-11400 | GTX 1660 (6 Go) / RX 5500 XT (8 Go) | 1080p / 45 FPS (Mode Performance) |
+| **Recommandé** | Ryzen 5 5600 / Intel i5-12400 | RTX 2060 Super / RX 6600 (8 Go) | 1080p / 60 FPS (Paramètres Élevés) |
+| **Ray Tracing** | Ryzen 7 7700X / Intel i7-13700K | RTX 3060 (12 Go) / RX 6700 XT (12 Go) | 1080p / 60 FPS (RT Activé) |
+
+> **⚠️ Avertissement :** Si vous avez l'intention d'activer le Ray Tracing, 8 Go de VRAM pourraient ne pas suffire pour une performance stable aux résolutions élevées. L'éclairage indirect et les reflets en ray-tracing augmentent considérablement la pression sur la mémoire, faisant des cartes de 12 Go et plus le choix idéal pour les réglages enthousiastes.
+
+## Résultats de Benchmark : Performance Nvidia vs. AMD
+
+Les tests de la version démo de Pragmata révèlent que le jeu est remarquablement bien optimisé pour une variété de matériels, à condition de gérer vos attentes concernant la résolution. Sur du matériel de milieu de gamme datant d'il y a 4 ou 5 ans, comme la RTX 3060, le jeu maintient un solide 70-80 FPS en résolution native 1080p avec des paramètres Élevés.
+
+En passant aux cartes de milieu de gamme standards de 2026 comme la RTX 5060 Ti ou la RX 960 XT, le jeu brille en 1440p. Voici une comparaison des taux de rafraîchissement moyens sur des configurations populaires testées dans les séquences de la centrale solaire et de la matrice de piratage.
+
+| Modèle de GPU | Résolution | Paramètres | Ray Tracing | FPS Moyens |
+|---|---|---|---|---|
+| **RTX 3060 (12 Go)** | 1080p | Élevés | **ACTIVER** | **72 FPS** |
+| **RTX 3060 (12 Go)** | 1080p | Élevés | **DÉSACTIVER** | **88 FPS** |
+| **RTX 5060 Ti (16 Go)** | 1440p | Max | **ACTIVER** | **94 FPS** |
+| **RX 960 XT (16 Go)** | 1440p | Max | **ACTIVER** | **86 FPS** |
+| **GTX 1660 (6 Go)** | 1080p | Performance | **DÉSACTIVER** | **48 FPS** |
+
+Les données suggèrent que bien que le Ray Tracing ajoute une profondeur significative aux environnements lunaires, il ne fait pas "s'effondrer" les performances aussi sévèrement que dans d'autres titres récents. L'implémentation de l'éclairage indirect par le RE Engine est efficace, bien que les utilisateurs de cartes de 8 Go puissent remarquer des scintillements de textures occasionnels ou des effets de "ghosting" dans les reflets si les limites de la VRAM sont dépassées.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cAHc6bixebY"
+    title="Latest RE Engine Optimization Masterpiece or Disaster? Pragmata PC Performance Tested"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Meilleurs Paramètres Graphiques pour l'Optimisation
+
+Pour obtenir le meilleur équilibre entre visuels et fluidité, vous devriez ajuster vos réglages en fonction de la VRAM de votre matériel et de sa puissance de calcul brute. Pragmata inclut une étape de "Compilation des Shaders" au premier lancement, ce qui réduit considérablement les saccades en jeu. Si vous rencontrez des micro-coupures lors de mouvements rapides ou de combats, assurez-vous que vos pilotes GPU sont mis à jour avec les dernières versions de 2026.
+
+### Paramètres Recommandés pour les PC de Milieu de Gamme (Classe RTX 3060 / RX 6700)
+*   **Mise à l'échelle de la résolution :** Native (100%) ou DLSS/FSR Qualité
+*   **Ray Tracing :** Activé (Si 12 Go de VRAM sont disponibles)
+*   **Qualité des maillages :** Moyen
+*   **Qualité des textures :** Élevé (allocation 4 Go-6 Go)
+*   **Éclairage indirect :** Ray Tracing
+*   **Reflets :** Ray Tracing
+*   **Résolution dynamique :** Désactivé
+*   **Génération d'images :** Désactivé (sauf si vous visez 120Hz+)
+
+> **💡 Astuce :** Désactiver le Ray Tracing peut offrir un gain de performance de 15 à 20 %. Si vous avez du mal à maintenir un 60 FPS constant, cela devrait être le premier paramètre à désactiver. Bien que le jeu soit toujours superbe avec le SSR (Screen Space Reflections) standard, les reflets en ray-tracing sur le verre et les surfaces métalliques du Cradle constituent une amélioration visuelle majeure.
+
+## Fonctionnalités Avancées : Ray Tracing et Mise à l'échelle
+
+Pragmata est l'un des premiers titres majeurs à supporter les dernières itérations de mise à l'échelle basées sur l'apprentissage automatique (machine learning). Pour les utilisateurs d'AMD, le jeu supporte le FSR 4, tandis que les utilisateurs de Nvidia peuvent utiliser le DLSS 3.5+. Ces technologies sont essentielles pour jouer en 4K ou pour maintenir des taux de rafraîchissement élevés sur du matériel plus ancien.
+
+### Effets de Piratage et de Combat
+Pendant les combats, des effets comme le "Shockwave Gun" et les superpositions d'interface de la "Matrice de Piratage" peuvent provoquer de légers pics de temps de calcul d'image. Cependant, le RE Engine gère bien ces effets alpha. Si vous remarquez des chutes pendant les séquences de piratage, envisagez de baisser la **Qualité des Effets** sur Moyen. Cela réduit le nombre de particules des filaments minéraux de Lunum sans sacrifier la clarté du puzzle de piratage.
+
+### Gestion de la VRAM pour les cartes de 8 Go
+Si vous jouez sur une carte de 8 Go comme la RTX 5060 Ti (version 8 Go) ou une plus ancienne RTX 3070, vous devez être prudent. Les textures haute résolution combinées au Ray Tracing peuvent entraîner un "swap VRAM", où le jeu tente d'utiliser la RAM système, provoquant d'énormes chutes de FPS.
+
+1.  Gardez la **Qualité des Textures** sur le préréglage "Élevé (3 Go)" ou "Moyen".
+2.  Désactivez l'**Éclairage Indirect en Ray Tracing** mais gardez les **Reflets en Ray Tracing** si vous le souhaitez.
+3.  Utilisez le mode **DLSS ou FSR Équilibré** pour réduire la résolution de rendu interne.
+
+## Analyse Technique du RE Engine dans Pragmata
+
+Le RE Engine a historiquement excellé dans les environnements clos (comme on le voit dans la série Resident Evil), et Pragmata suit cette tendance. La performance du jeu est plus stable dans les couloirs intérieurs de la centrale solaire. L'moteur utilise un facteur sophistiqué de mise à l'échelle de la "Qualité d'Image". Le régler sur 100 % garantit une image nette, mais le descendre à 90 % peut offrir un gain de performance "gratuit" de près de 10 % avec un impact minimal sur la clarté visuelle en 1440p ou 4K.
+
+Pour les informations les plus récentes sur les correctifs et les solutions techniques, visitez la [page officielle de la communauté Steam de Pragmata](https://store.steampowered.com/app/1586710/PRAGMATA/) pour rester informé de la manière dont les développeurs abordent l'optimisation post-lancement.
+
+## FAQ
+
+**Q : Pragmata souffre-t-il de saccades liées à la compilation des shaders ?**
+
+R : Non, le jeu inclut une étape obligatoire de compilation des shaders au premier lancement. Ce processus prend quelques minutes mais garantit que le gameplay reste fluide sans les saccades communes à d'autres sorties PC modernes.
+
+**Q : Quelle est la meilleure méthode de mise à l'échelle pour ce guide de performance PC Pragmata ?**
+
+R : Si vous possédez une carte Nvidia RTX, le DLSS reste la référence absolue pour la reconstruction d'image. Cependant, pour les utilisateurs d'AMD, le nouveau FSR 4 basé sur le ML (version 3.1.4 et supérieure) offre un bond massif en qualité par rapport aux versions précédentes, ce qui en fait une alternative viable même en 1080p.
+
+**Q : Puis-je faire tourner Pragmata sur un Steam Deck ?**
+
+R : Bien qu'il ne soit pas officiellement "Vérifié" au lancement, le jeu tourne sur le Steam Deck en utilisant le préréglage "Performance" en 720p avec le FSR réglé sur Équilibré. Attendez-vous à des taux de rafraîchissement compris entre 30 et 40 FPS.
+
+**Q : Pourquoi mes reflets ont-ils un aspect granuleux ?**
+
+R : C'est souvent le résultat d'un Ray Tracing basse résolution ou d'une mise à l'échelle agressive. Si vos reflets paraissent "bruités", essayez d'augmenter votre **Échelle de Résolution Interne** ou de passer votre upscaler en mode "Qualité". Assurez-vous que votre **Qualité des Maillages** est réglée au moins sur Moyen pour fournir suffisamment de géométrie pour que les reflets rebondissent avec précision.

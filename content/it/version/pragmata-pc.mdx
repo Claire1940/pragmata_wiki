@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Pragmata PC: Guida alle Prestazioni e Requisiti di Sistema 2026",
+  description: "Ottimizza le prestazioni di Pragmata su PC con la nostra guida completa. Esplora i requisiti di sistema, l'ottimizzazione del RE Engine e le migliori impostazioni per giocare a 60 FPS.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+PC+Performance",
+  date: "2026-04-05",
+  author: "Pragmata Wiki Team"
+}
+
+L'arrivo della versione **pragmata pc** è stato uno degli eventi più attesi per gli appassionati di action sci-fi nel 2026. Sviluppato da Capcom utilizzando il versatile RE Engine, questo titolo fonde inquietanti ambienti lunari con un intricato sistema di combattimento meccanico. Che tu stia esplorando la demo o ti stia tuffando nella versione completa, capire come **pragmata pc** scali su diverse configurazioni hardware è essenziale per mantenere un frame rate fluido. Dai riflessi in ray-tracing all'upscaling avanzato basato sull'apprendimento automatico, il gioco offre una suite di funzionalità tecniche in grado di spingere al limite anche le GPU moderne.
+
+In questa guida, analizzeremo i requisiti di sistema ufficiali, le prestazioni tra le varie fasce di GPU e forniremo impostazioni ottimizzate per garantire che il tuo viaggio attraverso la colonia lunare rimanga immersivo e privo di scatti. Seguire questi passaggi ti aiuterà a bilanciare la fedeltà visiva con la reattività ad alta velocità richiesta dai sistemi unici di hacking e combattimento del gioco.
+
+## Requisiti di Sistema Ufficiali per Pragmata PC
+
+Capcom ha progettato il gioco per essere accessibile a una vasta gamma di utenti, sebbene l'inclusione del ray tracing (RT) richieda hardware moderno con ampia VRAM. Il RE Engine è noto per la sua efficienza negli ambienti chiusi, che costituiscono una parte significativa dell'ambientazione del gioco. Tuttavia, se intendi attivare tutte le opzioni grafiche avanzate, dovresti prestare molta attenzione alle specifiche di memoria consigliate.
+
+| Livello Requisiti | CPU | GPU | RAM/VRAM | Prestazioni Target |
+|---|---|---|---|---|
+| **Minimi** | Ryzen 5 5500 / Core i5-10400 | GTX 1660 6GB / RX 5500 XT 8GB | 16GB RAM / 6GB VRAM | 1080p / 45 FPS (Modalità Prestazioni) |
+| **Consigliati** | Ryzen 5 5600 / Core i7-11700 | RTX 2060 Super 8GB / RX 6600 8GB | 16GB RAM / 8GB VRAM | 1080p / 60 FPS (Preset Alto) |
+| **Ray Tracing** | Ryzen 7 5800X / Core i7-12700 | RTX 3060 12GB / RX 6700 XT 12GB | 32GB RAM / 12GB VRAM | 1080p / 60 FPS (RT Attivo) |
+
+> **💡 Suggerimento:** Se utilizzi una scheda con 8GB di VRAM, considera di mantenere disattivati i riflessi in Ray Tracing. Gli asset del gioco combinati con l'RT possono facilmente superare gli 8GB di memoria video, portando a fenomeni di texture swapping e picchi nel frame time.
+
+## Analisi delle Prestazioni: Ottimizzazione del RE Engine
+
+L'esperienza di **pragmata pc** è costruita sulle stesse fondamenta dei recenti titoli *Resident Evil* e *Devil May Cry*. Ciò significa che il gioco beneficia di un'eccellente pre-compilazione degli shader, che riduce significativamente lo "stutter da compilazione" spesso riscontrato in altre uscite moderne. Durante i test iniziali, il gioco si comporta eccezionalmente bene negli ambienti interni, raggiungendo spesso frame rate a tre cifre su hardware di fascia media.
+
+### Prestazioni a 1080p (Hardware di Fascia Media)
+Su una RTX 3060 o RX 6600 standard, i giocatori possono aspettarsi 60-80 FPS molto stabili a risoluzione nativa con impostazioni Alte. Il gioco imposta di default un mix di qualità delle mesh Alta e Media, mantenendo un'immagine nitida senza appesantire la pipeline geometrica. Se noti cali durante le sequenze di combattimento intense con esplosioni multiple, attivare il DLSS o l'FSR in modalità "Qualità" è la soluzione più efficace.
+
+### Scalabilità a 1440p e 4K
+Passare a risoluzioni più elevate richiede una potenza di calcolo decisamente superiore. Per un'esperienza fluida a 1440p e 60 FPS, è consigliata una RTX 5060 Ti o una RX 960 XT. Queste schede gestiscono bene l'aumento del numero di pixel, specialmente se abbinate alle nuove tecnologie di upscaling basate su machine learning disponibili nel 2026.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cAHc6bixebY"
+    title="Latest RE Engine Optimization Masterpiece or Disaster? Pragmata PC Performance Tested"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Impostazioni Grafiche Avanzate e Ray Tracing
+
+Il menu delle impostazioni di **pragmata pc** è robusto e offre opzioni sia per l'illuminazione indiretta che per i riflessi tramite ray tracing. Sebbene i riflessi standard in screen-space (SSR) del RE Engine siano validi, i riflessi RT aggiungono uno strato di profondità alle superfici metalliche e di vetro presenti in tutta la base lunare.
+
+*   **Riflessi in Ray Tracing:** Forniscono riflessi accurati del personaggio e dell'ambiente. Senza di essi, i riflessi sono meno dettagliati e non includono il modello del protagonista.
+*   **Illuminazione Indiretta in Ray Tracing:** Questa funzione migliora il "rimbalzo" della luce nei corridoi bui, rendendo l'atmosfera più realistica e credibile.
+*   **Upscaling (DLSS/FSR):** Il gioco supporta DLSS 3.5 e FSR 3.1.4 (incluso il nuovo upscaler basato su ML). Questi sono essenziali per raggiungere frequenze di aggiornamento elevate su monitor 1440p o 4K.
+
+| Funzionalità | Impatto sugli FPS | Guadagno Visivo | Raccomandazione |
+|---|---|---|---|
+| **Ray Tracing** | Alto (calo del 20-30%) | Moderato | Attivare solo su schede con 12GB+ di VRAM |
+| **Qualità Mesh** | Basso | Basso | Impostare su **Alto** per CPU moderne |
+| **Qualità Ombre** | Moderato | Alto | **Medio** è il punto di equilibrio ideale |
+| **Qualità Immagine** | Molto Alto | Molto Alto | Mantenere al **100%** o usare l'Upscaling |
+
+## Meccaniche di Gioco: Hacking e Combattimento
+
+Il successo in **pragmata pc** richiede più della semplice potenza di fuoco. Il gioco introduce un sistema unico di "matrice di hacking" che i giocatori devono padroneggiare per rendere i nemici vulnerabili.
+
+### La Matrice di Hacking
+Per hackerare un bersaglio, devi muovere il cursore su una griglia per raggiungere un nodo EXE verde. Questo processo richiede di tenere premuto il pulsante di interazione (predefinito: tasto sinistro del mouse) durante la navigazione. Il completamento con successo di un hack pone i nemici in uno stato "Aperto", permettendo ai tuoi colpi di infliggere il massimo danno.
+
+### Gestione delle Risorse: Lunum e Integrità della Tuta
+*   **Lunum:** Questo minerale è unico della luna e funge da valuta primaria per i potenziamenti. Raccoglierlo è vitale per migliorare i propulsori e i sistemi d'arma.
+*   **Integrità della Tuta:** La tua tuta è la tua vita. Se viene danneggiata, devi trovare riparo e tenere premuto il tasto di riparazione (predefinito: Q) per ripristinarne l'integrità. Questo processo richiede diversi secondi, rendendolo pericoloso durante il combattimento attivo.
+*   **Barra dei Propulsori:** Azioni come schivare e fluttuare consumano la barra dei propulsori. Se questa barra si svuota, rimarrai a terra e vulnerabile finché non si ricarica.
+
+> **⚠️ Attenzione:** Usare ripetutamente lo stesso hack su un singolo nemico ne riduce l'efficacia. Cerca di passare attraverso i nodi "Bonus" gialli nella matrice di hacking per aumentare temporaneamente i danni inflitti.
+
+## Impostazioni Ottimizzate per Giocare a 60 FPS
+
+Se hai difficoltà a mantenere un frame rate costante sulla tua configurazione **pragmata pc**, usa le seguenti impostazioni ottimizzate. Sono progettate per massimizzare le prestazioni preservando l'estetica visiva sorprendente del gioco.
+
+1.  **Modalità Display:** Schermo Intero (offre il miglior frame pacing).
+2.  **V-Sync:** Disattivato (usa G-Sync o Freesync se disponibili per evitare il tearing).
+3.  **Ray Tracing:** Disattivato (a meno di non avere una RTX 3070/RX 6800 o superiore).
+4.  **Upscaling:** DLSS o FSR impostato su **Bilanciato**.
+5.  **Qualità Texture:** Alta (8GB VRAM) o Ultra (12GB+ VRAM).
+6.  **Qualità Ombre:** Media.
+7.  **Occlusione Ambientale:** Attiva.
+8.  **Illuminazione Volumetrica:** Media.
+
+Abbassando la Qualità delle Ombre e l'Illuminazione Volumetrica, puoi recuperare prestazioni significative senza perdere il "feeling" centrale dell'illuminazione del gioco. Il RE Engine gestisce queste impostazioni con grazia, evitando gli artefatti a blocchi che si vedono spesso in altri motori con preset bassi.
+
+## FAQ
+
+**D: Pragmata PC supporta il cross-save con le console?**
+
+R: Attualmente, Capcom non ha implementato una funzione di cross-save nativa per Pragmata. I tuoi progressi su Steam o sull'Epic Games Store sono legati al tuo account specifico della piattaforma.
+
+**D: Perché riscontro degli scatti (stuttering) all'avvio del gioco?**
+
+R: Sebbene il gioco abbia una fase di compilazione degli shader, potrebbe comunque eseguire alcune elaborazioni in background durante i primi minuti di gioco. Assicurati che i driver della tua GPU siano aggiornati alle versioni più recenti del 2026, poiché spesso contengono ottimizzazioni specifiche per il lancio di **pragmata pc**.
+
+**D: È necessario un SSD per Pragmata?**
+
+R: Sì, un SSD è caldamente raccomandato. Il gioco utilizza lo streaming di asset ad alta velocità per passare tra i diversi settori della base lunare. L'uso di un HDD tradizionale potrebbe causare pop-in visibile delle texture e tempi di caricamento più lunghi.
+
+**D: Posso giocare a Pragmata PC con un controller?**
+
+R: Assolutamente sì. Il gioco offre il supporto completo per i controller Xbox, PlayStation e controller HID generici. Molti giocatori trovano il movimento basato sui propulsori e le meccaniche di volo più intuitivi con una levetta analogica rispetto alla tastiera.
+
+[Visita il sito ufficiale Capcom](https://www.capcom.com) per ulteriori notizie e aggiornamenti riguardanti le ultime patch e i DLC di Pragmata.

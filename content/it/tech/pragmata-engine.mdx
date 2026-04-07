@@ -1,0 +1,138 @@
+export const metadata = {
+  title: "Pragmata Engine: Svelata la Grafica Avanzata e le Prestazioni del RE Engine di Capcom per il 2026",
+  description: "Esplora il path tracing all'avanguardia e le ottimizzazioni delle prestazioni all'interno del motore di Pragmata, basato sul versatile RE Engine di Capcom. Preparati per una grafica mozzafiato e un gameplay fluido nel 2026.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/6B21A8/fff?text=Pragmata+Engine",
+  date: "2026-04-07",
+  author: "Pragmata Wiki Team"
+}
+
+L'attesissimo titolo di Capcom, *Pragmata*, è destinato a spingere i confini della fedeltà visiva e del rendering in tempo reale quando verrà lanciato nel 2026. Al suo interno batte il cuore del venerabile RE Engine, un motore di gioco proprietario rinomato per aver dato vita ad alcuni dei titoli graficamente più impressionanti di Capcom. Per *Pragmata*, il RE Engine è stato notevolmente potenziato, integrando una tecnologia di path tracing all'avanguardia che promette un livello di realismo senza precedenti. Questo approfondimento esplora le capacità tecniche del **motore di Pragmata**, esaminando le sue tecniche di rendering avanzate, le caratteristiche prestazionali e le innovazioni che lo rendono un punto di riferimento nello sviluppo di giochi moderni. Il **motore di Pragmata** è pronto a offrire un'esperienza davvero immersiva, combinando immagini straordinarie con prestazioni ottimizzate per un'ampia gamma di hardware PC.
+
+## La Potenza del RE Engine: Il Path Tracing in Pragmata
+
+Al centro dello spettacolo visivo di *Pragmata* c'è l'implementazione avanzata del path tracing di Capcom all'interno del RE Engine. A differenza della rasterizzazione tradizionale o persino degli approcci ibridi di ray tracing, il path tracing simula il trasporto della luce in modo più accurato, portando a un'illuminazione, riflessi e ombre incredibilmente realistici. Questo metodo traccia milioni di percorsi luminosi, replicando il comportamento della luce nel mondo reale per creare una "scena vivace" con "immagini di alta qualità".
+
+Hitoshi Mishima di Capcom, figura chiave nello sviluppo del RE Engine, ha sottolineato come il path tracing in *Pragmata* (e in *Resident Evil Requiem*) offra vantaggi distinti rispetto al ray tracing standard. Mentre il ray tracing si concentra tipicamente su specifiche interazioni luminose come riflessi o ombre, il path tracing fornisce una rappresentazione della luce più olistica e fisicamente accurata. Ciò si traduce in un'esperienza visiva superiore con maggiore profondità e realismo.
+
+Ecco un confronto di come il path tracing eleva la grafica di *Pragmata*:
+
+| Caratteristica | Path Tracing (Pragmata) | Ray Tracing (Generale) |
+|---|---|---|
+| **Accuratezza Illuminazione** | Illuminazione globale in tempo reale, fisicamente accurata | Tempo reale, spesso ibrido con rasterizzazione per luce indiretta |
+| **Ombre** | Più dettagliate, morbide e realisticamente diffuse | Buone, ma a volte possono apparire meno naturali o precise |
+| **Riflessi** | Più nitidi, stabili e altamente accurati | Possono essere soggetti a granulosità o minor dettaglio in alcuni titoli RE Engine |
+| **Illuminazione Indiretta** | Completamente simulata, con qualità superiore e luce di rimbalzo | Spesso approssimata o meno dinamica, con illuminazione globale meno realistica |
+| **Occlusione** | Occlusione ambientale più rigorosa e realistica | Buona, ma può mancare della sottile profondità del path tracing completo |
+| **Denoising** | Più stabile ed efficace, specialmente con DLSS RR | Può talvolta mostrare più artefatti, a seconda dell'implementazione |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/Gq1QdlQSzn0"
+    title="Real-Time Path Tracing in RE ENGINE for Resident Evil Requiem and PRAGMATA"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Analisi delle Prestazioni della Demo di Pragmata
+
+Una versione demo di *Pragmata* ha offerto un primo sguardo alle sue prestazioni su PC, mettendo in mostra l'efficienza del RE Engine anche con funzionalità di rendering avanzate. I test hanno rivelato un'esperienza ben ottimizzata su varie configurazioni hardware, suggerendo che Capcom abbia imparato dai precedenti titoli open-world basati su RE Engine come *Monster Hunter World* e *Dragon's Dogma 2*, che avevano affrontato sfide prestazionali al lancio. *Pragmata*, con i suoi ambienti più "chiusi", sembra sfruttare efficacemente i punti di forza del RE Engine.
+
+Per il ray tracing, Capcom raccomanda GPU con almeno 12 GB di VRAM, come una RTX 3060 12GB o una RX 6700 XT 12GB, indicando che la funzione può essere intensiva per la memoria video. Tuttavia, anche con il ray tracing attivato di default, la demo ha mostrato framerate notevolmente fluidi.
+
+Ecco un riepilogo delle osservazioni prestazionali della demo:
+
+| GPU | Risoluzione | Impostazioni | Ray Tracing | FPS Medi (Appross.) | Minimi 1% (Appross.) | Note |
+|---|---|---|---|---|---|---|
+| **RTX 3060 12GB** | 1080p | Alto (Default) | On | **70-80** | **55-60** | Esperienza fluida su hardware consigliato. |
+| **RTX 5060 Ti 16GB** | 1440p | Alto (Default) | On | **90-95** | **75-80** | Prestazioni eccellenti a risoluzioni più elevate. |
+| **RTX 5060 Ti 16GB** | 1440p | Alto (DLSS Bilanciato) | On | **100+** | **85-90** | Notevole aumento delle prestazioni con upscaling DLSS. |
+| **RTX 5060 Ti 8GB** | 1440p | Alto (Default) | On | **80-85** | **65-70** | Calo visibile rispetto alla 16GB, potenziali problemi di VRAM in sessioni lunghe. |
+| **RX 960 XT 16GB** | 1440p | Alto (Default) | On | **80-85** | **65-70** | Paragonabile alla 5060 Ti 8GB, FSR 3.1.4 disponibile. |
+| **RX 960 XT 16GB** | 1440p | Alto (FSR Bilanciato) | On | **100+** | **85-90** | Forti prestazioni con upscaling FSR attivato. |
+
+La demo ha indicato che l'implementazione del path tracing del RE Engine in *Pragmata* non è così pesante per le prestazioni come in altri titoli, dove il ray tracing può dimezzare i frame rate. Il gioco supporta anche le moderne tecnologie di upscaling come NVIDIA DLSS e AMD FSR, che possono aumentare significativamente le prestazioni, spingendo spesso i frame rate ben oltre i 100 FPS anche con il ray tracing attivo. Questa flessibilità garantisce che i giocatori con una vasta gamma di hardware possano godere della splendida grafica di *Pragmata*.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cAHc6bixebY"
+    title="Latest RE Engine Optimization Masterpiece or Disaster? Pragmata PC Performance Tested (Demo Version)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Dietro le Quinte: Innovazioni del Path Tracing nel RE Engine
+
+Le impressionanti immagini e prestazioni del motore di Pragmata sono il risultato di ampie innovazioni tecniche e ottimizzazioni all'interno del RE Engine di Capcom. Calvin Shu di NVIDIA, che ha collaborato con Capcom, ha dettagliato molti di questi progressi alla GDC, concentrandosi su come siano riusciti a ottenere il path tracing in tempo reale con efficienza.
+
+Un elemento cruciale è l'integrazione con NVIDIA DLSS Ray Reconstruction (DLSS RR). Questa tecnologia basata sull'IA è progettata per migliorare le immagini in ray-tracing, fornendo un denoising e una ricostruzione superiori, vitali per mantenere la qualità dell'immagine nelle scene in path-tracing.
+
+Le principali tecniche di ottimizzazione sviluppate per il RE Engine includono:
+
+| Ottimizzazione | Scopo | Impatto Visivo | Impatto sulle Prestazioni |
+|---|---|---|---|
+| **BSDF Semplificato (RIS)** | Valutare efficientemente i campioni di luce durante il rendering | Mantiene la qualità visiva riducendo il carico computazionale | Contribuito a un guadagno del ~15% nei test di stress |
+| **Light Grid Culling** | Accelerare il calcolo per luci puntiformi scartando le fonti irrilevanti | Garantisce ombre accurate e calcoli di illuminazione efficienti | Identificato come il fattore più significativo per la velocità |
+| **Compensazione Luminosità** | Risolve problemi di varianza con faretti ad alta intensità o IBL | Ottiene un'illuminazione coerente, migliorando la qualità di DLSS RR | Essenziale per risultati stabili in scene diverse |
+| **Campionamento Poligoni Emissivi** | Riduce il rumore generato dalle sorgenti luminose emissive | Effetti emissivi più chiari e stabili | Campionamento efficiente tramite il metodo alias di Walker |
+| **ReSTIR GI (Global Illumination Resampled in Tempo Reale)** | Stabilizza DLSS RR, riduce il rumore dalla luce indiretta | Minimizza ghosting e artefatti sfocati nella luce indiretta | Migliora la qualità generale dell'immagine e la stabilità temporale |
+| **Buffer Guida e Maschere di Disocclusione** | Risolve specifici artefatti DLSS RR in scenari complessi | Capelli più chiari, riflessi precisi nel vetro, pioggia/pozzanghere accurate | Cruciale per mantenere la fedeltà visiva e prevenire sfocature |
+| **Strand BVH per Capelli** | Gestisce le ciocche di capelli in ambienti a bassa gravità | Permette movimenti realistici e auto-ombreggiatura accurata | Risolve incongruenze visive presenti nei precedenti titoli RE Engine |
+| **DXR 1.2 con SER (Shader Execution Reordering)** | API moderna per migliorare il throughput della GPU | Migliore utilizzo dell'hardware per carichi di lavoro complessi | Offre prestazioni elevatissime con meno sovraccarico |
+
+Una sfida notevole è stata soddisfare le aspettative degli artisti, in particolare riguardo all'illuminazione indiretta ambientale. Il team del motore ha lavorato a stretto contatto con i technical artist per risolvere problemi come i sottili cambiamenti nell'occlusione quando ReSTIR GI era attivo. L'ambiente unico a bassa gravità di *Pragmata* ha richiesto anche soluzioni specializzate per i capelli dei personaggi, richiedendo una "strand BVH" per garantire movimenti e ombre realistici coerenti con l'illuminazione in path-tracing.
+
+I miglioramenti delle prestazioni sono stati continui, con i test di stress iniziali che hanno mostrato una riduzione da 21 millisecondi a 13,3 millisecondi per una scena 4K DLAA, grazie a ottimizzazioni come il consolidamento dei cicli di luce e l'uso di DXR 1.2 con SER. Questi sforzi evidenziano l'impegno di Capcom nel fornire un'esperienza rifinita e visivamente sbalorditiva con il motore di Pragmata.
+
+## Requisiti di Sistema e Ottimizzazione dell'Esperienza
+
+Per apprezzare appieno la grafica avanzata offerta dal motore di Pragmata, è fondamentale comprendere i requisiti di sistema e i consigli per l'ottimizzazione. La demo ha fornito indicazioni su cosa i giocatori possono aspettarsi, con specifiche consigliate orientate a un'esperienza fluida a 1080p 60 FPS.
+
+**Requisiti Minimi di Sistema (Target 1080p, ~45 FPS):**
+*   **GPU:** NVIDIA GeForce GTX 1660 6GB o AMD Radeon RX 5500 XT 8GB
+*   **CPU:** Intel Core i5-9400 o AMD Ryzen 3 3100
+*   **RAM:** 8GB
+
+**Requisiti Consigliati di Sistema (Target 1080p, 60 FPS):**
+*   **GPU:** NVIDIA GeForce RTX 2060 Super 8GB o AMD Radeon RX 6600 8GB
+*   **CPU:** Intel Core i7-10700 o AMD Ryzen 5 5500
+*   **RAM:** 16GB
+
+**Consigliato per Ray Tracing (Target 1080p, 60 FPS con RT):**
+*   **GPU:** NVIDIA GeForce RTX 3060 12GB o AMD Radeon RX 6700 XT 12GB
+
+> **💡 Consiglio per l'Ottimizzazione:** Per la migliore esperienza visiva con il ray tracing, assicurati che la tua GPU abbia almeno 12 GB di VRAM. Se la VRAM è un problema, utilizza DLSS o FSR in modalità "Bilanciata" o "Prestazioni" per mantenere frame rate elevati senza sacrificare troppa qualità. Queste tecnologie di upscaling sono molto efficaci nel motore di Pragmata, spingendo spesso i frame rate ben oltre i 100 FPS anche a 1440p con ray tracing attivo. Sperimenta diverse impostazioni per trovare il perfetto equilibrio tra fedeltà visiva e prestazioni per la tua configurazione.
+
+I giocatori dovrebbero notare che, sebbene le schede con 8 GB di VRAM possano far girare *Pragmata* con il ray tracing, sessioni di gioco prolungate o scene più complesse potrebbero portare a lievi problemi legati alla VRAM, come sfarfallio delle texture o leggeri cali di prestazioni. Scegliere una GPU con 12 GB o più di VRAM è l'ideale per un'esperienza in ray-tracing costante e di alta qualità.
+
+Le impostazioni predefinite del gioco nella demo favorivano "impostazioni prevalentemente alte" con ray tracing attivo, anche su hardware di fascia media. Ciò indica che il motore di Pragmata è progettato per apparire impressionante fin da subito, pur offrendo prestazioni eccellenti.
+
+## Conclusione
+
+Il **motore di Pragmata**, alimentato dal RE Engine in continua evoluzione di Capcom, rappresenta un salto significativo nel rendering in tempo reale. Abbracciando la tecnologia avanzata del path tracing e integrandola con soluzioni di upscaling all'avanguardia come DLSS e FSR, *Pragmata* è pronto a offrire un'esperienza eccezionalmente immersiva e visivamente sbalorditiva nel 2026. Le prestazioni della demo, unite alle dettagliate analisi tecniche di Capcom e NVIDIA, dipingono il quadro di un gioco che non solo spinge i confini grafici, ma mantiene anche un alto livello di ottimizzazione su un'ampia gamma di hardware PC. Il motore di *Pragmata* è una testimonianza dell'impegno di Capcom verso l'innovazione, stabilendo un nuovo punto di riferimento per il realismo e le prestazioni nel gaming moderno.
+
+Puoi saperne di più su *Pragmata* sulla sua pagina ufficiale di Steam: [Pragmata su Steam](https://store.steampowered.com/app/PRAGMATA/)
+
+## FAQ
+
+**D: Cos'è il motore di Pragmata?**
+
+R: Il motore di Pragmata si riferisce al RE Engine proprietario di Capcom, che è stato notevolmente potenziato per il gioco *Pragmata*. Presenta una tecnologia avanzata di path tracing in tempo reale per illuminazione, riflessi e ombre altamente realistici, insieme a varie ottimizzazioni delle prestazioni.
+
+**D: Pragmata usa il ray tracing o il path tracing?**
+
+R: *Pragmata* utilizza il path tracing completo, che è un'evoluzione del ray tracing. Il path tracing simula la luce in modo più completo rispetto al ray tracing tradizionale, portando a ombre più dettagliate, riflessi più nitidi e un'illuminazione indiretta superiore.
+
+**D: Quali sono i requisiti di sistema generali per Pragmata?**
+
+R: Per un'esperienza consigliata a 1080p 60 FPS, avrai bisogno di una GPU RTX 2060 Super 8GB o RX 6600 8GB, una CPU Intel Core i7-10700 o Ryzen 5 5500 e 16 GB di RAM. Per il ray tracing, è consigliata una RTX 3060 12GB o una RX 6700 XT 12GB.
+
+**D: In che modo il RE Engine garantisce buone prestazioni con la grafica avanzata di Pragmata?**
+
+R: Il RE Engine impiega numerose ottimizzazioni, tra cui il BSDF semplificato per il campionamento della luce, il light grid culling, la compensazione della luminosità, il campionamento efficiente dei poligoni emissivi e tecnologie come ReSTIR GI. Sfrutta inoltre pesantemente soluzioni di upscaling come NVIDIA DLSS e AMD FSR, e API moderne come DXR 1.2 con Shader Execution Reordering (SER) per garantire prestazioni fluide.

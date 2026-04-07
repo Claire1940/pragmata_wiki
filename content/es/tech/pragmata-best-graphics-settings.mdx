@@ -1,0 +1,112 @@
+export const metadata = {
+  title: "Mejores ajustes gráficos de Pragmata: Guía de optimización para PC 2026",
+  description: "Domina la superficie lunar con los mejores ajustes gráficos de Pragmata. Optimiza los FPS, el Ray Tracing y el uso de VRAM para una experiencia de juego fluida en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+Graphics+Settings",
+  date: "2026-04-07",
+  author: "Pragmata Wiki Team"
+}
+
+Pragmata, la última aventura lunar de Capcom, lleva al límite el RE Engine con sus impresionantes entornos de ciencia ficción e intrincados modelos de personajes. Para disfrutar plenamente del viaje de Diana y el misterioso astronauta, encontrar los **mejores ajustes gráficos de Pragmata** es esencial para equilibrar la fidelidad visual con un rendimiento estable. Ya sea que estés jugando en un equipo de gama media antiguo o con el hardware más reciente disponible en 2026, el juego ofrece una amplia gama de opciones para ajustar tu experiencia. Esta guía detalla los requisitos técnicos y proporciona ajustes preestablecidos optimizados para garantizar que aproveches al máximo tu hardware. Al aplicar los **mejores ajustes gráficos de Pragmata**, podrás eliminar los tirones y mantener una alta tasa de fotogramas incluso durante las secuencias de combate intensas en la superficie de la luna.
+
+## Requisitos del sistema de Pragmata (Actualizado 2026)
+
+Antes de sumergirte en los menús específicos, es importante entender en qué posición se encuentra tu hardware. Pragmata es un título que consume mucha VRAM, especialmente cuando el Ray Tracing está activado. Aunque los requisitos mínimos son accesibles para GPUs más antiguas, las especificaciones recomendadas sugieren pasar a tarjetas de 12 GB o 16 GB para una experiencia fluida en 1440p o 4K.
+
+| Nivel de requisito | Recomendación de GPU | VRAM | Rendimiento objetivo |
+|---|---|---|---|
+| **Mínimo** | GTX 1660 / RX 5500 XT | 6GB - 8GB | 1080p / 45 FPS (Bajo) |
+| **Recomendado** | RTX 2060 Super / RX 6600 | 8GB | 1080p / 60 FPS (Alto) |
+| **Rec. Ray Tracing** | RTX 3060 / RX 6700 XT | **12GB+** | 1080p / 60 FPS (RT On) |
+| **Ultra / 4K** | RTX 5060 Ti / RX 960 XT | **16GB** | 1440p-4K / 60+ FPS |
+
+> **⚠️ Advertencia:** El uso de Ray Tracing en tarjetas con 8 GB de VRAM puede causar un intercambio significativo de texturas, parpadeos o picos en el tiempo de fotograma. Si experimentas estos problemas, considera desactivar el RT o bajar la Calidad de Texturas.
+
+## Mejores ajustes gráficos de Pragmata: Ajustes optimizados
+
+Para la mayoría de los jugadores, el objetivo es lograr unos 60 FPS estables sin sacrificar la estética única del juego. El RE Engine escala notablemente bien, pero ciertos ajustes como la Calidad de Malla y el Ray Tracing tienen un impacto desproporcionado en el rendimiento.
+
+Sigue estos pasos para configurar tus ajustes base para una experiencia optimizada:
+
+| Ajuste | Valor recomendado | Impacto |
+|---|---|---|
+| **Escalado de resolución** | 100% (Nativo) | Alto |
+| **Ray Tracing** | Activado (Si VRAM > 8GB) | Muy Alto |
+| **Calidad de malla** | Medio | Medio |
+| **Calidad de texturas** | Alto (Acorde a VRAM) | Alto |
+| **Calidad de sombras** | Medio/Alto | Medio |
+| **Iluminación indirecta** | Ray Traced | Medio |
+| **Reflejos** | Ray Traced | Medio |
+| **Desenfoque de movimiento** | Desactivado | Bajo |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cAHc6bixebY"
+    title="Latest RE Engine Optimization Masterpiece or Disaster? Pragmata PC Performance Tested"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+### Entendiendo el Ray Tracing en Pragmata
+Pragmata utiliza Ray Tracing (RT) tanto para la iluminación indirecta como para los reflejos. A diferencia de algunos títulos anteriores del RE Engine donde los reflejos RT parecían granulados, la implementación aquí es mucho más limpia. Sin embargo, supone un consumo significativo de recursos. Si tienes dificultades para mantener los 60 FPS en una tarjeta como la RTX 3060, desactivar el RT puede proporcionar una mejora de rendimiento del 15-20%. Aunque perderás los reflejos detallados del personaje del jugador en superficies de cristal, la iluminación precalculada (baked lighting) mantiene una calidad lo suficientemente alta para una gran experiencia.
+
+## Escalado avanzado: DLSS y FSR
+
+En 2026, la tecnología de escalado se ha convertido en una herramienta obligatoria para el juego en alta resolución. Pragmata es compatible con las últimas versiones de DLSS y FSR, incluyendo la generación de fotogramas basada en aprendizaje automático.
+
+1. **DLSS (Deep Learning Super Sampling):** Para los usuarios de Nvidia, DLSS Equilibrado a 1440p ofrece un aspecto casi nativo con un aumento masivo en la tasa de fotogramas.
+2. **FSR (FidelityFX Super Resolution):** Pragmata incluye FSR 3.1.4 y el nuevo escalado basado en ML (anteriormente FSR 4). Esta es la opción ideal para usuarios de AMD e Intel.
+3. **Generación de fotogramas (Frame Generation):** Si tu GPU lo admite, la generación de fotogramas puede duplicar efectivamente tu tasa de fotogramas percibida. Sin embargo, asegúrate de que tu tasa base sea de al menos 40-50 FPS antes de activarlo para evitar un retraso de entrada (input lag) perceptible.
+
+| Modo de escalado | Resolución recomendada | Ganancia de rendimiento |
+|---|---|---|
+| **DLSS Calidad** | 1080p / 1440p | ~30% |
+| **DLSS Equilibrado** | 4K | ~50% |
+| **FSR 4 ML Equilibrado** | 1440p / 4K | ~45% |
+| **Generación de fotogramas** | Todos | ~80-100% |
+
+> **💡 Consejo:** Si notas un efecto de "estela" (ghosting) detrás del personaje mientras se mueve, intenta cambiar del modo "Equilibrado" al modo "Calidad" o actualiza los controladores de tu GPU a la última versión de abril de 2026.
+
+## Rendimiento en combate y hackeo
+La jugabilidad en Pragmata involucra una matriz de hackeo única que se superpone a la pantalla durante el combate. Debido a que estos efectos dependen mucho de las transparencias, ocasionalmente pueden causar caídas de fotogramas en hardware más antiguo. Para mitigar esto, asegúrate de que tu **Calidad de Efectos** esté configurada en Medio. Esto mantiene la claridad visual de los nodos de hackeo sin sobrecargar la GPU durante las caóticas peleas contra jefes.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/6xfBS3oVqjM"
+    title="Pragmata (Demo) Maxed Out on RTX 5060Ti 16GB"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Solución de problemas técnicos para 2026
+Incluso con los **mejores ajustes gráficos de Pragmata**, algunos usuarios pueden encontrar obstáculos técnicos. El RE Engine realiza un paso de compilación de shaders tras el primer lanzamiento. Es vital dejar que este proceso termine por completo para evitar los "tirones por compilación" durante el juego.
+
+*   **Vsync:** Si experimentas desgarro de pantalla (screen tearing), activa el Vsync. Si prefieres la latencia más baja posible, desactívalo y usa un límite de fotogramas a través del panel de control de tu GPU.
+*   **Exceso de VRAM:** Si el uso de VRAM supera la capacidad de tu tarjeta (por ejemplo, usando 10 GB en una tarjeta de 8 GB), es probable que el juego dé tirones o se cierre. Baja la **Calidad de Texturas** o el **Caché de Sombras** para mantenerte dentro de los límites.
+*   **Pantalla completa vs. Ventana sin bordes:** La mayoría de los sistemas modernos funcionan mejor en modo "Ventana sin bordes", lo que permite cambiar de aplicación (alt-tab) más rápido y una mejor integración con las funciones de optimización de Windows 11/12.
+
+Para obtener más información sobre parches oficiales y soporte de controladores, visita la [página oficial de Pragmata en Steam](https://store.steampowered.com/app/1368060/PRAGMATA/).
+
+## FAQ
+
+**P: ¿Cuáles son los mejores ajustes gráficos de Pragmata para un PC de gama media?**
+
+R: Para un PC de gama media (como una RTX 3060 o RX 6700), utiliza una mezcla de ajustes Altos con Ray Tracing activado, siempre que tengas al menos 12 GB de VRAM. Configura DLSS o FSR en "Calidad" para mantener unos 60 FPS estables a 1080p o 1440p.
+
+**P: ¿Es compatible Pragmata con Ray Tracing en GPUs de 8 GB?**
+
+R: Sí, pero no se recomienda para resoluciones altas. A 1080p puede funcionar, pero a 1440p o 4K, 8 GB de VRAM suelen ser insuficientes para las demandas combinadas de texturas de alta resolución y reflejos por trazado de rayos, lo que puede provocar tirones.
+
+**P: ¿Por qué mi tasa de fotogramas está limitada a 60 FPS?**
+
+R: Comprueba si el Vsync está activado en el menú de gráficos. Además, asegúrate de que la tasa de refresco de tu monitor esté configurada correctamente en los ajustes de Windows y que no haya limitadores de fotogramas externos activos (como Rivatuner).
+
+**P: ¿Hay una diferencia significativa entre FSR y DLSS en Pragmata?**
+
+R: En la versión de 2026 del juego, tanto DLSS 4.5 como FSR 4 (basado en ML) ofrecen resultados excelentes. DLSS suele tener una ligera ventaja en estabilidad temporal (menos parpadeo), mientras que FSR 4 es altamente competitivo y está disponible para todos los fabricantes de GPU.
