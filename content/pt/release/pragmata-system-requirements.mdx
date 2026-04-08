@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Requisitos do Sistema de Pragmata: Especificações de PC e Guia de Desempenho 2026",
+  description: "Seu PC está pronto para o épico de ficção científica da Capcom? Confira os requisitos oficiais do sistema de Pragmata, especificações de ray tracing e dicas de otimização para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/334155/fff?text=Pragmata+System+Requirements",
+  date: "2026-04-08",
+  author: "Equipe Wiki Pragmata"
+}
+
+Com o tão aguardado lançamento da misteriosa aventura de ficção científica da Capcom finalmente no horizonte, entender os **requisitos do sistema de pragmata** é essencial para qualquer jogador de PC que deseje explorar a superfície lunar. Situado em um futuro próximo distópico na Lua, o jogo segue um protagonista em um traje pesado e uma jovem androide chamada Diana enquanto navegam por ambientes complexos movidos pela versão mais recente da RE Engine. Cumprir os **requisitos do sistema de pragmata** garante que os jogadores possam experimentar os reflexos intrincados e os densos efeitos atmosféricos sem a frustração de quedas na taxa de quadros ou falhas gráficas. 
+
+O jogo expande os limites do hardware da geração atual, exigindo VRAM significativa para seus recursos avançados de ray tracing, enquanto permanece surpreendentemente escalável para aqueles com máquinas intermediárias mais antigas. Seja seu objetivo uma experiência cinematográfica em 4K com upscaling por aprendizado de máquina ou apenas alcançar estáveis 60 FPS em 1080p, este guia detalha cada nível de hardware e configuração de otimização que você precisa saber antes do lançamento em abril.
+
+## Detalhamento dos Requisitos Oficiais do Sistema de Pragmata
+
+A Capcom categorizou as necessidades de hardware em três níveis distintos: Mínimo, Recomendado e Ray Tracing. Embora a RE Engine seja conhecida por sua excelente otimização em títulos como Resident Evil e Street Fighter, os ambientes vastos e verticalmente inclinados do "Berço" lunar introduzem novas demandas tanto para a CPU quanto para a GPU. 
+
+As especificações mínimas são projetadas para uma experiência em 1080p a aproximadamente 45 FPS usando a predefinição de "Desempenho". Para uma experiência mais fluida de 60 FPS, os jogadores precisarão subir para o nível recomendado, que visa configurações altas em 1080p nativo.
+
+### Requisitos Mínimos do Sistema (1080p / 45 FPS)
+
+| Componente | Especificação Mínima |
+|---|---|
+| **SO** | Windows 10/11 (64-bit) |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 3 3100 |
+| **GPU** | **GTX 1660 6GB** / **Radeon RX 5500 XT 8GB** |
+| **RAM** | 12 GB |
+| **Armazenamento** | 60 GB de SSD Necessário |
+| **DirectX** | Versão 12 |
+
+### Requisitos Recomendados do Sistema (1080p / 60 FPS)
+
+| Componente | Especificação Recomendada |
+|---|---|
+| **SO** | Windows 10/11 (64-bit) |
+| **CPU** | Intel Core i7-10700K / **AMD Ryzen 5 5500** |
+| **GPU** | **RTX 2060 Super 8GB** / **Radeon RX 6600 8GB** |
+| **RAM** | 16 GB |
+| **Armazenamento** | 60 GB de SSD NVMe Recomendado |
+
+> **⚠️ Aviso:** Executar o jogo em um HDD tradicional não é recomendado. A RE Engine utiliza streaming de ativos de alta velocidade para as transições contínuas entre a superfície lunar e as instalações internas, o que pode causar travamentos significativos em unidades mecânicas mais lentas.
+
+## Ray Tracing e Desempenho de Alto Nível
+
+Para jogadores que desejam ativar o conjunto completo de iluminação indireta e reflexos por ray tracing, os **requisitos do sistema de pragmata** aumentam significativamente, particularmente no departamento de VRAM. A análise técnica da versão demo indica que ativar o Ray Tracing (RT) eleva o uso de VRAM além do limite de 8 GB, mesmo em 1080p. Isso torna as placas de 12 GB o novo padrão para visuais de nível entusiasta.
+
+A implementação de RT neste título afeta tanto os reflexos — visíveis nas divisórias de vidro das usinas de energia solar — quanto a iluminação indireta, que proporciona um brilho mais natural aos interiores da base lunar. Embora as placas de 8 GB possam tecnicamente ativar essas configurações, os usuários podem sofrer com "troca de textura" ou cintilações enquanto a GPU luta para gerenciar o estouro de memória.
+
+### Especificações Recomendadas para Ray Tracing (1440p / 60 FPS)
+
+| Componente | Especificação para RT |
+|---|---|
+| **GPU (Nvidia)** | **RTX 3060 12GB** / RTX 4070 |
+| **GPU (AMD)** | **RX 6700 XT 12GB** / RX 7800 XT |
+| **Alvo de VRAM** | 12 GB ou superior |
+| **Upscaling** | DLSS / FSR Equilibrado Recomendado |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/cAHc6bixebY"
+    title="Pragmata PC Performance Tested (Demo Version)"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Otimização da RE Engine e Tecnologias de Upscaling
+
+Um dos destaques da versão para PC é a inclusão de tecnologia de upscaling de ponta. Em 2026, estamos vendo a adoção generalizada de upscaling baseado em aprendizado de máquina em todos os principais fabricantes de hardware. O jogo suporta **DLSS 3.5** (incluindo Gerador de Quadros) e o mais recente **FSR 3.1.4**, que inclui o novo upscaling baseado em ML anteriormente conhecido como FSR 4.
+
+### Comparação de Desempenho de Upscaling (1440p Nativo vs Upscaled)
+
+| Modo | FPS Médio (RTX 5060 Ti) | Qualidade Visual |
+|---|---|---|
+| **1440p Nativo** | 85 FPS | Altíssima |
+| **DLSS Qualidade** | 112 FPS | Excelente |
+| **FSR ML Equilibrado** | 108 FPS | Muito Boa |
+| **Gerador de Quadros Ativado** | 155 FPS | Alta (Latência Potencial) |
+
+Testes técnicos em hardware intermediário como a RTX 5060 Ti e a RX 960 XT mostram que o jogo lida com ambientes fechados com notável facilidade, frequentemente excedendo 100 FPS ao utilizar upscaling equilibrado. No entanto, arenas de combate maiores com múltiplas anormalidades do "Berço" podem apresentar quedas nos 1% lows, tornando uma CPU forte como o Ryzen 5 5600 ou i5-13600K um investimento sábio para manter a consistência do tempo de quadro.
+
+## Melhores Configurações Gráficas para Desempenho
+
+Se o seu PC estiver no limite dos **requisitos do sistema de pragmata**, você pode recuperar um desempenho significativo ajustando configurações específicas "Pesadas". A RE Engine oferece um menu granular que permite equilibrar a fidelidade visual com a velocidade bruta.
+
+1.  **Qualidade de Malha:** Defina como Médio. Isso reduz a complexidade geométrica de objetos distantes com impacto mínimo no ambiente imediato.
+2.  **Reflexos com Ray Tracing:** Se você tiver uma placa de 8 GB, desligue isso. Os SSR (Reflexos em Espaço de Tela) padrão são bem implementados e muito mais leves na VRAM.
+3.  **Variable Rate Shading (VRS):** Ative esta opção. Ela reduz o detalhe do sombreamento em áreas onde não é perceptível, proporcionando um aumento de 5 a 10% no FPS.
+4.  **Qualidade de Imagem:** Mantenha em 100% e use DLSS ou FSR em vez de diminuir a escala de resolução interna manualmente.
+
+> **💡 Dica:** Certifique-se de permitir que o jogo complete a etapa de "Compilação de Shaders" no menu principal antes de iniciar sua primeira sessão. Isso evita os "engasgos de compilação" que costumam assombrar os lançamentos modernos de PC nos primeiros minutos de jogo.
+
+## Combate Lunar e Mecânicas
+
+A jogabilidade na demo introduz uma mecânica única de "Matriz de Hacking". Os jogadores devem mover um cursor por uma grade enquanto seguram o botão do mouse para conectar nós EXE. Isso deixa os inimigos em um estado vulnerável. Como essa mecânica exige precisão, manter uma taxa de quadros estável é mais do que apenas uma preferência visual — impacta diretamente sua capacidade de executar hacks durante combates de alta intensidade.
+
+O jogo também apresenta um "Medidor de Propulsores" para esquiva e voo pairado. Taxas de quadros mais baixas podem levar ao aumento da latência de entrada, tornando mais difícil cronometrar esquivas contra as ondas de choque emitidas por inimigos maiores. Para a melhor experiência, busque um mínimo de 60 FPS, mesmo que isso signifique baixar as configurações de "Alta" para "Média".
+
+Você pode encontrar mais detalhes e adquirir o jogo na [Página Oficial de Pragmata no Steam](https://store.steampowered.com/app/1586350/PRAGMATA/) para se manter atualizado sobre os últimos patches e otimizações de drivers.
+
+## FAQ
+
+**P: Eu realmente preciso de 12 GB de VRAM para jogar com Ray Tracing?**
+
+R: Embora você possa ativar o Ray Tracing em placas de 8 GB, provavelmente encontrará travamentos e carregamento tardio de texturas em baixa resolução. Para uma experiência estável com RT ativado, 12 GB é a base recomendada nos **requisitos do sistema de pragmata**.
+
+**P: O jogo suporta Gerador de Quadros (Frame Generation)?**
+
+R: Sim, o jogo suporta tanto o DLSS Frame Generation da Nvidia quanto o Frame Generation baseado em ML do FSR 3.1.4, permitindo que jogadores em uma gama mais ampla de hardware alcancem uma jogabilidade com alta taxa de atualização.
+
+**P: Existe uma diferença significativa entre as especificações Mínimas e Recomendadas?**
+
+R: Sim. As especificações mínimas visam 45 FPS em 1080p em configurações baixas. Para alcançar o padrão ouro de 60 FPS em 1080p com ativos de alta qualidade, você deve visar o hardware recomendado, especificamente uma GPU com pelo menos 8 GB de VRAM.
+
+**P: Posso rodar Pragmata em um Steam Deck ou PC portátil?**
+
+R: Graças à escalabilidade da RE Engine e ao suporte ao FSR, o jogo é jogável em portáteis a 800p/720p. No entanto, você precisará usar a predefinição de "Desempenho" e definir o limite de 30 FPS para a experiência mais consistente.
