@@ -16,7 +16,8 @@
     "character": "キャラクター",
     "version": "バージョン",
     "tech": "技術",
-    "media": "メディア"
+    "media": "メディア",
+    "guide": "ガイド"
   },
   "common": {
     "home": "ホーム",

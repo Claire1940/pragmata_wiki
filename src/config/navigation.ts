@@ -1,4 +1,4 @@
-import { BookOpen, Gamepad2, Film, Calendar, Cpu, Layers } from 'lucide-react'
+import { BookOpen, Gamepad2, Film, Calendar, Cpu, Layers, Map } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -15,6 +15,7 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{ key: 'version', path: '/version', icon: Layers, isContentType: true },
 	{ key: 'tech', path: '/tech', icon: Cpu, isContentType: true },
 	{ key: 'media', path: '/media', icon: Film, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: Map, isContentType: true },
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）

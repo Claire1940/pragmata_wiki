@@ -16,7 +16,8 @@
     "character": "Characters",
     "version": "Version",
     "tech": "Tech",
-    "media": "Media"
+    "media": "Media",
+    "guide": "Guide"
   },
   "common": {
     "home": "Home",

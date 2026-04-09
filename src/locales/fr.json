@@ -16,7 +16,8 @@
     "character": "Personnages",
     "version": "Version",
     "tech": "Technique",
-    "media": "Médias"
+    "media": "Médias",
+    "guide": "Guide"
   },
   "common": {
     "home": "Accueil",
