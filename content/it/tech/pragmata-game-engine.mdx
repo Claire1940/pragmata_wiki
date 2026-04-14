@@ -1,0 +1,107 @@
+export const metadata = {
+  title: "Guida al Motore di Gioco di Pragmata: Prestazioni RE Engine e Specifiche 2026",
+  description: "Analisi approfondita del motore di gioco di Pragmata, requisiti tecnici e benchmark prestazionali per l'epopea sci-fi di Capcom del 2026.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+Game+Engine+Guide",
+  date: "2026-04-15",
+  author: "Pragmata Wiki Team"
+}
+
+Con l'attesissima uscita dell'avventura sci-fi di Capcom prevista per il 17 aprile 2026, i giocatori sono ansiosi di comprendere la tecnologia che alimenta questa odissea lunare. Il **motore di gioco di Pragmata** non è altro che il versatile RE Engine, una potenza proprietaria che ha precedentemente alimentato il successo dei franchise di Resident Evil e Monster Hunter. Utilizzando il **motore di gioco di Pragmata** al massimo delle sue potenzialità, Capcom mira a offrire un'esperienza ad alta fedeltà che bilanci una grafica fotorealistica con requisiti di sistema accessibili. A differenza di molti titoli AAA contemporanei che faticano con l'ottimizzazione al lancio, questo titolo sfrutta l'architettura matura del RE Engine per garantire frame rate stabili su una vasta gamma di configurazioni hardware PC.
+
+## Il RE Engine: Alimentare il Mondo Lunare di Pragmata
+
+La decisione di utilizzare il RE Engine come **motore di gioco di Pragmata** principale segna un distacco significativo dalla forte dipendenza del settore da soluzioni di terze parti come l'Unreal Engine 5. La tecnologia interna di Capcom è rinomata per la sua filosofia "comfort first", che dà priorità a un'esperienza utente fluida e a una gestione efficiente delle risorse. Questo approccio consente ad ambienti mozzafiato — come l'hub "Shelter" clinico e hi-tech — di coesistere con intense sequenze d'azione senza causare massicci cali di prestazioni.
+
+Le capacità di rendering del motore sono in piena mostra negli ambienti della stazione di ricerca lunare. Il sistema di illuminazione utilizza un'illuminazione globale avanzata per contrastare l'interno bianco e austero della stazione con i fondali vibranti e quasi surreali della superficie lunare. È interessante notare che gli sviluppatori hanno sottolineato come alcuni ambienti siano stati realizzati a mano dagli artisti per imitare l'aspetto "straniante" dell'arte generata dall'IA, fungendo da commento tematico all'interno del gioco e mettendo in mostra la capacità del motore di gestire texture complesse e stilizzate.
+
+### Caratteristiche Tecniche Chiave del RE Engine nel 2026
+
+| Caratteristica | Implementazione in Pragmata | Vantaggio per il Giocatore |
+| :--- | :--- | :--- |
+| **Ray Tracing** | Riflessi e ombre in tempo reale | Maggiore immersione negli ambienti metallici |
+| **Path Tracing** | Simulazione della luce a scena completa (esclusiva PC) | Illuminazione fotorealistica per PC di fascia alta |
+| **Supporto DLSS 4 / FSR** | Integrazione nativa al lancio | Notevole incremento di FPS a risoluzioni 4K |
+| **Sistema di Combattimento Tattile** | Elaborazione logica multi-thread | Controlli reattivi per il gameplay a doppio protagonista |
+
+## Gameplay a Doppio Protagonista e Logica del Motore
+
+Il **motore di gioco di Pragmata** non riguarda solo la grafica; gestisce la complessa logica richiesta dall'unico sistema a doppio protagonista del gioco. I giocatori controllano Hugh, un astronauta specializzato in armi da fuoco, mentre la sua compagna androide Diana fornisce supporto. Questo "sistema di combattimento tattile" è progettato per coinvolgere simultaneamente entrambi gli emisferi del cervello del giocatore.
+
+1.  **Azione e Movimento (Cervello Destro):** Hugh gestisce le schivate, gli spari e la navigazione fisica dell'ambiente.
+2.  **Hacking e Strategia (Cervello Sinistro):** Diana, cavalcando sulla schiena di Hugh, gestisce puzzle di hacking basati su griglie e neutralizza i pericoli ambientali in tempo reale.
+
+Questa sinergia richiede che il motore tracci più entità IA (l'IA ostile "Edis") mantenendo lo stato interattivo dei puzzle di hacking durante il combattimento attivo. La capacità del RE Engine di gestire questi compiti paralleli senza input lag è una testimonianza della sua architettura raffinata.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/j3q6_7bkEzE"
+    title="Can your PC Handle this Game? 🧑‍🚀 | Pragmata Requirements"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Requisiti di Sistema Ufficiali per PC
+
+Nonostante la sua grafica all'avanguardia, il **motore di gioco di Pragmata** è notevolmente scalabile. Capcom ha assicurato che anche i giocatori con hardware datato possano godersi il mistero lunare, a patto di essere disposti a regolare le impostazioni.
+
+### Specifiche Minime e Raccomandate
+
+| Componente | Minimi (1080p / 45 FPS) | Raccomandati (1080p / 60 FPS) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **CPU** | Intel i5-8500 / Ryzen 5 3500 | Intel i7-8700 / Ryzen 5 5500 |
+| **RAM** | 16 GB | 16 GB |
+| **GPU** | GTX 1660 (6GB) / RX 5500 XT | RTX 2060 Super / RX 6600 |
+| **Archiviazione** | 40 GB SSD | 40 GB SSD |
+
+> **Avvertenza:** Sebbene il gioco possa funzionare su un HDD standard, l'uso di un SSD è caldamente raccomandato per evitare scatti durante le transizioni fluide tra l'hub Shelter e la superficie lunare.
+
+## Benchmark Prestazionali e Ottimizzazione
+
+I primi test della demo gratuita suggeriscono che il **motore di gioco di Pragmata** sia una delle versioni meglio ottimizzate del 2026. A differenza di altri titoli AAA che si affidano esclusivamente all'upscaling per ottenere frame rate giocabili, Pragmata mostra forti prestazioni native.
+
+*   **Prestazioni a 1080p:** Schede entry-level come la GTX 1660 Ti possono, secondo quanto riferito, mantenere un 60 FPS stabile a 1080p.
+*   **Prestazioni a 1440p:** Configurazioni di fascia media che utilizzano una RTX 3070 raggiungono oltre 60 FPS nativamente, anche se l'attivazione di FSR o DLSS può spingere questo valore molto più in alto.
+*   **Prestazioni a 4K:** Gli appassionati di fascia alta con una RTX 4070 Ti o superiore possono aspettarsi oltre 100 FPS utilizzando il DLSS 4 e la frame generation.
+
+Per coloro che cercano di spingersi oltre i limiti, la versione PC include una modalità "Path Tracing". Si tratta di una funzione significativamente più esigente che simula il comportamento della luce con estrema precisione. Per eseguire questa modalità in modo efficace, si consiglia una GPU con elevata capacità di VRAM, come la RTX 5060 Ti (16GB) o superiore.
+
+## Migliori Configurazioni PC per Pragmata (2026)
+
+Se stai cercando di aggiornare il tuo PC specificamente per questa uscita, diverse configurazioni offrono un eccellente rapporto qualità-prezzo. Molti rivenditori offrono promozioni in cui una copia del gioco è inclusa con l'acquisto di hardware specifico fino a maggio 2026. Puoi trovare maggiori dettagli sulla [pagina ufficiale di Pragmata su Steam](https://store.steampowered.com/) o tramite i partner hardware autorizzati.
+
+### Livelli Hardware Raccomandati
+
+*   **L'Esploratore Economico:** Un sistema dotato di un Ryzen 5 5600 e una RTX 5060. Questa configurazione è perfetta per il gaming a 1080p e soddisfa comodamente i requisiti raccomandati per meno di 900 €.
+*   **L'Entusiasta Lunare:** Una RTX 5070 Ti abbinata a un Ryzen 7 7800X3D. Questa configurazione è progettata per dominare il 1440p con ray tracing attivo.
+*   **Il Professionista del Path Tracing:** Per l'esperienza definitiva, un Ryzen 9 8800X3D e una RTX 5080 permetteranno un gameplay in 4K con impostazioni di path tracing al massimo.
+
+> **Suggerimento:** Se hai intenzione di attivare il Ray Tracing, dai la priorità alle GPU con almeno 12 GB di VRAM per evitare problemi di swapping delle texture nelle scene complesse.
+
+## Estetica Visiva ed Etica dell'IA
+
+Uno degli aspetti più discussi del lavoro del **motore di gioco di Pragmata** è il suo stile visivo. Il gioco presenta un contrasto sorprendente tra il "bianco clinico" della base lunare e il mondo "succoso e vibrante" all'esterno. Il team artistico di Capcom ha notoriamente passato ore a ricreare la sensazione leggermente "sbagliata" dell'arte IA attraverso asset manuali per supportare i temi narrativi del gioco riguardanti l'IA ostile (Edis). Questa scelta artistica è resa con incredibile precisione, dimostrando che il RE Engine può gestire direzioni stilistiche uniche altrettanto bene del fotorealismo.
+
+Il design del personaggio di Cabin, l'eccentrico robot di supporto, evidenzia anche le capacità di animazione del motore. I movimenti fluidi ed espressivi dell'androide Diana rispetto alla fisica pesante e radicata di Hugh nella sua tuta spaziale dimostrano il versatile sistema fisico del motore.
+
+## FAQ
+
+**D: Il motore di gioco di Pragmata supporta schede grafiche più vecchie?**
+
+R: Sì, il RE Engine è altamente scalabile. I requisiti minimi partono dalla GTX 1660 e dalla RX 5500 XT, rendendolo accessibile a molti giocatori con hardware più vecchio, anche se saranno necessari alcuni sacrifici grafici per mantenere le prestazioni.
+
+**D: Il DLSS 4 è necessario per giocare a Pragmata?**
+
+R: No, il DLSS 4 è una funzione opzionale per gli utenti della serie NVIDIA RTX 50 per aumentare le prestazioni. Il gioco è ben ottimizzato per le risoluzioni native, sebbene FSR e Frame Generation siano disponibili per chi ha bisogno di un ulteriore incremento di FPS.
+
+**D: Quanto spazio di archiviazione richiede il gioco?**
+
+R: Pragmata richiede circa 40 GB di spazio di archiviazione. È vivamente consigliato installare il gioco su un SSD per garantire tempi di caricamento rapidi e uno streaming fluido degli asset.
+
+**D: Posso giocare a Pragmata su Steam Deck?**
+
+R: Sebbene la verifica ufficiale sia in sospeso, il RE Engine ha una storia di prestazioni eccezionali sui dispositivi portatili. Dati i modesti requisiti minimi, si prevede che sarà "Giocabile" o "Verificato" poco dopo il lancio.
