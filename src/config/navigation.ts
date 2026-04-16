@@ -1,4 +1,4 @@
-import { BookOpen, Gamepad2, Film, Calendar, Cpu, Layers, Map } from 'lucide-react'
+import { BookOpen, Gamepad2, Film, Calendar, Cpu, Layers, Map, Star } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -15,6 +15,7 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{ key: 'version', path: '/version', icon: Layers, isContentType: true },
 	{ key: 'tech', path: '/tech', icon: Cpu, isContentType: true },
 	{ key: 'media', path: '/media', icon: Film, isContentType: true },
+	{ key: 'review', path: '/review', icon: Star, isContentType: true },
 	{ key: 'guide', path: '/guide', icon: Map, isContentType: true },
 ]
 

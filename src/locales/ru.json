@@ -16,7 +16,8 @@
     "items": "Предметы",
     "biomes": "Биомы",
     "building": "Строительство",
-    "support": "Поддержка"
+    "support": "Поддержка",
+    "review": "Review"
   },
   "common": {
     "home": "Главная",

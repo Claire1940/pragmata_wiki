@@ -17,7 +17,8 @@
     "version": "Version",
     "tech": "Tech",
     "media": "Media",
-    "guide": "Guide"
+    "guide": "Guide",
+    "review": "Review"
   },
   "common": {
     "home": "Home",

@@ -17,7 +17,8 @@
     "version": "버전",
     "tech": "기술",
     "media": "미디어",
-    "guide": "가이드"
+    "guide": "가이드",
+    "review": "Review"
   },
   "common": {
     "home": "홈",

@@ -17,7 +17,8 @@
     "version": "Versión",
     "tech": "Tecnología",
     "media": "Multimedia",
-    "guide": "Guía"
+    "guide": "Guía",
+    "review": "Reseñas"
   },
   "common": {
     "home": "Inicio",
