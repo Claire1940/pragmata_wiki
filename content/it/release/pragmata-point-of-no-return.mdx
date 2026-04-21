@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Pragmata Point of No Return: Guida alle Prestazioni e ai Salvataggi 2026",
+  description: "Padroneggia il punto di non ritorno di Pragmata con la nostra guida completa al sistema di salvataggio del rifugio, alle impostazioni di ottimizzazione e alle prestazioni tecniche su RE Engine.",
+  category: "Guida",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pragmata+Performance+Guide",
+  date: "2026-04-22",
+  author: "Team Wiki di Pragmata"
+}
+
+L'ultima avventura sci-fi di Capcom è finalmente arrivata, portando con sé un mix unico di grafica ad alta fedeltà e una misteriosa profondità narrativa. Navigare nel **punto di non ritorno di Pragmata** è essenziale per ogni giocatore che desideri bilanciare i propri progressi con gli esigenti requisiti tecnici del gioco. A differenza di molti titoli moderni che consentono salvataggi automatici o rapidi frequenti, questo gioco utilizza una struttura più rigida centrata su un unico hub. Capire come funziona il **punto di non ritorno di Pragmata** all'interno del sistema di salvataggio può prevenire ore di progressi perduti e frustrazione, specialmente quando si cerca di affinare le impostazioni grafiche per ottenere il miglior frame rate possibile.
+
+In questa guida, esploreremo le complessità del RE Engine applicato a questa nuova proprietà intellettuale, le limitazioni specifiche del sistema del rifugio e come ottimizzare il tuo hardware per garantire un viaggio fluido attraverso la landa desolata lunare. Che tu stia utilizzando una scheda di fascia alta serie RTX 40 o una configurazione più modesta, queste intuizioni ti aiuteranno a superare ogni soglia con sicurezza.
+
+## Comprendere il Punto di Non Ritorno di Pragmata e le Meccaniche di Salvataggio
+
+L'aspetto più critico del loop di gioco è il Rifugio (Shelter). Questa posizione funge da base operativa principale e, cosa più importante, è il tuo unico punto di salvataggio affidabile. Per molti versi, lasciare il rifugio costituisce un **punto di non ritorno di Pragmata** per le impostazioni della sessione corrente e per i progressi immediati. Poiché il gioco non consente il salvataggio nel mezzo delle missioni o durante l'esplorazione di ampie sezioni esterne, devi essere pronto all'impegno richiesto da ogni escursione.
+
+Questo sistema diventa particolarmente impegnativo quando è necessario regolare le impostazioni grafiche. Molte opzioni cruciali, come il Ray Tracing, il Path Tracing e l'Illuminazione Globale, sono bloccate dietro il menu principale. Se ti rendi conto che le prestazioni stanno calando durante un pesante scontro in combattimento, non puoi semplicemente modificare un'impostazione e riprendere. Sei costretto a uscire alla schermata del titolo, cambiare la configurazione e ricaricare. Al ricaricamento, il gioco ti riporta frequentemente al rifugio, rendendo di fatto l'atto di navigare nei menu un **punto di non ritorno di Pragmata** tecnico che resetta la tua posizione nel mondo.
+
+| Funzionalità | Rifugio (Zona Sicura) | Esterno/Missioni |
+| :--- | :--- | :--- |
+| **Salvataggio Manuale** | Disponibile | **Non disponibile** |
+| **Checkpoint** | Frequenti | Minimi |
+| **Accesso Impostazioni** | Limitato | Limitato (Richiede Menu Principale) |
+| **Presenza Nemici** | Nessuna | Alta |
+| **Gestione Risorse** | Ricarica tutti gli oggetti | Limitata alla capacità di trasporto |
+
+> **💡 Suggerimento:** Controlla sempre due volte la tua configurazione grafica all'interno del rifugio prima di iniziare una missione importante. Dover rigiocare una sezione di 20 minuti solo per correggere un'impostazione delle ombre è una frustrazione comune per i nuovi giocatori.
+
+## Ottimizzazione Tecnica e Scaling delle Prestazioni
+
+Pragmata è costruito sul motore proprietario RE Engine, noto per la sua incredibile efficienza in titoli come Resident Evil Requiem. Sebbene il motore offra un'esperienza stabile senza evidenti stutter di compilazione degli shader, è estremamente esigente in termini di VRAM. Raggiungere un **punto di non ritorno di Pragmata** in termini di sovraccarico hardware può portare a improvvisi picchi di frame-time o persino a crash se non si presta attenzione alle impostazioni della qualità delle texture e dei capelli.
+
+### Ray Tracing e Path Tracing
+
+Il Ray Tracing in questo titolo influenza sia l'Illuminazione Globale che l'Illuminazione Speculare. Sebbene aggiunga una profondità significativa agli ambienti interni, l'implementazione è chiaramente orientata alle prestazioni. Per chi possiede hardware di fascia alta, è disponibile il Path Tracing, che sostituisce l'intera pipeline di illuminazione rasterizzata con una simulazione più accurata. Tuttavia, il Path Tracing è incredibilmente esigente e richiede funzionalità avanzate come la Ray Reconstruction per mantenere la stabilità.
+
+| Impostazione | Costo Prestazioni | Impatto Visivo | Consigliato Per |
+| :--- | :--- | :--- | :--- |
+| **Ray Tracing** | ~13% | Alto (Riflessi/Profondità) | Maggior parte delle GPU di fascia media |
+| **Path Tracing** | ~40%+ | Entusiasti (Realismo Totale) | RTX 4080 o superiore |
+| **Illuminazione Globale** | 8-12% | Medio (Luce Ambientale) | Alto (Tutti gli utenti) |
+| **Cache Ombre** | **-5% (Guadagno)** | Minimo | **Sempre Attivo** |
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/ity4ts6tvzY"
+    title="Pragmata | OPTIMIZATION GUIDE | Every Setting Tested | Best Settings"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## La Barriera della VRAM: Evitare il Punto di Non Ritorno Hardware
+
+Uno degli ostacoli più significativi in Pragmata è l'utilizzo della VRAM. Se superi la capacità di memoria della tua scheda, colpisci un letterale **punto di non ritorno di Pragmata** dove le prestazioni degradano a livelli ingiocabili. Questo è particolarmente prevalente sulle schede da 8GB come la RTX 3060 Ti o l'hardware più vecchio della serie 20.
+
+Il gioco presenta un rendering avanzato dei capelli basato su ciocche (strand-based), che rappresenta un enorme balzo in avanti rispetto ai precedenti titoli Capcom. Sebbene sia esteticamente splendido, questa impostazione da sola può consumare una gran parte della tua VRAM. Se riscontri stuttering, considera di abbassare la Qualità dei Capelli a Medio. Inoltre, l'impostazione di Qualità Texture "Bassa" è attualmente affetta da bug e può causare il mancato caricamento totale delle texture. Si raccomanda generalmente di usare "Minima" per le schede da 8GB o "Media" per le schede da 10GB+ per evitare questi problemi.
+
+### Passaggi Chiave per l'Ottimizzazione:
+1.  **Abilita Cache Ombre:** Questa è l'impostazione singola più importante per la stabilità delle prestazioni. Riduce il carico su CPU e GPU memorizzando nella cache le ombre statiche.
+2.  **Usa DLSS/Upscaling:** Poiché il gioco è lineare e con ambientazioni circoscritte, le tecniche di upscaling come il DLSS forniscono un'immagine nitida con un significativo aumento delle prestazioni. Nota che il DLAA è disponibile ma può apparire leggermente più morbido rispetto allo standard TAA+FXAA.
+3.  **Gestisci la Qualità Mesh:** Una Qualità Mesh alta aumenta significativamente l'uso della VRAM senza un guadagno proporzionale nella fedeltà visiva. "Medio" è il punto di equilibrio ideale per la maggior parte dei giocatori.
+4.  **Ombre di Contatto:** Queste aggiungono una sottile profondità ai personaggi. Sebbene non abbiano costi prestazionali, a volte possono introdurre rumore nelle scene scure se il Ray Tracing è disattivato.
+
+## Confronto delle Impostazioni Visive Avanzate
+
+Quando sei immerso nel paesaggio lunare, gli effetti atmosferici diventano protagonisti. L'Illuminazione Volumetrica e i Riflessi Screen Space (SSR) definiscono l'estetica del gioco. Tuttavia, l'SSR nel RE Engine rimane alquanto rumoroso. Se la granulosità diventa una distrazione, potresti trovarti in un **punto di non ritorno di Pragmata** riguardo alla tua pazienza visiva.
+
+| Impostazione | Valore Consigliato | Perché? |
+| :--- | :--- | :--- |
+| **Illuminazione Volumetrica** | **Medio/Alto** | L'impostazione massima ha un impatto del 7% con scarso guadagno visivo. |
+| **SSR** | **Attivo** | Essenziale per le superfici riflettenti del gioco, nonostante il rumore. |
+| **Filtro Texture** | **x16** | Costo praticamente nullo per un'immagine molto più nitida. |
+| **Qualità Effetti** | **Alto** | Aggiunge motion blur radiale e detriti al combattimento; abbassa solo se gli FPS calano durante le esplosioni. |
+| **Occlusione Ambientale** | **SSAO** | Economico ed efficace per aggiungere profondità ad angoli e fessure. |
+
+> **⚠️ Attenzione:** Evita l'impostazione di Qualità Texture "Bassa". A causa di un bug attuale del motore, può causare gravi picchi di frame-time e texture sfarfallanti. Attieniti a "Minima" o "Media".
+
+## Navigare le Soglie Narrative
+
+Mentre gran parte della discussione riguardante il **punto di non ritorno di Pragmata** coinvolge limitazioni tecniche, i giocatori dovrebbero anche essere consapevoli delle soglie basate sulla storia. Man mano che avanzi nella campagna principale, alcune missioni ti bloccheranno l'accesso alle aree precedenti. Poiché il rifugio funge da unico hub, assicurati di aver completato tutti gli obiettivi secondari o le interazioni con i personaggi prima di intraprendere missioni contrassegnate da un alto grado di pericolo.
+
+Puoi trovare maggiori dettagli sulla [Pagina Steam ufficiale di Pragmata](https://store.steampowered.com/app/1536770/PRAGMATA/) riguardo ai requisiti di sistema e alle ultime patch. Rimanere aggiornati è il modo migliore per garantire che la tua esperienza tecnica non ostacoli il tuo viaggio narrativo.
+
+## Riepilogo delle Impostazioni Ottimizzate
+
+Per la maggior parte dei giocatori che mirano a un equilibrio tra 60 FPS e alta fedeltà, si consiglia la seguente configurazione:
+
+*   **Ray Tracing:** Attivo (Se supportato)
+*   **Path Tracing:** Disattivato
+*   **Upscaling:** DLSS Qualità / FSR Qualità
+*   **Qualità Capelli:** Medio (Basato su ciocche)
+*   **Qualità Ombre:** Medio
+*   **Cache Ombre:** Attivo
+*   **Qualità Texture:** Medio (se 10GB+ VRAM) o Minima (se 8GB VRAM)
+*   **Qualità Mesh:** Medio
+
+Seguendo queste linee guida, puoi navigare in ogni **punto di non ritorno di Pragmata** con le migliori prestazioni possibili, permettendoti di concentrarti sul mistero della bambina e dell'astronauta senza la distrazione di intoppi tecnici.
+
+## FAQ
+
+**D: Esiste un punto di non ritorno di Pragmata basato sulla storia?**
+
+R: Sì, nelle fasi avanzate del gioco, apparirà un avviso che ti informerà che procedere ti bloccherà nella sequenza finale. Tuttavia, il "punto di non ritorno" tecnico riguardante la tua posizione e lo stato di salvataggio si verifica ogni volta che lasci l'hub del Rifugio.
+
+**D: Perché il gioco mi riporta al rifugio dopo aver cambiato le impostazioni?**
+
+R: Ciò è dovuto al design dell'interfaccia utente del gioco. Poiché molte impostazioni richiedono il ritorno al menu principale e il gioco salva solo al rifugio, ricaricare il salvataggio ti riporta all'ultimo punto di salvataggio registrato.
+
+**D: Posso eseguire il Path Tracing su una GPU da 8GB?**
+
+R: Non è raccomandato. Il Path Tracing richiede un uso intensivo della VRAM. Anche con impostazioni ottimizzate, una scheda da 8GB probabilmente colpirà un muro di prestazioni, portando a gravi stuttering e crash.
+
+**D: Come posso risolvere l'immagine sfocata quando uso il DLSS?**
+
+R: Se trovi il DLAA o il DLSS troppo morbidi, prova a usare l'opzione TAA+FXAA alla risoluzione nativa, oppure aumenta lo slider della nitidezza (sharpening) nel menu della grafica. Nota che il DLSS è generalmente più nitido quando viene usato per l'upscaling piuttosto che come soluzione anti-aliasing nativa.
