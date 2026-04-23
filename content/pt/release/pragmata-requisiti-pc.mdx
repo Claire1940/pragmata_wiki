@@ -1,0 +1,110 @@
+export const metadata = {
+  title: "Requisitos de PC para Pragmata: Guia Oficial de Requisitos do Sistema 2026",
+  description: "Confira os requisitos de PC completos para Pragmata, incluindo especificações mínimas e recomendadas. Saiba como otimizar a RE Engine da Capcom para desempenho em 60 FPS e 4K.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Pragmata+PC+Requirements",
+  date: "2026-04-24",
+  author: "Equipe da Wiki de Pragmata"
+}
+
+Pragmata, o misterioso título de ficção científica da Capcom, finalmente nos deu um vislumbre de suas exigências técnicas através da recente demonstração "Sketchbook". À medida que avançamos em 2026, entender os **requisitos de pc para Pragmata** é essencial para qualquer pessoa que deseje explorar sua paisagem lunar sem problemas técnicos. Com base nos dados técnicos mais recentes, o jogo leva a RE Engine aos seus limites absolutos, exigindo hardware moderno para manter a estabilidade. Esteja você usando uma placa GTX antiga ou um setup RTX moderno, os **requisitos de pc para Pragmata** revelam um título que favorece fortemente tecnologias de upscaling como DLSS e FSR para manter taxas de quadros jogáveis.
+
+Neste guia, detalhamos exatamente o que você precisa para rodar o jogo, como a RE Engine lida com texturas de alta resolução e quais configurações você deve ajustar para evitar as temidas quedas de quadros relatadas nos testes iniciais.
+
+## Requisitos de PC para Pragmata: Especificações Mínimas
+
+Para conseguir rodar Pragmata em um nível básico, sua máquina precisa atender a uma linha de base específica. Os requisitos mínimos visam uma resolução de 1080p a aproximadamente 45 FPS, mas há um detalhe: esse desempenho geralmente é estimado usando a predefinição "Desempenho", que utiliza intensamente o upscaling.
+
+| Componente | Especificação Mínima |
+|---|---|
+| **Sistema Operacional** | Windows 10 / 11 (64 bits obrigatório) |
+| **Processador (CPU)** | **Intel Core i5-8500** / **AMD Ryzen 5 3500** |
+| **Memória (RAM)** | 16 GB |
+| **Gráficos (GPU)** | **NVIDIA GeForce GTX 1660 (6GB)** / **AMD Radeon RX 580** |
+| **DirectX** | Versão 12 |
+| **Armazenamento** | SSD Recomendado (Tamanho a definir) |
+
+> **Aviso:** Rodar o jogo nas especificações mínimas pode resultar em bordas "serrilhadas" significativas e menor clareza de imagem devido ao dimensionamento dinâmico de resolução agressivo necessário para se manter acima de 30 FPS.
+
+## Especificações Recomendadas para 1080p/60 FPS
+
+Se você deseja uma experiência mais suave que reflita a estética pretendida do jogo, os **requisitos de pc para Pragmata** recomendados são notavelmente mais altos. Para alcançar 60 FPS estáveis em 1080p, a Capcom sugere hardware que suporte ray tracing acelerado por hardware e upscaling por IA.
+
+| Componente | Especificação Recomendada |
+|---|---|
+| **Processador (CPU)** | **Intel Core i7-8700** / **AMD Ryzen 5 5500** |
+| **Memória (RAM)** | 16 GB |
+| **Gráficos (GPU)** | **NVIDIA GeForce RTX 2060 Super (8GB)** |
+| **Nota Adicional** | Alvo de 1080p/60 FPS na **Predefinição Equilibrada** |
+
+É importante notar que o nível "Recomendado" não garante resolução nativa. Nas versões atuais, a predefinição equilibrada muitas vezes renderiza a cerca de 60% da resolução nativa antes de fazer o upscaling para 1080p. Isso significa que a GPU está processando internamente uma imagem próxima de 800p ou 900p para manter a meta de 60 FPS.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/CnzQSN9KOG0"
+    title="Capcom's New Game Destroyed My FPS – Can Your PC Actually Run Pragmata?"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Análise de Desempenho: A RE Engine em 2026
+
+Pragmata é construído sobre uma versão altamente evoluída da RE Engine. Embora este motor seja famoso por sua otimização nas séries *Resident Evil* e *Devil May Cry*, Pragmata introduz ambientes maiores e efeitos de partículas complexos que taxam o hardware de forma diferente. 
+
+### VRAM e Jogos em Alta Resolução
+Na resolução 1440p (2K) com configurações no "Máximo", observou-se que o jogo consome quase **9,78 GB de VRAM**. Isso coloca proprietários de placas de 8 GB, como a RTX 3060 Ti ou RTX 4060, em uma posição difícil se quiserem jogar em resoluções superiores a 1080p. Se você exceder seu limite de VRAM, encontrará engasgos severos e quedas bruscas de frames (1% lows) que podem chegar a 30 FPS, mesmo em CPUs de ponta como o Ryzen 7 7700X.
+
+### Upscaling e Geração de Quadros
+Para combater essas altas exigências, a Capcom integrou vários recursos modernos:
+1. **NVIDIA DLSS / AMD FSR:** Praticamente obrigatórios para jogar em 4K.
+2. **Geração de Quadros (Frame Generation):** Disponível para a série RTX 40 e placas AMD compatíveis para suavizar o movimento.
+3. **Resolução Dinâmica:** Ajusta automaticamente a qualidade da imagem para manter uma taxa de quadros alvo.
+
+> **💡 Dica:** Se o jogo parecer "embaçado" ao usar o DLSS, tente mudar da predefinição "Desempenho" para "Qualidade" e reduza a Qualidade das Sombras em vez disso. Isso preserva os detalhes dos personagens enquanto economiza ciclos significativos da GPU.
+
+## Passos de Otimização para Melhor FPS
+
+Se o seu PC mal atende aos **requisitos de pc para Pragmata**, siga estes passos para maximizar seu desempenho:
+
+1. **Ative DLSS/FSR:** Defina como "Equilibrado" para 1080p ou "Desempenho" para 1440p.
+2. **Reduza a Qualidade das Sombras:** Esta costuma ser a configuração que mais consome recursos na RE Engine. Mudar de "Máximo" para "Alto" pode render um aumento de 10-15% no FPS.
+3. **Qualidade da Malha (Mesh Quality):** Mantenha em "Médio" ou "Alto". Definir no "Máximo" causa pop-in intenso em hardware de gama média.
+4. **Compilação de Shaders:** No primeiro lançamento, permita que o jogo termine a compilação de shaders completamente. Pular ou interromper esse processo causará travamentos massivos durante sequências de combate e hacking.
+
+## Mecânicas de Jogo e Sinergia Técnica
+
+A jogabilidade em Pragmata envolve uma mistura de exploração e combate de alta intensidade ao lado de sua aliada androide, Diana. As habilidades de hacking de Diana frequentemente ativam sobreposições visuais complexas e efeitos digitais. Esses momentos são os mais exigentes para a GPU. 
+
+Quando Diana inicia um hack, a tela é preenchida com iluminação volumétrica e efeitos de bloom. Se você perceber que sua taxa de quadros cai drasticamente durante essas sequências específicas, reduzir a configuração de **Iluminação Volumétrica** no menu de gráficos é a correção mais eficaz.
+
+Para mais informações sobre os lançamentos mais recentes da Capcom, visite o [site oficial da Capcom](https://www.capcom-games.com/pragmata/) para atualizações de desenvolvimento e notas de patch.
+
+## Comparação de Predefinições de Desempenho
+
+| Predefinição | Resolução Interna | FPS Alvo | Qualidade Visual |
+|---|---|---|---|
+| **Desempenho** | ~50% Nativa | 60+ FPS | Baixa/Embaçada |
+| **Equilibrado** | ~66% Nativa | 60 FPS | Moderada |
+| **Qualidade** | ~85% Nativa | 45-60 FPS | Alta/Nítida |
+| **Nativa** | 100% | Variável | Excelente |
+
+## FAQ
+
+**P: Posso rodar Pragmata com 8 GB de RAM?**
+
+R: Não. Os **requisitos de pc para Pragmata** listam estritamente 16 GB de RAM como o mínimo. Usar menos de 16 GB provavelmente levará a falhas ou lentidões severas em todo o sistema devido ao carregamento pesado de ativos do jogo.
+
+**P: Pragmata suporta monitores ultrawide?**
+
+R: Sim, a RE Engine normalmente suporta proporções de aspecto 21:9 e 32:9, embora algumas cutscenes possam ter barras pretas laterais (pillar-box) em 16:9 para manter a direção cinematográfica.
+
+**P: Por que o jogo parece embaçado mesmo nas especificações recomendadas?**
+
+R: Isso geralmente ocorre devido às predefinições de upscaling "Equilibrado" ou "Desempenho". Essas configurações renderizam o jogo em uma resolução mais baixa e usam IA para aumentá-la. Para tornar a imagem mais nítida, aumente o controle deslizante de "Qualidade de Imagem" para 100% e use o modo "DLSS Qualidade" se o seu hardware permitir.
+
+**P: Um SSD é obrigatório para Pragmata?**
+
+R: Embora não esteja listado como um requisito obrigatório nas especificações mínimas, um SSD é altamente recomendado. O jogo apresenta transições perfeitas entre áreas que resultarão em longas telas de carregamento ou "pop-in" de textura em discos rígidos mecânicos tradicionais.
