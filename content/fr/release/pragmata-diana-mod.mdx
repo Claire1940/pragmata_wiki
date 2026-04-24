@@ -1,0 +1,120 @@
+export const metadata = {
+  title: "Mod Pragmata Diana : Guide complet de personnalisation 2026",
+  description: "Améliorez votre expérience sur Pragmata avec les meilleurs mods pour Diana. Apprenez à installer des tenues personnalisées, des coiffures et des reshades visuels avec notre guide étape par étape.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/312e81/fff?text=Pragmata+Diana+Mod+Guide",
+  date: "2026-04-25",
+  author: "Pragmata Wiki Team"
+}
+
+Le monde futuriste de Pragmata offre un terrain de jeu visuellement époustouflant, mais pour de nombreux joueurs, les designs de personnages par défaut ne sont que le début. Que vous cherchiez à peaufiner l'esthétique de la mystérieuse jeune fille ou à revoir entièrement sa garde-robe, l'installation d'un **mod pragmata diana** est le moyen le plus efficace de personnaliser votre voyage à travers le paysage lunaire. La personnalisation est devenue une pierre angulaire de la communauté du jeu sur PC, et Pragmata ne fait pas exception, avec des créateurs développant tout, des améliorations subtiles de la physique des cheveux aux recolorations de tenues éclatantes.
+
+Trouver le bon **mod pragmata diana** peut transformer votre expérience de jeu, offrant une perspective nouvelle sur le récit et le lien entre le protagoniste et Diana. Cependant, moder un titre Capcom de haute fidélité nécessite des outils spécifiques et une compréhension claire de la structure des fichiers pour éviter les plantages ou les bugs visuels. Ce guide propose un tour d'horizon complet sur la configuration des frameworks nécessaires, la gestion efficace de vos mods et la garantie que votre jeu soit à son meilleur en 2026.
+
+## Prérequis essentiels pour moder Pragmata
+
+Avant de pouvoir commencer à changer les tenues ou les cheveux de Diana, vous devez préparer l'environnement du jeu. Pragmata, comme beaucoup de titres récents basés sur le RE Engine ou des sorties haut de gamme similaires, s'appuie sur un « hook » (crochet) pour permettre aux fichiers externes de se charger correctement. Sans ces prérequis, tous les fichiers de mods que vous placerez dans le répertoire seront simplement ignorés par le moteur du jeu.
+
+Le composant le plus critique est **REFramework**. Cet outil puissant agit comme un pont, permettant le chargement de fichiers libres et fournissant un menu pour basculer divers paramètres au niveau du moteur. De plus, vous aurez besoin d'un gestionnaire dédié pour gérer l'installation et la désinstallation de vos mods sans écraser manuellement les ressources de base du jeu.
+
+| Nom de l'outil | Objectif | Importance |
+| :--- | :--- | :--- |
+| **REFramework** | Permet le support des mods et le chargement de fichiers libres | **Critique** |
+| **Fluffy Mod Manager** | Gère, installe et active les mods | **Haute** |
+| **WinRAR / 7-Zip** | Utilisé pour extraire les archives de mods compressées | **Mandatoire** |
+| **Script Core** | Préparation pour les futurs mods scriptés avancés | **Faible (Optionnel)** |
+
+> **💡 Conseil :** Assurez-vous toujours d'utiliser la « Nightly Build » ou la dernière version stable de REFramework depuis les dépôts officiels comme GitHub pour maintenir la compatibilité avec les mises à jour du jeu de 2026.
+
+## Installation étape par étape de REFramework
+
+Pour commencer, vous devez localiser le répertoire racine de votre jeu. Le moyen le plus simple de le faire est de passer par le client Steam. Faites un clic droit sur Pragmata dans votre bibliothèque, allez dans **Gérer**, et sélectionnez **Parcourir les fichiers locaux**. Cela ouvrira une fenêtre affichant le fichier `pragmata.exe`.
+
+1.  **Télécharger REFramework** : Obtenez le fichier `pragmata.zip` à partir des builds nocturnes officielles.
+2.  **Extraire la DLL** : Ouvrez le fichier zip et localisez `dinput8.dll`.
+3.  **Déployer à la racine** : Glissez-déposez `dinput8.dll` dans le même dossier que `pragmata.exe`.
+4.  **Premier lancement** : Lancez le jeu une fois. Vous devriez voir un petit menu apparaître dans le coin supérieur gauche.
+5.  **Configurer les paramètres** : Naviguez vers les sections « Packed Directory Loading » et « Loose File Loader » dans le menu REFramework et assurez-vous que les deux sont cochées sur **ON**.
+
+Une fois ces étapes terminées, votre jeu est officiellement prêt à accepter n'importe quel **mod pragmata diana** que vous choisirez de télécharger. Vous pouvez basculer la visibilité du menu REFramework en appuyant sur la touche **Inser** de votre clavier.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/lCSyteHufW4"
+    title="How to Install Mods for Pragmata EASY GUIDE!"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Configuration de Fluffy Mod Manager
+
+Bien que vous puissiez placer les fichiers manuellement, l'utilisation de **Fluffy Mod Manager** est la norme de l'industrie pour une bonne raison. Il évite d'endommager de façon permanente vos fichiers de jeu et vous permet de basculer entre différents looks pour Diana en un seul clic.
+
+Suivez ces étapes pour configurer le gestionnaire :
+1.  **Télécharger et extraire** : Extrayez les fichiers de Fluffy Mod Manager dans un dossier dédié. Certains utilisateurs préfèrent placer ce dossier directement à l'intérieur du répertoire de Pragmata pour un accès facile.
+2.  **Sélectionner le jeu** : Lancez `ModManager.exe` et sélectionnez « Pragmata » dans la liste des titres supportés.
+3.  **Définir le chemin** : Cliquez sur « Define Game Path » et pointez le gestionnaire vers l'emplacement de votre `pragmata.exe`.
+4.  **Stockage des mods** : Le gestionnaire créera un dossier `Games/Pragmata/Mods`. C'est là que vous placerez vos archives de mods téléchargées.
+
+## Sélectionner les meilleures options de mods pour Diana dans Pragmata
+
+Une fois l'infrastructure en place, vous pouvez vous concentrer sur la partie amusante : la personnalisation. La communauté a classé les mods de Diana en deux types principaux : les **refontes esthétiques** et les **remplacements de tenues**. Parce que Diana est une figure centrale de l'identité visuelle du jeu, ces mods se concentrent souvent sur des textures très détaillées et une physique améliorée.
+
+| Catégorie de mod | Exemples populaires | Impact |
+| :--- | :--- | :--- |
+| **Styles de coiffure** | Eight Hair, Short Bob, Long Braids | Modifie le modèle de tête et la physique |
+| **Couleurs de tenue** | Colorful Diana, Stealth Black, Neon Glow | Modifie les textures de la combinaison de base |
+| **Remplacements complets** | Casual Wear, Cyberpunk Suit | Remplace complètement le modèle du personnage |
+| **Ajouts visuels** | Glowing Eyes, Enhanced Skin Textures | Améliorations subtiles des détails |
+
+Lors du choix d'un **mod pragmata diana**, faites attention à savoir s'il modifie la « Tête » (Head) ou le « Corps » (Body). De nombreux mods de cheveux n'affectent que le modèle de la tête, ce qui signifie qu'ils peuvent être combinés avec des mods de tenue qui n'affectent que le corps. Par exemple, vous pouvez utiliser le mod « Eight Hair » en même temps que le mod de tenue « Colorful Diana » sans conflit.
+
+> **⚠️ Attention :** Soyez prudent lorsque vous activez plusieurs mods affectant la même partie du corps. Si deux mods tentent d'écraser la même texture ou le même fichier de maillage (mesh), le jeu peut afficher des textures en « damier » ou planter au chargement.
+
+## Améliorations visuelles avancées : ReShade et RenoDX
+
+Si vous voulez les graphismes les plus nets possibles en 2026, combiner votre **mod pragmata diana** avec un préréglage ReShade personnalisé est fortement recommandé. Alors que les mods Diana changent le personnage, ReShade modifie l'éclairage, l'étalonnage des couleurs et la netteté de l'ensemble du monde.
+
+**RenoDX** est un add-on spécifique qui a gagné en popularité pour Pragmata. Il fonctionne comme une amélioration autonome qui ajuste le rendu interne du jeu pour offrir un meilleur support HDR et une plus grande précision des couleurs.
+
+### Installer ReShade avec le support complet des add-ons
+
+1.  **Télécharger ReShade** : Choisissez la version avec « full add-on support » pour garantir la compatibilité avec RenoDX.
+2.  **Sélectionner l'API** : Lorsque vous y êtes invité pendant l'installation, sélectionnez **DirectX 10/11/12**.
+3.  **Sélectionner les effets** : Il est généralement sûr de tout cocher (« Check All ») pour s'assurer que tout préréglage téléchargé à l'avenir dispose des shaders nécessaires.
+4.  **Installer RenoDX** : Faites glisser le fichier `addon64` de l'archive RenoDX dans la racine de votre jeu.
+5.  **Appliquer le préréglage** : Placez votre fichier de préréglage `.ini` choisi dans le dossier racine et sélectionnez-le dans le menu Home de ReShade (appuyez sur la touche **Home** en jeu).
+
+## Gérer les conflits de mods et dépannage
+
+À mesure que votre bibliothèque de mods s'agrandit, vous rencontrerez inévitablement des conflits. Fluffy Mod Manager est excellent pour les identifier. Si vous voyez un avertissement indiquant qu'un « mod sélectionné écraserait les fichiers d'un autre mod installé », vous devez choisir l'un ou l'autre.
+
+Par exemple, si vous avez un mod « Deadpool Suit » pour le protagoniste et un mod « CJ » activés en même temps, ils seront probablement en conflit car tous deux visent à remplacer les mêmes ressources du modèle de personnage. La même logique s'applique à Diana ; vous ne pouvez pas avoir deux « Remplacements complets du corps » actifs à la fois.
+
+Pour résoudre les problèmes :
+- **Actualiser la liste** : Si un mod n'apparaît pas dans le gestionnaire, cliquez sur le bouton « Refresh Mod List ».
+- **Vérifier les extensions de fichiers** : Assurez-vous que vos mods sont au format `.zip` ou `.rar` lorsque vous les déposez dans le gestionnaire.
+- **Vérifier l'intégrité des fichiers du jeu** : Si le jeu refuse de se lancer, utilisez Steam pour « Vérifier l'intégrité des fichiers du jeu », ce qui réinitialisera le `pragmata.exe` et supprimera le hook `dinput8.dll`.
+
+Pour plus d'informations sur les exigences techniques du jeu et les mises à jour officielles, visitez la [page Steam de Pragmata](https://store.steampowered.com/app/1582990/PRAGMATA/) ou les blogs officiels des développeurs de Capcom.
+
+## FAQ
+
+**Q : Puis-je être banni pour avoir utilisé un mod pragmata diana ?**
+
+R : Généralement, non. Pragmata est principalement une expérience solo. Modder des jeux solo est une pratique courante et ne viole pas les conditions de service standard, à moins que vous ne les utilisiez dans un environnement en ligne compétitif ou pour contourner la gestion des droits numériques.
+
+**Q : Pourquoi mon jeu plante-t-il après avoir installé un nouveau mod de coiffure pour Diana ?**
+
+R : C'est généralement dû à une incompatibilité de version ou à un conflit avec un autre mod. Assurez-vous d'avoir la dernière version de REFramework installée et essayez de désactiver les autres mods liés à Diana pour identifier le conflit.
+
+**Q : Ai-je besoin d'un PC puissant pour faire tourner ReShade et des mods Diana de haute qualité ?**
+
+R : Bien que les mods de textures basiques aient un impact négligeable sur les performances, les préréglages ReShade lourds avec des shaders de Ray Tracing ou des remplacements de modèles à haute densité de polygones peuvent réduire votre taux de rafraîchissement. Il est recommandé de surveiller l'utilisation de votre GPU lors de l'application de plusieurs couches visuelles.
+
+**Q : Comment puis-je supprimer complètement tous les mods et revenir au jeu original ?**
+
+R : Dans Fluffy Mod Manager, basculez tous les mods sur « Off ». Pour être encore plus rigoureux, supprimez le fichier `dinput8.dll` de votre dossier de jeu et supprimez le dossier `REFramework` généré dans votre répertoire de jeu. Cela ramènera Pragmata à son état d'origine (vanilla).
