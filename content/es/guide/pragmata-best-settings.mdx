@@ -1,0 +1,107 @@
+export const metadata = {
+  title: "Los mejores ajustes de Pragmata: Guía de rendimiento optimizado para PC 2026",
+  description: "Maximiza tu tasa de fotogramas y fidelidad visual con nuestra guía de los mejores ajustes de Pragmata. Aprende a equilibrar Path Tracing, DLSS y las funciones de RE Engine.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+Best+Settings+Guide",
+  date: "2026-04-27",
+  author: "Equipo de Pragmata Wiki"
+}
+
+Encontrar los **mejores ajustes de Pragmata** es esencial para cualquier jugador que busque sobrevivir en la estación espacial lunar manteniendo una tasa de fotogramas fluida como la seda. Construido sobre una versión refinada del legendario RE Engine de Capcom, el juego ofrece una sorprendente capacidad de escalado, que va desde el Path Tracing de gama alta para entusiastas hasta perfiles optimizados para hardware antiguo. Aunque la estética del juego se siente como un tributo pulido a la séptima generación de consolas, las exigencias técnicas de sus entornos reflectantes y su iluminación compleja pueden poner a prueba incluso a los sistemas modernos. Al configurar con precisión los **mejores ajustes de Pragmata**, puedes eliminar el ruido visual y los tirones, asegurando que cada encuentro con los adversarios robóticos del juego sea lo más fluido posible. Ya sea que utilices una bestia de la serie RTX 50 o una tarjeta de gama media confiable, esta guía te ayudará a encontrar el punto medio perfecto entre calidad de imagen y rendimiento.
+
+## Entendiendo el Ray Tracing y el Path Tracing
+
+Pragmata es un juego definido por su ambientación: una gigantesca estación espacial llena de superficies metálicas, paneles de vidrio e iluminación intrincada. Para sacar el máximo partido a estos visuales, Capcom ha incluido dos niveles distintos de efectos de trazado de rayos. El Ray Tracing estándar se encarga de la iluminación global y los reflejos, mientras que el más intensivo Path Tracing sustituye por completo el sistema de iluminación rasterizado tradicional.
+
+Sin embargo, más no siempre es mejor. En los preajustes de Ray Tracing más bajos, la iluminación indirecta puede producir un "ruido" significativo o una textura granulada en los suelos metálicos. En ciertas áreas, como el Refugio (Hideout), esto puede parecer incluso gotas de lluvia cayendo en interiores. Si no estás usando una tarjeta de gama alta capaz de soportar Path Tracing, es posible que descubras que desactivar el Ray Tracing por completo proporciona una imagen más limpia y estable.
+
+> **💡 Consejo profesional:** Si utilizas una tarjeta NVIDIA y decides activar el Path Tracing, activa siempre **DLSS Ray Reconstruction**. Este ajuste limpia significativamente el ruido visual y mejora la precisión de los reflejos, aunque solo está disponible cuando el Path Tracing está activo.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/7QULuoWpdrM"
+    title="Pragmata Performance Review + Best PC Settings"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Mejores ajustes de Pragmata: Tabla de preajustes optimizados
+
+Para la mayoría de los jugadores, el preajuste "Equilibrado" es un buen punto de partida, pero no es perfecto. Para lograr los **mejores ajustes de Pragmata** buscando una mezcla de más de 60 FPS y visuales de alta calidad, recomendamos los siguientes ajustes manuales:
+
+| Ajuste | Valor recomendado | Impacto en el rendimiento |
+|---|---|---|
+| **Iluminación Global** | Medio | Alto (ganancia del 11% sobre Alto) |
+| **Calidad del Cabello** | Medio | Moderado |
+| **Calidad de Texturas** | Máximo (según VRAM) | Bajo (si está dentro del presupuesto de VRAM) |
+| **Calidad de Sombras** | Alto | Moderado |
+| **Caché de Sombras** | **Activado** | Alto (impulso del 10% en FPS) |
+| **Calidad de Malla** | Máximo | Moderado |
+| **Calidad de Efectos** | Alto | Moderado |
+| **Reflejos en Espacio de Pantalla** | Activado | Alto (coste del 10% en FPS) |
+| **Oclusión Ambiental** | Activado | Bajo |
+| **Antialiasing** | FXAA + TAA | Moderado |
+
+## Explicación de los ajustes gráficos clave
+
+### Iluminación Global
+Este es, posiblemente, el ajuste más pesado del juego. Pasar de Iluminación Global en Alto a Medio puede otorgar un impulso de rendimiento inmediato de aproximadamente el 11%. Mientras que el nivel Alto añade más profundidad atmosférica, el Medio retiene suficiente detalle para que el juego luzca moderno sin hundir tu tasa de fotogramas durante los combates intensos.
+
+### Calidad del Cabello
+Curiosamente, la física de cabello de alta fidelidad solo se aplica a un personaje principal, pero el coste de rendimiento sigue siendo alto en general. Establecer esto en **Medio** es el "punto óptimo" para la mayoría de los usuarios de escritorio. Si juegas en una portátil como la Steam Deck o la ROG Ally, poner esto en Bajo es una de las formas más rápidas de recuperar fotogramas.
+
+### Calidad de Texturas y Mallas
+Estos ajustes están limitados principalmente por la memoria de vídeo de tu GPU (VRAM). Si tienes 8 GB de VRAM o más, deberías mantener la Calidad de Texturas y la Calidad de Malla en sus niveles máximos. Bajarlos no mejorará tus FPS a menos que estés excediendo actualmente tu límite de VRAM, lo que causa tirones (stuttering).
+
+### La importancia del Caché de Sombras
+El Caché de Sombras es un interruptor vital para el RE Engine. Al permitir que el juego almacene datos de sombras en tu VRAM, reduce la carga de procesamiento en tiempo real de tu GPU.
+> **⚠️ Advertencia:** Desactivar el Caché de Sombras puede resultar en una caída del 10% en las tasas de fotogramas promedio. Solo desactívalo si estás severamente limitado por la VRAM (menos de 4 GB).
+
+## Benchmarks de hardware y objetivos de rendimiento
+
+Pragmata escala notablemente bien a través de las generaciones. Incluso el hardware con varios años de antigüedad puede mantener tasas de fotogramas altas si utilizas las técnicas de reescalado adecuadas. Puedes encontrar más detalles sobre los requisitos del juego en el [sitio web oficial de Capcom Pragmata](https://www.capcom-games.com/pragmata/).
+
+| GPU | Resolución | Preajuste | FPS Promedio |
+|---|---|---|---|
+| **RTX 3060 Ti** | 1080p | Optimizado | 100 - 110 FPS |
+| **RTX 3060 Ti** | 1440p | Equilibrado | 60 - 70 FPS |
+| **RX 970 (AMD)** | 1440p | Optimizado | 130 - 140 FPS |
+| **RTX 5080** | 4K | Path Tracing | 100 - 110 FPS (con DLSS) |
+
+Para usuarios con tarjetas NVIDIA de gama media como la 3060 Ti, el juego sigue siendo muy jugable a 1080p incluso con el Ray Tracing básico activado. Sin embargo, el Path Tracing está reservado principalmente para las tarjetas de las series 40 y 50 debido al requisito de la Generación de Fotogramas (Frame Generation) para mantener la experiencia fluida.
+
+## Postprocesado y retoques visuales
+
+Pragmata cuenta con varios efectos de postprocesado que son en gran medida subjetivos. Debido a que el juego se desarrolla en un entorno de ciencia ficción, los efectos como el **Bloom** (Resplandor) y el **Lens Flare** (Destello de lente) encajan perfectamente con la estética.
+
+1.  **Reflejos en Espacio de Pantalla (SSR):** Si tienes dificultades para alcanzar los 60 FPS, desactivar el SSR puede proporcionar un impulso de rendimiento del 10%. Sin embargo, dado que el juego presenta tantos suelos brillantes, el mundo se verá significativamente más "plano".
+2.  **Dispersión subsuperficial (Subsurface Scattering):** Esto afecta a cómo la luz penetra en la piel. Dado que la mayoría de los personajes que encuentras son robóticos, el impacto es mínimo. Mantenlo activado para mejores escenas cinemáticas, o desactivado para ahorrar unos pocos fotogramas.
+3.  **Desenfoque de movimiento (Motion Blur):** Esta es una preferencia personal. Aunque puede ayudar a ocultar las fluctuaciones de la tasa de fotogramas, muchos jugadores lo encuentran molesto en combates de ritmo rápido.
+
+## Reescalado avanzado: DLSS vs. FSR
+
+Para lograr realmente los **mejores ajustes de Pragmata**, debes utilizar el reescalado. El juego es compatible con NVIDIA DLSS y AMD FSR. 
+
+*   **Usuarios de NVIDIA:** Usad DLSS en modo "Calidad" para 1080p/1440p y "Rendimiento" para 4K. Si tienes una tarjeta de la serie RTX 40 o 50, la **Generación de Fotogramas** (Frame Generation) es una función imprescindible para duplicar la fluidez percibida.
+*   **Usuarios de AMD/Intel:** FSR ofrece excelentes resultados, aunque carece de la función Ray Reconstruction que se encuentra en la suite de NVIDIA. Si usas una tarjeta AMD, evita el Path Tracing, ya que el impacto en el rendimiento es actualmente demasiado alto sin aceleración de hardware especializada.
+
+## FAQ (Preguntas frecuentes)
+
+**P: ¿Es compatible Pragmata con Path Tracing en tarjetas gráficas AMD?**
+
+R: Actualmente, el Path Tracing está optimizado específicamente para la arquitectura de NVIDIA y puede aparecer atenuado o funcionar mal en tarjetas AMD Radeon, incluso con FSR activado. El Ray Tracing estándar es el máximo recomendado para usuarios de AMD.
+
+**P: ¿Por qué mis suelos se ven granulados o con ruido en Pragmata?**
+
+R: Esto suele deberse al uso de ajustes de Ray Tracing de bajo nivel sin suficientes "muestras". Para solucionar esto, actualiza a Path Tracing con Ray Reconstruction (solo NVIDIA) o desactiva el Ray Tracing y confía en los Reflejos en Espacio de Pantalla para un aspecto más limpio.
+
+**P: ¿Cuáles son los mejores ajustes para la Steam Deck?**
+
+R: Para dispositivos portátiles, establece la resolución en 720p/800p, usa FSR en modo "Equilibrado" y pon la Calidad del Cabello e Iluminación Global en Bajo. Asegúrate de que el Caché de Sombras esté ACTIVADO para mantener unos 30-40 FPS estables.
+
+**P: ¿Cuánta VRAM necesito para los mejores ajustes de Pragmata en 4K?**
+
+R: Para jugar en 4K con texturas al máximo, se recomienda una GPU con al menos 12 GB de VRAM. Si tienes 8 GB o menos, podrías experimentar tirones en 4K a menos que bajes la Calidad de Texturas al ajuste "Alto (2GB/3GB)".
