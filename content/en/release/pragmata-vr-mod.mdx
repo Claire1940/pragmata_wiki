@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Pragmata VR Mod: Complete Installation & Optimization Guide 2026",
+  description: "Learn how to transform Capcom's Pragmata into a fully immersive VR experience using RE Framework. Comprehensive setup guide for HUD fixes and performance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Pragmata+VR+Mod+Guide",
+  date: "2026-04-29",
+  author: "Pragmata Wiki Team"
+}
+
+Capcom's latest sci-fi venture, Pragmata, has captivated players with its mysterious lunar setting and intricate mechanical designs. While the game delivers a stunning visual experience on traditional displays, many enthusiasts are looking for deeper immersion through the **pragmata vr mod** community. Thanks to the versatility of the RE Engine, which powers other hits like Resident Evil and Monster Hunter, the framework for virtual reality is already remarkably robust. By utilizing specialized tools like RE Framework, you can step directly into the boots of the protagonist and experience the scale of the lunar surface in a way that standard monitors simply cannot replicate.
+
+Implementing the **pragmata vr mod** requires a bit of technical maneuvering, as the game is a fresh release in 2026. However, the results are well worth the effort, offering a 360-degree view of the highly detailed environments and life-sized encounters with the game's massive robotic adversaries. This guide provides a comprehensive walkthrough to get your headset up and running, ensuring you can navigate the hacking systems and combat loops without the common HUD glitches that plague unoptimized setups.
+
+## Understanding the RE Framework for Pragmata
+
+The backbone of this VR transformation is the RE Framework, a powerful modding interface created by Praydog and his team. Originally designed for the Resident Evil series, this tool includes a sophisticated VR API that works across almost all modern Capcom titles. Since Pragmata utilizes the same engine architecture, the framework can inject VR functionality directly into the game's rendering pipeline.
+
+| Feature | VR Support Status | Notes |
+|---|---|---|
+| **Perspective** | Third-Person | No native first-person mod currently exists. |
+| **Tracking** | 6DOF Head Tracking | Full 360-degree movement is supported. |
+| **Controls** | Gamepad Recommended | Seated play with an Xbox or DualSense controller is ideal. |
+| **Engine** | RE Engine | Highly compatible with existing VR injection tools. |
+
+Unlike the UEVR injector used for Unreal Engine games, RE Framework is specifically tailored to the quirks of Capcom’s internal tech. This allows for better stability, though it requires specific scripts to handle the game's unique User Interface (UI) elements, such as the hacking grids and weapon wheels.
+
+## Essential Requirements for VR Play
+
+Before beginning the installation, ensure your hardware and software are prepared for the demands of VR rendering. Pragmata is a resource-intensive title, and running it in VR effectively doubles the rendering load.
+
+1.  **A VR-Ready PC:** Ensure your GPU can handle the high resolution required for modern headsets (Nvidia RTX 3080 or equivalent is recommended).
+2.  **RE Framework (Nightly Build):** You must download the specific nightly version labeled for Pragmata.
+3.  **Mod Management Tools:** Fluffy Mod Manager is the standard for organizing Capcom game mods.
+4.  **HUD Controls Mod:** Essential for fixing the "double vision" effect in the game's hacking menus.
+5.  **Script Core:** A prerequisite for many RE Framework scripts to function correctly.
+
+> **⚠️ Warning:** Always back up your save files before installing mods. While RE Framework is generally safe, unexpected crashes during the initialization phase can occasionally lead to data corruption.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/Nav-cAgYKbQ"
+    title="Pragmata is Already Playable in VR! Here is How."
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Step-by-Step Installation Guide
+
+Follow these steps carefully to ensure the **pragmata vr mod** initializes correctly. The process is split into two phases: the initial framework setup and the HUD optimization.
+
+| Step | Action | Description |
+|---|---|---|
+| **1** | **Download RE Framework** | Get the `Pragmata.zip` from the nightly builds repository. |
+| **2** | **Initial Injection** | Copy `dinput8.dll` into the Pragmata root folder. |
+| **3** | **Launch Game** | Start the game in flat mode to generate the necessary config files. |
+| **4** | **Install Manager** | Extract and launch Fluffy Mod Manager, then select Pragmata. |
+| **5** | **Add Scripts** | Drag `Script Core` and `HUD Controls` into the manager and toggle them **ON**. |
+| **6** | **VR Activation** | Copy the remaining files (OpenVR or OpenXR loaders) into the game folder. |
+
+To find your game folder quickly, right-click **Pragmata** in your Steam library, select **Manage**, and then click **Browse local files**. This is where the majority of your modding work will take place.
+
+## Fixing HUD and Double Vision Issues
+
+One of the primary hurdles with the **pragmata vr mod** is the way the game renders its UI. By default, the hacking menu—a core combat mechanic—is rendered at an incorrect depth, causing a disorienting double-image effect in the headset. To fix this, you must use the HUD Controls script within the RE Framework menu (accessible by pressing the **Insert** key in-game).
+
+Navigate to the "Script Generated UI" section and look for HUD Controls. You will need to manually adjust the offset and scale for three specific UI elements:
+*   **Enemy Hack UI**
+*   **Door Hack UI**
+*   **Lock Hack UI**
+
+| HUD Element | Recommended Offset (X/Y) | Recommended Scale |
+|---|---|---|
+| **Enemy Hack** | -0.15 / 0.10 | 0.85 |
+| **Door Hack** | -0.12 / 0.08 | 0.90 |
+| **Lock Hack** | -0.15 / 0.10 | 0.85 |
+
+> **💡 Tip:** These values may vary based on your headset's IPD (Interpupillary Distance) and resolution. If you still see double images, try closing one eye while adjusting the sliders until the grid aligns perfectly with your dominant eye's view.
+
+## Performance Tuning and Graphics Settings
+
+Running Pragmata in VR requires significant optimization to maintain a smooth frame rate. Stuttering in VR is not just a visual annoyance; it can lead to motion sickness. For the best experience, visit the [official Pragmata Steam page](https://store.steampowered.com/app/1586750/PRAGMATA/) to check for the latest performance patches before applying these mod-specific tweaks.
+
+### Resolution and Upscaling
+The game's HUD has a tendency to freeze when jumping between menus. A reliable fix is to toggle your upscaling method. If the screen freezes, go to **Options > Graphics**, change your DLSS or FSR setting to a different preset, and then change it back. This forces the RE Framework to refresh the display buffer.
+
+### Recommended Settings for VR
+*   **Frame Generation:** **OFF**. Frame generation techniques often cause severe artifacts and latency issues in VR headsets.
+*   **DLAA:** **Avoid**. This can cause flickering in high-contrast areas of the lunar base.
+*   **Display Mode:** **Windowed**. Running in Fullscreen can sometimes force the VR headset to match your monitor's aspect ratio, resulting in a "squished" image.
+*   **Upscaling:** **DLSS Balanced** or **Performance**. This provides the best balance between visual clarity and the high frame rates required for VR.
+
+## Gameplay Experience: The Lunar World in 360°
+
+Once the **pragmata vr mod** is configured, the sense of scale is transformative. In the third-person perspective, the protagonist appears life-sized in your room, and the vastness of the recreated Times Square or the lunar shelters becomes palpable. 
+
+The combat, which revolves around a unique hacking system, feels much more tactile. As you aim at enemies to reveal their power grids, the 3D depth of the VR headset makes it easier to track moving nodes and prioritize targets during chaotic multi-bot encounters. While a first-person mod would offer a different kind of immersion, the current third-person implementation provides a "diorama" effect that is both comfortable for long sessions and visually spectacular.
+
+## FAQ
+
+**Q: Does the pragmata vr mod support motion controllers?**
+
+A: Currently, the mod is designed for use with a standard gamepad (Xbox or PlayStation controller). While you can see the world in VR, you still interact with the game using traditional button inputs. There is no "v-motion" or tracked hand support at this time.
+
+**Q: Can I play the entire game from start to finish in VR?**
+
+A: Yes, players have confirmed that the game is playable from the opening sequence through the major boss fights. However, be prepared for minor HUD issues, such as the weapon wheel being difficult to see. You will need to memorize your weapon slots or check your health via the character's physical cues.
+
+**Q: Why is my screen black when I launch the game in VR?**
+
+A: This is often caused by the resolution scaling bug. Use the "Upscale Toggle" trick: go into the graphics menu, change your DLSS/FSR setting, and exit the menu. This should trigger the image to appear in your headset.
+
+**Q: Which VR API should I use: OpenVR or OpenXR?**
+
+A: If you are using a Valve Index or an older HTC Vive, use the `openvr_loader.dll`. For Quest 3, Quest Pro, Pimax, or Pico users (especially those using Virtual Desktop), the `openxr_loader.dll` generally provides better performance and lower latency.
